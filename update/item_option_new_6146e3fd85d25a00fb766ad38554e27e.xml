@@ -104,4 +104,21 @@
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_price_if_checked</field>
+        <id>6146e3fd85d25a00fb766ad38554e27e</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>kaurm</sys_created_by>
+        <sys_created_on>2019-08-26 12:57:53</sys_created_on>
+        <sys_id>f65843b4dba7f300046fc3d239961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kaurm</sys_updated_by>
+        <sys_updated_on>2019-08-26 12:57:53</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
 </record_update>
