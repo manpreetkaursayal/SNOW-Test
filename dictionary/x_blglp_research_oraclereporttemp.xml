@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="OracleReportTemp" max_length="40" name="x_blglp_research_oraclereporttemp" type="collection">
+        <element attributes="import_attribute_name=adp employee # (line attribute)" label="adp employee # (line attribute)" max_length="40" name="u_adp_employee_ine_attribute_" type="integer"/>
+        <element attributes="import_attribute_name=COST CENTER" label="COST CENTER" max_length="40" name="u_cost_center" type="string"/>
+        <element attributes="import_attribute_name=COST CENTER1" label="COST CENTER1" max_length="40" name="u_cost_center1" type="integer"/>
+        <element attributes="import_attribute_name=ein number" label="ein number" max_length="40" name="u_ein_number" type="string"/>
+        <element attributes="import_attribute_name=Expenditure Item Date" label="Expenditure Item Date" max_length="40" name="u_expenditure_item_date" type="glide_date"/>
+        <element attributes="import_attribute_name=Expenditure Org" label="Expenditure Org" max_length="40" name="u_expenditure_org" type="string"/>
+        <element attributes="import_attribute_name=Expenditure Type" label="Expenditure Type" max_length="40" name="u_expenditure_type" type="string"/>
+        <element attributes="import_attribute_name=FUTURE" label="FUTURE" max_length="40" name="u_future" type="string"/>
+        <element attributes="import_attribute_name=FUTURE1" label="FUTURE1" max_length="40" name="u_future1" type="string"/>
+        <element attributes="import_attribute_name=gl date" label="gl date" max_length="40" name="u_gl_date" type="glide_date"/>
+        <element attributes="import_attribute_name=header attribute10" label="header attribute10" max_length="40" name="u_header_attribute10" type="string"/>
+        <element attributes="import_attribute_name=header attribute11" label="header attribute11" max_length="40" name="u_header_attribute11" type="string"/>
+        <element attributes="import_attribute_name=header attribute12" label="header attribute12" max_length="40" name="u_header_attribute12" type="string"/>
+        <element attributes="import_attribute_name=header attribute13" label="header attribute13" max_length="40" name="u_header_attribute13" type="string"/>
+        <element attributes="import_attribute_name=header attribute14" label="header attribute14" max_length="40" name="u_header_attribute14" type="string"/>
+        <element attributes="import_attribute_name=header attribute15" label="header attribute15" max_length="40" name="u_header_attribute15" type="string"/>
+        <element attributes="import_attribute_name=header attribute2" label="header attribute2" max_length="40" name="u_header_attribute2" type="string"/>
+        <element attributes="import_attribute_name=header attribute3" label="header attribute3" max_length="40" name="u_header_attribute3" type="string"/>
+        <element attributes="import_attribute_name=header attribute6" label="header attribute6" max_length="40" name="u_header_attribute6" type="string"/>
+        <element attributes="import_attribute_name=header attribute7" label="header attribute7" max_length="40" name="u_header_attribute7" type="string"/>
+        <element attributes="import_attribute_name=header attribute8" label="header attribute8" max_length="40" name="u_header_attribute8" type="string"/>
+        <element attributes="import_attribute_name=header attribute9" label="header attribute9" max_length="40" name="u_header_attribute9" type="string"/>
+        <element attributes="import_attribute_name=header attribute category" label="header attribute category" max_length="40" name="u_header_attribute_category" type="string"/>
+        <element attributes="import_attribute_name=INTERCOMPANY" label="INTERCOMPANY" max_length="40" name="u_intercompany" type="string"/>
+        <element attributes="import_attribute_name=INTERCOMPANY1" label="INTERCOMPANY1" max_length="40" name="u_intercompany1" type="string"/>
+        <element attributes="import_attribute_name=invoice currency code" label="invoice currency code" max_length="40" name="u_invoice_currency_code" type="string"/>
+        <element attributes="import_attribute_name=invoice description" label="invoice description" max_length="40" name="u_invoice_description" type="string"/>
+        <element attributes="import_attribute_name=Invoice Line Description" label="Invoice Line Description" max_length="40" name="u_invoice_line_description" type="string"/>
+        <element attributes="import_attribute_name=LEGAL ENTITY" label="LEGAL ENTITY" max_length="40" name="u_legal_entity" type="string"/>
+        <element attributes="import_attribute_name=LEGAL ENTITY1" label="LEGAL ENTITY1" max_length="40" name="u_legal_entity1" type="integer"/>
+        <element attributes="import_attribute_name=line attribute" label="line attribute" max_length="40" name="u_line_attribute" type="string"/>
+        <element attributes="import_attribute_name=line attribute1" label="line attribute1" max_length="40" name="u_line_attribute1" type="string"/>
+        <element attributes="import_attribute_name=line attribute10" label="line attribute10" max_length="40" name="u_line_attribute10" type="string"/>
+        <element attributes="import_attribute_name=line attribute11" label="line attribute11" max_length="40" name="u_line_attribute11" type="string"/>
+        <element attributes="import_attribute_name=line attribute12" label="line attribute12" max_length="40" name="u_line_attribute12" type="string"/>
+        <element attributes="import_attribute_name=line attribute13" label="line attribute13" max_length="40" name="u_line_attribute13" type="string"/>
+        <element attributes="import_attribute_name=line attribute14" label="line attribute14" max_length="40" name="u_line_attribute14" type="string"/>
+        <element attributes="import_attribute_name=line attribute15" label="line attribute15" max_length="40" name="u_line_attribute15" type="string"/>
+        <element attributes="import_attribute_name=line attribute2" label="line attribute2" max_length="40" name="u_line_attribute2" type="string"/>
+        <element attributes="import_attribute_name=line attribute5" label="line attribute5" max_length="40" name="u_line_attribute5" type="string"/>
+        <element attributes="import_attribute_name=line attribute7" label="line attribute7" max_length="40" name="u_line_attribute7" type="string"/>
+        <element attributes="import_attribute_name=line attribute8" label="line attribute8" max_length="40" name="u_line_attribute8" type="string"/>
+        <element attributes="import_attribute_name=line attribute9" label="line attribute9" max_length="40" name="u_line_attribute9" type="string"/>
+        <element attributes="import_attribute_name=line attribute category" label="line attribute category" max_length="40" name="u_line_attribute_category" type="string"/>
+        <element attributes="import_attribute_name=NATURAL ACCOUNT" label="NATURAL ACCOUNT" max_length="40" name="u_natural_account" type="string"/>
+        <element attributes="import_attribute_name=NATURAL ACCOUNT1" label="NATURAL ACCOUNT1" max_length="40" name="u_natural_account1" type="integer"/>
+        <element attributes="import_attribute_name=pay alone" label="pay alone" max_length="40" name="u_pay_alone" type="string"/>
+        <element attributes="import_attribute_name=pay group" label="pay group" max_length="40" name="u_pay_group" type="string"/>
+        <element attributes="import_attribute_name=pay method" label="pay method" max_length="40" name="u_pay_method" type="string"/>
+        <element attributes="import_attribute_name=PRODUCT" label="PRODUCT" max_length="40" name="u_product" type="string"/>
+        <element attributes="import_attribute_name=PRODUCT1" label="PRODUCT1" max_length="40" name="u_product1" type="integer"/>
+        <element attributes="import_attribute_name=Project" label="Project" max_length="40" name="u_project" type="integer"/>
+        <element attributes="import_attribute_name=sales tax" label="sales tax" max_length="40" name="u_sales_tax" type="string"/>
+        <element attributes="import_attribute_name=Task" label="Task" max_length="40" name="u_task" type="string"/>
+        <element attributes="import_attribute_name=tax amount" label="tax amount" max_length="40" name="u_tax_amount" type="string"/>
+        <element attributes="import_attribute_name=tax classification code" label="tax classification code" max_length="40" name="u_tax_classification_code" type="string"/>
+        <element attributes="import_attribute_name=Upl" label="Upl" max_length="40" name="u_upl" type="string"/>
+        <element attributes="import_attribute_name=wire reference(header attribute)" label="wire reference(header attribute)" max_length="40" name="u_wire_referen_der_attribute_" type="string"/>
+        <element attributes="import_attribute_name=*invoice amount" label="*invoice amount" max_length="40" name="u__invoice_amount" type="integer"/>
+        <element attributes="import_attribute_name=*invoice date" label="*invoice date" max_length="40" name="u__invoice_date" type="glide_date"/>
+        <element attributes="import_attribute_name=*Invoice Line Amount" label="*Invoice Line Amount" max_length="15" name="u__invoice_line_amount" type="decimal"/>
+        <element attributes="import_attribute_name=*invoice line type" label="*invoice line type" max_length="40" name="u__invoice_line_type" type="string"/>
+        <element attributes="import_attribute_name=*invoice number" label="*invoice number" max_length="40" name="u__invoice_number" type="string"/>
+        <element attributes="import_attribute_name=*invoice type" label="*invoice type" max_length="40" name="u__invoice_type" type="string"/>
+        <element attributes="import_attribute_name=*operating unit" label="*operating unit" max_length="40" name="u__operating_unit" type="string"/>
+        <element attributes="import_attribute_name=*source" label="*source" max_length="40" name="u__source" type="string"/>
+        <element attributes="import_attribute_name=*supplier number" label="*supplier number" max_length="40" name="u__supplier_number" type="integer"/>
+        <element attributes="import_attribute_name=*supplier site" label="*supplier site" max_length="40" name="u__supplier_site" type="integer"/>
+    </element>
+</database>

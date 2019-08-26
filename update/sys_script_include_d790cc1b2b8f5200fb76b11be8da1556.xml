@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_blglp_research.Tools</api_name>
+        <client_callable>true</client_callable>
+        <description>Used for gs.dateGenerate function in the research scope</description>
+        <name>Tools</name>
+        <script><![CDATA[var Tools = {};
+
+Tools.dateGenerate = function(date, range) {
+	if (!range)
+		range = '12:00:00';
+	
+	var gdt = new GlideDateTime();
+	if (range.equals("start"))
+		gdt.setDisplayValueInternal(date + " 00:00:00");
+	else if (range.equals("end"))
+		gdt.setDisplayValueInternal(date + " 23:59:59");
+	else
+		gdt.setDisplayValueInternal(date + " " + range);
+	
+	return gdt;
+};
+
+
+Tools.fixFilter = function(filterString) {
+	if (!filterString)
+		return filterString;
+	
+	//lets ensure we are working on a string:
+	filterString = filterString + '';
+	
+	//fix dateGenerate
+	var dateGenerateRegex = /gs\.dateGenerate/gm;
+	var ourDateFunction = "Tools.dateGenerate";
+	
+	return filterString.replace(dateGenerateRegex, ourDateFunction);
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>kopsachg</sys_created_by>
+        <sys_created_on>2016-05-02 19:15:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d790cc1b2b8f5200fb76b11be8da1556</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Tools</sys_name>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_script_include_d790cc1b2b8f5200fb76b11be8da1556</sys_update_name>
+        <sys_updated_by>kopsachg</sys_updated_by>
+        <sys_updated_on>2016-05-02 19:15:02</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_gauge">
+    <sys_gauge action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <aggregate>COUNT</aggregate>
+        <attributes/>
+        <fieldname/>
+        <group_field/>
+        <lower_limit/>
+        <name>My Queue</name>
+        <order/>
+        <other_threshold>-2</other_threshold>
+        <parent/>
+        <query/>
+        <report display_value="HOME_My Assigned Research Requests">902ed9aa855e5a00fb766ad38554e2f4</report>
+        <roles/>
+        <stack_field/>
+        <sys_class_name>sys_gauge</sys_class_name>
+        <sys_created_by>AnderssC</sys_created_by>
+        <sys_created_on>2016-03-24 11:17:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>312e55e6859e5a00fb766ad38554e208</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>My Queue</sys_name>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_gauge_312e55e6859e5a00fb766ad38554e208</sys_update_name>
+        <sys_updated_by>AnderssC</sys_updated_by>
+        <sys_updated_on>2016-07-20 12:56:50</sys_updated_on>
+        <tablename>x_blglp_research_requests</tablename>
+        <title>HOME_My Assigned Research Requests</title>
+        <type>report</type>
+        <upper_limit/>
+        <url/>
+        <view/>
+    </sys_gauge>
+</record_update>

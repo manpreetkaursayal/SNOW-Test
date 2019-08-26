@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Research">f619b8f5610dde80fb764481e7ed37bc</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Allocation Reports</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_blglp_research_allocation_report</name>
+        <order>162</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>admin,x_blglp_research.admin</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>kopsachg</sys_created_by>
+        <sys_created_on>2016-04-30 01:19:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>e7e771120f8b12004249d23be1050e44</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Allocation Reports</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_app_module_e7e771120f8b12004249d23be1050e44</sys_update_name>
+        <sys_updated_by>kopsachg</sys_updated_by>
+        <sys_updated_on>2016-06-10 20:32:25</sys_updated_on>
+        <timeline_page/>
+        <title>Allocation Reports</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Research">f619b8f5610dde80fb764481e7ed37bc</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_blglp_research_time_segment">u_bxtim_end_timeISNOTEMPTY^EQ<item endquery="false" field="u_bxtim_end_time" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>All Closed Time Segments</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_blglp_research_time_segment</name>
+        <order>110</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>BXHM</sys_created_by>
+        <sys_created_on>2016-05-04 19:10:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>754396370fcf52004249d23be1050e0f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Closed Time Segments</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_app_module_754396370fcf52004249d23be1050e0f</sys_update_name>
+        <sys_updated_by>BXHM</sys_updated_by>
+        <sys_updated_on>2016-05-09 15:08:08</sys_updated_on>
+        <timeline_page/>
+        <title>Closed Time Segments</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

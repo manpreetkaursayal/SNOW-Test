@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_table_access">
+    <sys_scope_table_access action="INSERT_OR_UPDATE">
+        <create_access>false</create_access>
+        <delete_access>false</delete_access>
+        <example_stack_trace>Default-thread-257
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.getCurrentStackTrace(ScopeAccessProvider.java:231)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.record(ScopeAccessProvider.java:200)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.access$100(ScopeAccessProvider.java:80)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider.recordAccess(ScopeAccessProvider.java:63)
+	com.glide.sys.fencing.dependency.ScopeAccessRecorder.record(ScopeAccessRecorder.java:13)
+	com.glide.script.fencing.access.ScopedTableAccess.hasRightsTo(ScopedTableAccess.java:79)
+	com.glide.script.fencing.access.ScopedTableAccess.hasRightsToTable(ScopedTableAccess.java:39)
+	com.glide.script.fencing.ScopedGlideRecord.jsFunction_query(ScopedGlideRecord.java:148)
+	sun.reflect.GeneratedMethodAccessor1190.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	java.lang.reflect.Method.invoke(Method.java:597)
+	org.mozilla.javascript.FunctionObject.doInvoke(FunctionObject.java:597)
+	org.mozilla.javascript.FunctionObject.call(FunctionObject.java:504)
+	org.mozilla.javascript.ScriptRuntime.call(ScriptRuntime.java:1227)
+	org.mozilla.javascript.gen.c19137.call(sys_script_include.ddfc822685de5a00fb766ad38554e26f:7)
+	org.mozilla.javascript.ScriptRuntime.call(ScriptRuntime.java:1227)
+	org.mozilla.javascript.BaseFunction.applyOrCall(BaseFunction.java:490)
+	org.mozilla.javascript.BaseFunction.execMethod(BaseFunction.java:198)
+	org.mozilla.javascript.IdFunction.call(IdFunction.java:78)
+	org.mozilla.javascript.ScriptRuntime.call(ScriptRuntime.java:1227)
+	org.mozilla.javascript.gen.c1257.call(sys_script_include.d65f78c40a0a0b6900196656f35913d3:34)
+	org.mozilla.javascript.ScriptRuntime.call(ScriptRuntime.java:1227)
+	org.mozilla.javascript.ScriptableObject.callMethod(ScriptableObject.java:1655)
+	com.glide.script.RhinoObject.callFunction(RhinoObject.java:167)
+	com.glide.script.RhinoObject.callFunction(RhinoObject.java:163)
+	com.glide.processors.xmlhttp.AJAXEvaluator.evalScriptInclude(AJAXEvaluator.java:159)
+	com.glide.processors.xmlhttp.AJAXEvaluator.evaluateAjax(AJAXEvaluator.java:84)
+	com.glide.processors.xmlhttp.AJAXEvaluator.process(AJAXEvaluator.java:62)
+	com.glide.processors.XMLHttpProcessor.processJavaAJAX(XMLHttpProcessor.java:143)
+	com.glide.processors.XMLHttpProcessor.process(XMLHttpProcessor.java:100)
+	com.glide.processors.Processor.runProcessor(Processor.java:402)
+	com.glide.processors.Processor.processTransaction(Processor.java:192)
+	com.glide.processors.ProcessorRegistry.process(ProcessorRegistry.java:146)
+	com.glide.ui.GlideServletTransaction.process(GlideServletTransaction.java:36)
+	com.glide.ui.GlideServlet$1.run(GlideServlet.java:414)
+	java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	java.lang.Thread.run(Thread.java:682)
+</example_stack_trace>
+        <read_access>true</read_access>
+        <source_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</source_scope>
+        <sys_class_name>sys_scope_table_access</sys_class_name>
+        <sys_created_by>BXHM</sys_created_by>
+        <sys_created_on>2016-03-24 15:23:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4e6696e685de5a00fb766ad38554e28c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user_grmember</sys_name>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_scope_table_access_4e6696e685de5a00fb766ad38554e28c</sys_update_name>
+        <sys_updated_by>BXHM</sys_updated_by>
+        <sys_updated_on>2016-03-24 15:23:37</sys_updated_on>
+        <table_name>sys_user_grmember</table_name>
+        <target_scope display_value="Global">global</target_scope>
+        <write_access>false</write_access>
+    </sys_scope_table_access>
+</record_update>

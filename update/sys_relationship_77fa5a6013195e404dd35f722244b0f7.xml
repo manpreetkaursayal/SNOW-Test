@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_blglp_research_requests</basic_apply_to>
+        <basic_query_from>x_blglp_research_time_segment</basic_query_from>
+        <insert_callback/>
+        <name>Research Request Time Segments</name>
+        <query_from/>
+        <query_with><![CDATA[//current.addQuery("u_bxtime_parent_request_id", parent.number);
+//current.addQuery("sys_created_by",gs.getUserName());
+//current.addQuery("u_bxtime_parent_request_id", parent.number).addOrCondition('sys_created_by', gs.getUserName());
+
+var g=current.addQuery("u_bxtime_parent_request_id", parent.number);
+g.addQuery("sys_created_by",gs.getUserName());]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>BXHM</sys_created_by>
+        <sys_created_on>2016-01-28 17:42:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>77fa5a6013195e404dd35f722244b0f7</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>Research Request Time Segments</sys_name>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_relationship_77fa5a6013195e404dd35f722244b0f7</sys_update_name>
+        <sys_updated_by>BXHM</sys_updated_by>
+        <sys_updated_on>2016-03-30 17:17:42</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=77fa5a6013195e404dd35f722244b0f7"/>
+</record_update>

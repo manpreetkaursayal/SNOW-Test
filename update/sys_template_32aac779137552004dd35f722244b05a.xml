@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <link_element/>
+        <name>TEMPLATE74</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description/>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>true</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>kopsachg</sys_created_by>
+        <sys_created_on>2016-02-26 14:45:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>32aac779137552004dd35f722244b05a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TEMPLATE74</sys_name>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_template_32aac779137552004dd35f722244b05a</sys_update_name>
+        <sys_updated_by>kopsachg</sys_updated_by>
+        <sys_updated_on>2016-02-26 14:45:06</sys_updated_on>
+        <table>x_blglp_research_requests</table>
+        <template>assigned_to=eca60d9369f18d0c9d8dc36f49928e8f^assignment_group=72c044fe61e55ac0fb764481e7ed37ff^language=English^u_bxres_instructions=Test ticket^u_bxres_market_data_product=07005ec21301da404dd35f722244b08c^u_bxres_oracle_project_codes=3facb8b261695ac0fb764481e7ed3706^u_bxres_other_details=test jijopj ^u_bxres_project_detail_2_level_2=Comp Tables^u_bxres_project_detail_2_level_3=Transactions^u_bxres_requested_for=c22378569575060027b6e47800e4c60a^u_bxres_requested_for.department=cdbe1e4b41c40500e501b6b8e540fdcd^u_bxres_requested_for.department.u_business_unit=15865e21b87f70005d18ddd788d080df^u_bxres_requested_for.location=20a6de21b87f70005d18ddd788d08009^u_bxres_requested_for.phone=+1 (212) 583-5397^u_bxres_requested_for.u_bxcore_id=1000293^u_bxres_rr_project_detail_level_2_list=Company News^u_bxres_scope_duration=Medium^u_bxres_state=1^u_bxres_submitted_by=13e65e61b87f70005d18ddd788d0802b^u_bxres_submitted_by.department=98ee8fc359c3860027b65854748ce56a^u_bxres_submitted_by.location=5ca69e21b87f70005d18ddd788d080d8^u_bxres_submitted_by.phone=+44 (20) 7451-4224^u_bxres_submitted_by.u_bxcore_id=1000435^u_choice_1=Medium^u_choice_3=Medium</template>
+        <user display_value="George Kopsachilis">1ab2618e2b849e80dfc85b5fe8da1512</user>
+        <view/>
+    </sys_template>
+</record_update>

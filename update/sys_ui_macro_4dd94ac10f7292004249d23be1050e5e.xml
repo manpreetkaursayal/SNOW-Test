@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description>Banner for the Submit Research Request form</description>
+        <media_type/>
+        <name>BXRes Banner</name>
+        <scoped_name>x_blglp_research_BXRes Banner</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>kopsachg</sys_created_by>
+        <sys_created_on>2016-04-13 19:10:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4dd94ac10f7292004249d23be1050e5e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>BXRes Banner</sys_name>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_ui_macro_4dd94ac10f7292004249d23be1050e5e</sys_update_name>
+        <sys_updated_by>kopsachg</sys_updated_by>
+        <sys_updated_on>2016-04-13 19:50:18</sys_updated_on>
+        <xml><![CDATA[<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+</head>
+
+<body>
+<table width="101%" border="0" cellpadding="2" cellspacing="2" style="background-color: white; border-collapse: collapse; border-spacing: 0; border-color: ffffff; width: 100%;">
+  <tbody>
+    <tr>
+      <td style="height: 8px; width: 12.5%; background-color: #ea2839; left: 0%;"></td>
+      <td style="height: 8px; width: 12.5%; background-color: #a30050; left: 12.5%;"></td>
+      <td style="height: 8px; width: 12.5%; background-color: #9b1889; left: 25%;"></td>
+      <td style="height: 8px; width: 12.5%; background-color: #009ac3; left: 37.5%;"></td>
+      <td style="height: 8px; width: 12.5%; background-color: #00b0ca; left: 50%;"></td>
+      <td style="height: 8px; width: 12.5%; background-color: #00b2a9; left: 62.5%; color: #00b2a9;"></td>
+      <td style="height: 8px; width: 12.5%; background-color: #bed600; left: 75%;"></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

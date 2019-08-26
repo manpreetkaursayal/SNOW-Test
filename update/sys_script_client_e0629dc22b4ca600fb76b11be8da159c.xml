@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>When the status is changed from "Submitted" to "Assigned" make sure that either the Assignee or Group is filled in. Also check for open time segments when changing the status to closed.</description>
+        <field>u_bxres_state</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Status Change Validations</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+
+	/* If the request moves from submitted(1) to assigned(2), make the assigned fields required */
+	if (newValue == 2) {
+		if ((g_form.getValue('assigned_to')=='') && (g_form.getValue('assignment_group')=='')) {
+			g_form.hideFieldMsg("assigned_to", true);
+			g_form.showErrorBox("assigned_to", "Please specify an Assignee or Group when moving the request into the Assigned status.");
+			g_form.setMandatory('assigned_to', true);
+			g_form.setMandatory('assignment_group', true);
+			return false;
+		}
+	}
+	else if (newValue == 6) { /* Check if there is an open time segment when moving to Closed */
+		var checkTS = new GlideAjax('TimeSegmentInfo');
+		checkTS.addParam('sysparm_name', 'anyOpenTimeSegmentExists');
+		checkTS.addParam('sysparm_parent_sys_id', g_form.getUniqueValue());
+		
+		/* Since this is async, we must wait for the ajax response before popping the dialog */
+		checkTS.getXMLAnswer( function(response) {
+			/* If there is an open time segment against the selected researcher, we cannot add more so throw an error */
+			if ( response == "true" ) {
+				g_form.setValue('u_bxres_state', oldValue);
+				g_form.showErrorBox('u_bxres_state', "You cannot close this request while there is an open time segment. Please close the open time segment(s) to move the status to closed.");
+			}
+		});	
+	}
+	else {
+		g_form.hideFieldMsg("assigned_to", true);
+		g_form.setMandatory('assigned_to', false);
+		g_form.setMandatory('assignment_group', false);
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>ahernr</sys_created_by>
+        <sys_created_on>2016-06-17 21:02:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>e0629dc22b4ca600fb76b11be8da159c</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Status Change Validations</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_script_client_e0629dc22b4ca600fb76b11be8da159c</sys_update_name>
+        <sys_updated_by>fulsomea</sys_updated_by>
+        <sys_updated_on>2016-07-29 16:15:45</sys_updated_on>
+        <table>x_blglp_research_requests</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

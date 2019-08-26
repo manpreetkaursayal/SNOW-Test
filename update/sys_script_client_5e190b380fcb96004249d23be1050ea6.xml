@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Reveals a "Do Not Notify" checkbox (as well as a helpful info message) when a user selects a "Requested For" value.</description>
+        <field>u_bxres_requested_for</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Display "Do Not Notify" Checkbox</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue == '') {
+		return;
+	}
+	
+	//Grab the Submitter and Requested for
+	var submitter_id = g_form.getValue('u_bxres_submitted_by');
+	var requester_id =  g_form.getValue('u_bxres_requested_for');
+	
+	//Clear out the Project Code and set the Do not notify to false
+	g_form.setValue('u_project_code', '');
+	g_form.setValue('do_not_notify', false);
+	
+	//Display the do not notify check boxand message if submitter is not the same as the requested for
+	if(submitter_id.toString() == requester_id.toString()){
+		g_form.setDisplay('do_not_notify', false);
+	} else {
+		g_form.setDisplay('do_not_notify', true);
+		var user = g_form.getDisplayBox('u_bxres_requested_for').value;
+		g_form.showFieldMsg('u_bxres_requested_for', 'To opt ' + user + ' out of email notifications, please check the box below.', 'info');
+	}
+}
+
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>BXHM</sys_created_by>
+        <sys_created_on>2016-04-25 15:24:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>5e190b380fcb96004249d23be1050ea6</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>Display "Do Not Notify" Checkbox</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_script_client_5e190b380fcb96004249d23be1050ea6</sys_update_name>
+        <sys_updated_by>kopsachg</sys_updated_by>
+        <sys_updated_on>2016-06-01 19:39:54</sys_updated_on>
+        <table>x_blglp_research_requests</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>When the status is "Assigned" and a Group is filled in, make the individual assignee not mandatory. This is due to the fact that only one of those assignment fields needs to be populated.</description>
+        <field>assignment_group</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Assignee Not Required When Group Is Set</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+
+	/* If the request is assigned(2) and a group is selected, make the assignee no longer mandatory */
+	if( g_form.getValue('u_bxres_state') == 2 ) {
+		if (newValue != '') {
+			g_form.hideFieldMsg("assigned_to", true);
+			g_form.setMandatory('assigned_to', false);
+		}
+		else if ((g_form.getValue('assigned_to') == '') && (newValue == '')) {
+			g_form.showErrorBox("assigned_to", "Please specify an Assignee or Group when moving the request into the Assigned status.");
+			g_form.setMandatory('assigned_to', true);
+			g_form.setMandatory('assignment_group', true);	
+		}
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>ahernr</sys_created_by>
+        <sys_created_on>2016-06-17 21:26:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>7ea89d862b4ca600fb76b11be8da1537</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Assignee Not Required When Group Is Set</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_script_client_7ea89d862b4ca600fb76b11be8da1537</sys_update_name>
+        <sys_updated_by>ahernr</sys_updated_by>
+        <sys_updated_on>2016-06-17 21:37:22</sys_updated_on>
+        <table>x_blglp_research_requests</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

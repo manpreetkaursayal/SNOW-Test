@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_blglp_research_project_types</collection>
+        <condition/>
+        <description/>
+        <execute_function>true</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Push Choices to Main Dropdowns</name>
+        <onclick/>
+        <order>100</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[function onBefore(current, previous) {
+    var TARGET_FORM = "x_blglp_research_requests";
+	var TARGET_TIER_1 = "u_bxres_rr_project_type_list";
+	var TARGET_TIER_2 = "u_bxres_rr_project_detail_level_2_list";
+	var TARGET_TIER_3 = "u_bxres_rr_project_detail_level_3_list";
+	
+	var tier1 = current.u_project_type_level_1; // Current form tiers
+	var tier2 = current.u_project_type_level_2;
+	var tier3 = current.u_project_type_level_3;
+
+	/* First check if we are deactivating this record */
+	if (current.inactive == true) {
+		if (tier3 == "") { // If tier 3 is blank, we need to deactivate tier 2
+			deactivateChoice(TARGET_FORM, TARGET_TIER_2, tier2, tier2, tier1);
+		}
+		else if (tier2 == "") { // If tier 2 is blank, we need to deactivate tier 1
+			deactivateChoice(TARGET_FORM, TARGET_TIER_1, tier1, tier1, "");
+		}
+		else { // Otherwise, just deactivate tier 3
+			deactivateChoice(TARGET_FORM, TARGET_TIER_3, tier3, tier3, tier2);
+		}
+	}
+	else {
+		/* If tier 1 does not exist, add it */
+		if (!choiceExists(TARGET_FORM, TARGET_TIER_1, tier1, "") && tier1 != "") {
+			createNewChoice(TARGET_FORM, TARGET_TIER_1, tier1, tier1, "");
+
+		}
+		/* If tier 2 does not exist, add it */
+		if (!choiceExists(TARGET_FORM, TARGET_TIER_2, tier2, tier1) && tier2 != "") {
+			createNewChoice(TARGET_FORM, TARGET_TIER_2, tier2, tier2, tier1);
+
+		}
+		/* If tier 3 does not exist, add it */
+		if (!choiceExists(TARGET_FORM, TARGET_TIER_3, tier3, tier2) && tier3 != "") {
+			createNewChoice(TARGET_FORM, TARGET_TIER_3, tier3, tier3, tier2);
+
+		}
+	}
+}
+
+function choiceExists(table, element, value, dependent_value) {
+	/* Determine if the value already exists */
+	var grChoice = new GlideRecord("sys_choice");
+	grChoice.addQuery("name", table); // Table name
+	grChoice.addQuery("element", element); // name of the field on the target form
+	grChoice.addQuery("value", value);
+	grChoice.addQuery("inactive", false);
+	grChoice.addQuery("dependent_value", dependent_value);
+	grChoice.query();
+	
+	/* Return whether a record was found */
+	return grChoice.next();
+}
+
+function createNewChoice(table, element, value, label, dependent_value) {
+	var grNewChoice = new GlideRecord("sys_choice");
+	grNewChoice.initialize();
+	grNewChoice.name = table;
+	grNewChoice.element = element;
+	grNewChoice.value = value;
+	grNewChoice.label = label;
+	grNewChoice.language = "en";
+	grNewChoice.dependent_value = dependent_value;
+	grNewChoice.insert();
+}
+
+function deactivateChoice(table, element, value, label, dependent_value) {	
+	/* Find the value */
+	var grChoice = new GlideRecord("sys_choice");
+	grChoice.addQuery("name", table); // Table name
+	grChoice.addQuery("element", element); // name of the field on the target form
+	grChoice.addQuery("value", value);
+	grChoice.addQuery("inactive", false);
+	grChoice.addQuery("dependent_value", dependent_value);
+	grChoice.query();
+	
+	if (grChoice.next()) {
+		grChoice.setValue("inactive", true);
+		grChoice.update();
+	}
+}]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>ahernr</sys_created_by>
+        <sys_created_on>2016-07-07 19:51:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>49b1402c2ba0ae00fb76b11be8da15ba</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Push Choices to Main Dropdowns</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_script_49b1402c2ba0ae00fb76b11be8da15ba</sys_update_name>
+        <sys_updated_by>ahernr</sys_updated_by>
+        <sys_updated_on>2016-07-07 20:05:31</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+</record_update>

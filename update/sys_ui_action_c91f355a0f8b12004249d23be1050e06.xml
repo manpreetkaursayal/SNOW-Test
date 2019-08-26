@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2/>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Test</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var glDate = new GlideDateTime();
+glDate.setDisplayValue(glDate, "dd-MM-yyyy");
+
+var reportNum = getReportNumber();
+
+//addRow(reportNum, 'WEB ADI', 'BX_US_USD_OU', 'STANDARD', '506000');
+//addRow(reportNum, 'EOF', '', '', '');
+
+var test = getTimeSegment(glDate);
+
+addRow(reportNum, 'EOF', '', '', '');
+
+action.setRedirectURL('x_blglp_research_allocation_report.do?EXCEL&sysparm_query=report_number=' + reportNum);
+
+//gs.addInfoMessage("Returns= " + test);
+
+
+
+
+function getTimeSegment(reportDate) {
+	var completed = true;
+	var ts = new GlideRecord('x_blglp_research_time_segment');
+	ts.orderByDesc('sys_created_on');
+	ts.addQuery('u_bxtim_start_time','04-29-2016');
+	//ts.addQuery('number','TIM0002870');
+	//var query = "u_bxtim_start_timeISNOTEMPTY^u_bxtim_end_timeISNOTEMPTY^u_bxtim_end_timeON2016-04-29@javascript:Tools.dateGenerate('2016-04-29','start')";
+	//var query = "u_bxtim_start_timeISNOTEMPTY^u_bxtim_end_timeISNOTEMPTY^u_bxtim_start_time>javascript:gs.dateGenerate('2016-04-17','23:59:59')";
+	ts.setLimit(1);
+	//ts.addEncodedQuery(query);
+	ts.query();
+	while(ts.next()) {
+		addRow(reportNum, 'WEB ADI', 'BX_US_USD_OU', 'STANDARD', '506000', reportDate, ts.total_bill, ts.number, ts.u_bxtim_start_time, ts.u_bxtim_end_time);
+		//results = ts.total_bill;
+	}
+	return completed;
+}
+
+
+function addRow(reportNum, source, operatingUnit, invoiceType, supplierNum, reportDate, invoiceLineAmount,  test1, test2, test3) {
+	
+	var rec = new GlideRecord('x_blglp_research_allocation_report');
+	rec.initialize();
+	rec.report_number = reportNum;
+	rec.source = source;
+	rec.operating_unit = operatingUnit;
+	rec.invoice_type = invoiceType;
+	rec.supplier_number = supplierNum;
+	rec.invoice_line_amount = invoiceLineAmount;
+	rec.header_attribute2 = test1;
+	rec.header_attribute6 = test2;
+	rec.header_attribute7 = test3;
+	rec.invoice_date = reportDate;
+	rec.insert();
+}
+
+function getReportNumber() {
+	//Find the last record created
+	var rn = '';
+	var gr = new GlideRecord('x_blglp_research_allocation_report');
+	gr.orderByDesc('sys_created_on');
+	gr.setLimit(1);
+	gr.query();
+	while(gr.next()) {
+		rn = gr.report_number;
+		rn = rn + 1;
+	}
+	return rn;
+}
+
+
+]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>kopsachg</sys_created_by>
+        <sys_created_on>2016-04-30 01:50:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>c91f355a0f8b12004249d23be1050e06</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_name>Test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_ui_action_c91f355a0f8b12004249d23be1050e06</sys_update_name>
+        <sys_updated_by>kopsachg</sys_updated_by>
+        <sys_updated_on>2016-05-02 19:59:17</sys_updated_on>
+        <table>u_oraclereseachreports</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

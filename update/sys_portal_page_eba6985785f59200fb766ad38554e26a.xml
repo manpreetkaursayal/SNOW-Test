@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2019-08-26 12:57:58">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>itil</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>BXHM</sys_created_by>
+        <sys_created_on>2016-03-01 17:30:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>eba6985785f59200fb766ad38554e26a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Research request homepage</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_portal_page_eba6985785f59200fb766ad38554e26a</sys_update_name>
+        <sys_updated_by>fulsomea</sys_updated_by>
+        <sys_updated_on>2016-07-14 02:19:57</sys_updated_on>
+        <title>Research request homepage</title>
+        <user/>
+        <view/>
+    </sys_portal_page>
+</record_update>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>When the status is changed, check with the server to validate the new state. In some cases, we want to prevent state changes when certain criteria are met: Open time segments, incomplete field values, required information, etc.</description>
+        <field>u_bxres_state</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Validate Closure Status Changes</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue == '') {
+		return;
+	}
+	
+	/* If the status is Resolved, Closed, or Finalized, check with the server */
+	if((newValue==5 || newValue==6 || newValue==8)&&(!g_form.isNewRecord())){
+		var ga = new GlideAjax('CheckResearchState');
+		ga.addParam('sysparm_name','checkVal');
+		ga.addParam('sysparm_num',g_form.getUniqueValue());
+		ga.getXML(ParseResponse);
+	}
+	else{
+		/* Clear the status change indicator if we are not in Resolved/Closed/Final */
+		g_form.setValue('state_fcr_allowed','');
+	
+	}
+}
+
+/* Parse the AJAX response */
+function ParseResponse(response) {
+	var ans = response.responseXML.documentElement.getAttribute("answer");
+	/* Set the value to flag is the state change is approved */
+	g_form.setValue('state_fcr_allowed',ans);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>anujb</sys_created_by>
+        <sys_created_on>2016-04-05 10:41:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>39ab121e856a5e00fb766ad38554e23a</sys_id>
+        <sys_mod_count>59</sys_mod_count>
+        <sys_name>Validate Closure Status Changes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_script_client_39ab121e856a5e00fb766ad38554e23a</sys_update_name>
+        <sys_updated_by>ahernr</sys_updated_by>
+        <sys_updated_on>2016-06-30 18:59:15</sys_updated_on>
+        <table>x_blglp_research_requests</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

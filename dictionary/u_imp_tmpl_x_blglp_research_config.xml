@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X Blglp Research Config" max_length="40" name="u_imp_tmpl_x_blglp_research_config" type="collection">
+        <element attributes="import_attribute_name=Config Menu Type" label="Config Menu Type" max_length="40" name="u_config_menu_type" type="string"/>
+        <element attributes="import_attribute_name=Config Value" label="Config Value" max_length="40" name="u_config_value" type="string"/>
+        <element attributes="import_attribute_name=Created" label="Created" max_length="40" name="u_created" type="glide_date_time"/>
+        <element attributes="import_attribute_name=Created by" label="Created by" max_length="40" name="u_created_by" type="string"/>
+        <element label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="import_attribute_name=Price" label="Price" max_length="3" name="u_price" type="string"/>
+        <element attributes="import_attribute_name=Project Details" label="Project Details" max_length="40" name="u_project_details" type="string"/>
+        <element attributes="import_attribute_name=Project Detail Label" label="Project Detail Label" max_length="40" name="u_project_detail_label" type="string"/>
+        <element label="Project Detail Level 2" max_length="40" name="u_project_detail_level_2" type="string"/>
+        <element label="Project Detail Level 2 Label" max_length="40" name="u_project_detail_level_2_label" type="string"/>
+        <element label="Project Detail Level 3" max_length="40" name="u_project_detail_level_3" type="string"/>
+        <element label="Project Detail Level 3 Label" max_length="40" name="u_project_detail_level_3_label" type="string"/>
+        <element label="Type" max_length="40" name="u_type" type="string"/>
+    </element>
+</database>

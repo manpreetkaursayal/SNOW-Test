@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Hide the requested for details panel when the end user is viewing in the ESS view</description>
+        <field>active</field>
+        <global>false</global>
+        <isolate_script>false</isolate_script>
+        <messages>If the Submitted By and the Requested For values are there same, there is no need to show duplicate user information. Therefore, hide the Requested For values since they are the same as the submitter.</messages>
+        <name>Hide Requested For Details in ESS VIew</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	/* If new record and the Submitted By is the same as the Requested For, hide the requested for fields */
+	if(!g_form.isNewRecord() && (g_form.getValue('u_bxres_submitted_by').toString()==g_form.getValue('u_bxres_requested_for').toString())){
+		g_form.setDisplay('u_bxres_requested_for',false);
+		document.getElementById('element.x_blglp_research_requests.u_bxres_requested_for.department').style.display ='none';
+		document.getElementById('element.x_blglp_research_requests.u_bxres_requested_for.department.u_business_unit').style.display ='none';
+		document.getElementById('element.x_blglp_research_requests.u_bxres_requested_for.title').style.display ='none';
+		document.getElementById('element.x_blglp_research_requests.u_bxres_requested_for.phone').style.display ='none';
+		document.getElementById('element.x_blglp_research_requests.u_bxres_requested_for.location.city').style.display ='none';
+		
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>anujb</sys_created_by>
+        <sys_created_on>2016-05-17 11:01:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>7250a3ff0fd3d2004249d23be1050e70</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Hide Requested For Details in ESS VIew</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_script_client_7250a3ff0fd3d2004249d23be1050e70</sys_update_name>
+        <sys_updated_by>ahernr</sys_updated_by>
+        <sys_updated_on>2016-06-30 21:14:48</sys_updated_on>
+        <table>x_blglp_research_requests</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view>ess</view>
+    </sys_script_client>
+</record_update>

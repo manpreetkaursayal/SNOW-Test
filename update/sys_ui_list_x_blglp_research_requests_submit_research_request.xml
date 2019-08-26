@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_blglp_research_requests" version="2" view="Submit_Research_Request">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_blglp_research_requests" element="NULL" name="x_blglp_research_requests" parent="NULL" relationship="NULL" sys_domain="global" view="419d985085eada00fb766ad38554e239">87757c9c0fdc6a004249d23be1050ea3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-06-24 18:39:23</sys_created_on>
+            <sys_id>4b757c9c0fdc6a004249d23be1050ea3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-06-24 18:39:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="x_blglp_research_requests" element="NULL" name="x_blglp_research_requests" parent="NULL" relationship="NULL" sys_domain="global" view="419d985085eada00fb766ad38554e239">87757c9c0fdc6a004249d23be1050ea3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-06-24 18:39:23</sys_created_on>
+            <sys_id>8b757c9c0fdc6a004249d23be1050ea3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-06-24 18:39:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>activity_due</element>
+            <list_id display_value="x_blglp_research_requests" element="NULL" name="x_blglp_research_requests" parent="NULL" relationship="NULL" sys_domain="global" view="419d985085eada00fb766ad38554e239">87757c9c0fdc6a004249d23be1050ea3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-06-24 18:39:23</sys_created_on>
+            <sys_id>cb757c9c0fdc6a004249d23be1050ea3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-06-24 18:39:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>annual_report_10k_notes</element>
+            <list_id display_value="x_blglp_research_requests" element="NULL" name="x_blglp_research_requests" parent="NULL" relationship="NULL" sys_domain="global" view="419d985085eada00fb766ad38554e239">87757c9c0fdc6a004249d23be1050ea3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-06-24 18:39:23</sys_created_on>
+            <sys_id>0f757c9c0fdc6a004249d23be1050ea3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-06-24 18:39:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>approval</element>
+            <list_id display_value="x_blglp_research_requests" element="NULL" name="x_blglp_research_requests" parent="NULL" relationship="NULL" sys_domain="global" view="419d985085eada00fb766ad38554e239">87757c9c0fdc6a004249d23be1050ea3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-06-24 18:39:23</sys_created_on>
+            <sys_id>4f757c9c0fdc6a004249d23be1050ea3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-06-24 18:39:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>approval_history</element>
+            <list_id display_value="x_blglp_research_requests" element="NULL" name="x_blglp_research_requests" parent="NULL" relationship="NULL" sys_domain="global" view="419d985085eada00fb766ad38554e239">87757c9c0fdc6a004249d23be1050ea3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-06-24 18:39:23</sys_created_on>
+            <sys_id>8f757c9c0fdc6a004249d23be1050ea3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-06-24 18:39:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>approval_set</element>
+            <list_id display_value="x_blglp_research_requests" element="NULL" name="x_blglp_research_requests" parent="NULL" relationship="NULL" sys_domain="global" view="419d985085eada00fb766ad38554e239">87757c9c0fdc6a004249d23be1050ea3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-06-24 18:39:23</sys_created_on>
+            <sys_id>cf757c9c0fdc6a004249d23be1050ea3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-06-24 18:39:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_blglp_research_requests" element="NULL" name="x_blglp_research_requests" parent="NULL" relationship="NULL" sys_domain="global" view="419d985085eada00fb766ad38554e239">87757c9c0fdc6a004249d23be1050ea3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-06-24 18:39:23</sys_created_on>
+            <sys_id>03757c9c0fdc6a004249d23be1050ea4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-06-24 18:39:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_group</element>
+            <list_id display_value="x_blglp_research_requests" element="NULL" name="x_blglp_research_requests" parent="NULL" relationship="NULL" sys_domain="global" view="419d985085eada00fb766ad38554e239">87757c9c0fdc6a004249d23be1050ea3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-06-24 18:39:23</sys_created_on>
+            <sys_id>43757c9c0fdc6a004249d23be1050ea4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-06-24 18:39:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>business_duration</element>
+            <list_id display_value="x_blglp_research_requests" element="NULL" name="x_blglp_research_requests" parent="NULL" relationship="NULL" sys_domain="global" view="419d985085eada00fb766ad38554e239">87757c9c0fdc6a004249d23be1050ea3</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-06-24 18:39:23</sys_created_on>
+            <sys_id>83757c9c0fdc6a004249d23be1050ea4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-06-24 18:39:23</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_blglp_research_requests</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-06-24 18:39:23</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>87757c9c0fdc6a004249d23be1050ea3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_blglp_research_requests</sys_name>
+            <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+            <sys_update_name>sys_ui_list_x_blglp_research_requests_Submit_Research_Request</sys_update_name>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-06-24 18:39:23</sys_updated_on>
+            <sys_user/>
+            <view display_value="Submit Research Request" name="Submit_Research_Request">419d985085eada00fb766ad38554e239</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

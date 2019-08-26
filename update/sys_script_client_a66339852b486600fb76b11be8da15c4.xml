@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>When the start time is changed, recalculate the duration</description>
+        <field>u_bxtim_start_time</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Recalculate Duration (Start Time)</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+
+	var start = new Date(g_form.getValue('u_bxtim_start_time'));
+	var end = new Date(g_form.getValue('u_bxtim_end_time'));
+	var submitdate = new Date(g_form.getValue('u_bxtim_parent_request_submit_date'));
+	
+    if (g_form.getValue('u_bxtim_end_time') != ""){
+		g_form.hideAllFieldMsgs('error');
+		
+		/* Convert the datetimes to integers since 1970 and compare the values. If start is smaller than 
+	   submit, we know it is before it and we will therefore throw an error */
+		if (start > end) {
+			g_form.clearValue('u_bxtim_start_time');
+			g_form.showFieldMsg('u_bxtim_start_time', 'Your start time cannot be after your end time. Please adjust your dates accordingly.', 'error');
+		} 
+		g_form.setValue('minutes_int', getMinutes(convertMilliseconds(start, end)));
+		g_form.setValue('total_duration', getDurationString(convertMilliseconds(start, end)));
+	}
+	
+	/* Check to ensure the start is not before the Request submit date */
+	/*if (start < submitdate) {
+			g_form.clearValue('u_bxtim_start_time');
+			g_form.clearValue('minutes_int');
+			g_form.clearValue('total_duration');
+			g_form.showFieldMsg('u_bxtim_start_time', "You cannot add a start time that is earlier than the creation of the request.", 'error');
+			return false;
+	} */
+	
+	/* Validate the format of the start date */
+	if (isNaN(start) || isInvalidFormat(g_form.getValue('u_bxtim_start_time'))){
+			g_form.clearValue('u_bxtim_start_time');
+			g_form.clearValue('minutes_int');
+			g_form.clearValue('total_duration');
+			g_form.showFieldMsg('u_bxtim_start_time', "You've selected an invalid date format. Please try again, making sure to use the format MM-DD-YYYY HH:MM:SS AM/PM", 'error');
+			return false;
+		}
+}
+
+function isInvalidFormat(date) {
+	return date.match(/^\d{2}-\d{2}-\d{4} \d{2}:\d{2}:\d{2} [A-Z]{2}$/) == null;
+}
+
+function convertMilliseconds(startTime, endTime) {
+	return (endTime - startTime);
+}
+
+function getMinutes(timestamp) {
+	return Math.floor(timestamp / 60000);
+}
+			
+function checkForSingleDigit(value) {
+    return (value < 10) ? '0' + value : value;
+}
+
+function getDurationString(timestamp) {
+	var seconds = Math.floor(timestamp / 1000),
+		minutes = Math.floor(seconds / 60),
+		hours = Math.floor(minutes / 60),
+		days = Math.floor(hours / 24),
+		remainingHours = hours,
+		remainingMinutes = minutes % 60,
+		remainingSeconds = seconds % 60;
+	return checkForSingleDigit(remainingHours) + " hours and " + checkForSingleDigit(remainingMinutes) + " minutes";
+}
+   ]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>ahernr</sys_created_by>
+        <sys_created_on>2016-06-14 20:54:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>a66339852b486600fb76b11be8da15c4</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Recalculate Duration (Start Time)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_script_client_a66339852b486600fb76b11be8da15c4</sys_update_name>
+        <sys_updated_by>fulsomea</sys_updated_by>
+        <sys_updated_on>2016-07-18 20:42:19</sys_updated_on>
+        <table>x_blglp_research_time_segment</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

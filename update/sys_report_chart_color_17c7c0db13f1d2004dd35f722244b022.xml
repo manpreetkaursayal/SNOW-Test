@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_chart_color">
+    <sys_report_chart_color action="INSERT_OR_UPDATE">
+        <color>#F18302</color>
+        <color_name/>
+        <display>background-color:#F18302</display>
+        <element>u_bxres_state</element>
+        <name>x_blglp_research_requests</name>
+        <sys_class_name>sys_report_chart_color</sys_class_name>
+        <sys_created_by>BXHM</sys_created_by>
+        <sys_created_on>2016-03-01 16:24:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>17c7c0db13f1d2004dd35f722244b022</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_blglp_research_requests</sys_name>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_report_chart_color_17c7c0db13f1d2004dd35f722244b022</sys_update_name>
+        <sys_updated_by>BXHM</sys_updated_by>
+        <sys_updated_on>2016-03-01 16:24:36</sys_updated_on>
+        <value>5</value>
+    </sys_report_chart_color>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_css">
+    <content_css action="INSERT_OR_UPDATE">
+        <name>x_blglp_research_requests</name>
+        <style>vertical-align: %;</style>
+        <sys_class_name>content_css</sys_class_name>
+        <sys_created_by>BXHM</sys_created_by>
+        <sys_created_on>2016-02-26 15:08:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bfbf0f3985715200fb766ad38554e25e</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>x_blglp_research_requests</sys_name>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>content_css_bfbf0f3985715200fb766ad38554e25e</sys_update_name>
+        <sys_updated_by>BXHM</sys_updated_by>
+        <sys_updated_on>2016-03-22 16:15:31</sys_updated_on>
+        <type>local</type>
+        <url/>
+    </content_css>
+</record_update>

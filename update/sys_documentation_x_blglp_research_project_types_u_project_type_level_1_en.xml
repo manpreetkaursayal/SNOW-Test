@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_project_type_level_1" label="Project Type Level 1" language="en" table="x_blglp_research_project_types">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_project_type_level_1</element>
+            <help/>
+            <hint/>
+            <label>Project Type Level 1</label>
+            <language>en</language>
+            <name>x_blglp_research_project_types</name>
+            <plural>Project Type Level 1s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-07-06 02:35:11</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>08eb0f332b586e00fb76b11be8da150c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Project Type Level 1</sys_name>
+            <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+            <sys_update_name>sys_documentation_x_blglp_research_project_types_u_project_type_level_1_en</sys_update_name>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-06 02:35:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

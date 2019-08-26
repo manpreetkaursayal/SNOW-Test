@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <left_join>false</left_join>
+        <order>100</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>BXHM</sys_created_by>
+        <sys_created_on>2016-04-13 18:49:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>684546410f7292004249d23be1050e1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_blglp_research_time_segment</sys_name>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_db_view_table_684546410f7292004249d23be1050e1d</sys_update_name>
+        <sys_updated_by>BXHM</sys_updated_by>
+        <sys_updated_on>2016-04-13 18:49:27</sys_updated_on>
+        <table>x_blglp_research_time_segment</table>
+        <variable_prefix>time</variable_prefix>
+        <view display_value="x_blglp_research_research_time_report">85b08e8585721240fb766ad38554e2de</view>
+        <where_clause/>
+    </sys_db_view_table>
+</record_update>

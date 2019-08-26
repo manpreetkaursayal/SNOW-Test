@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_blglp_research_time_segment</collection>
+        <condition/>
+        <description/>
+        <execute_function>true</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Update Parent Time And Billing</name>
+        <onclick/>
+        <order>100</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[function onAfter(current, previous) {
+
+	/* Pull the rate from the configuration table */
+	var rate = 0;
+	var grConfig = new GlideRecord('x_blglp_research_config');
+	grConfig.addQuery('u_bxres_config_menu_type', 1);
+	grConfig.query();
+	
+	if (grConfig.next()) {
+		  rate = grConfig.u_bxres_config_value;
+	}
+	
+	/* If the previous version of this time segment is new or if it was previous left open
+	   add the entire duration to the parent request. If, however, the previous version of 
+	   this time segment had a duration which was updated, just push the delta to the parent */
+	if (previous.minutes_int <= 0) {
+		var parentTask = new GlideRecord('x_blglp_research_requests');
+		parentTask.addQuery("sys_id", current.u_bxtim_parent_request_id);
+		parentTask.query();
+		if (parentTask.next()) {
+			
+			parentTask.time_total += current.minutes_int;
+			parentTask.total_dur = current.total_duration;
+			gs.info("in hours" + parentTask.total_dur);
+			/* Update the currency field */
+			var newAmt = parseFloat(parentTask.time_billing.getReferenceValue()) + parseFloat((current.minutes_int/60) * rate);
+			parentTask.time_billing = parentTask.time_billing.getReferenceCurrencyCode() + ';' + newAmt;
+			gs.info("Parent new time billing" + parentTask.time_billing);
+			parentTask.update();
+		}
+	} else { /* Previous version had time so push the delta */
+		
+		var parentTask = new GlideRecord('x_blglp_research_requests');
+		parentTask.addQuery("sys_id", current.u_bxtim_parent_request_id);
+		parentTask.query();
+		
+		
+		if (parentTask.next()){
+			
+			var currentMinutes = current.minutes_int;
+			var previousMinutes = previous.minutes_int;
+			var delta = currentMinutes - previousMinutes;
+			
+			if(current.u_bxtim_end_time == ''){
+				
+				parentTask.time_total -= current.minutes_int;
+				current.minutes_int = 0;
+				current.total_duration = 0;
+				//delta = current.minutes_int - previous.minutes_int;
+				parentTask.total_dur += current.total_duration;
+			
+				current.update();
+				//current.insert();
+				var newAmt = parseFloat(parentTask.time_billing.getReferenceValue()) - 
+					parseFloat((delta/60) * rate);
+				parentTask.time_billing = parentTask.time_billing.getReferenceCurrencyCode() + ';' + newAmt;
+				//gs.info("Parent new time billing" + parentTask.time_billing);
+			}
+			else{				
+				parentTask.time_total += delta;
+				parentTask.tot_dur = parentTask.time_total/3600;
+				parentTask.total_dur += current.total_duration;
+			//gs.info("in hours" + parentTask.total_dur);
+				/* Update the currency field */
+				var newAmt = parseFloat(parentTask.time_billing.getReferenceValue()) + 
+					parseFloat((delta/60) * rate);
+				parentTask.time_billing = parentTask.time_billing.getReferenceCurrencyCode() + ';' + newAmt;
+
+			}
+			parentTask.update();
+		}
+	}
+}]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>BXHM</sys_created_by>
+        <sys_created_on>2016-03-26 18:47:32</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>53251d1f855a9a00fb766ad38554e27c</sys_id>
+        <sys_mod_count>103</sys_mod_count>
+        <sys_name>Update Parent Time And Billing</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_script_53251d1f855a9a00fb766ad38554e27c</sys_update_name>
+        <sys_updated_by>mitraa</sys_updated_by>
+        <sys_updated_on>2017-05-02 15:36:40</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+</record_update>

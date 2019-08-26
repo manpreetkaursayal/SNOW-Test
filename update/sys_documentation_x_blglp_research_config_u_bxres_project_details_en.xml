@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_bxres_project_details" label="Config Label" language="en" table="x_blglp_research_config">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_bxres_project_details</element>
+            <help/>
+            <hint/>
+            <label>Config Label</label>
+            <language>en</language>
+            <name>x_blglp_research_config</name>
+            <plural>Config Labels</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>BXHM</sys_created_by>
+            <sys_created_on>2016-02-17 19:05:26</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>20ff258f616d5ac0fb764481e7ed3750</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Config Label</sys_name>
+            <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+            <sys_update_name>sys_documentation_x_blglp_research_config_u_bxres_project_details_en</sys_update_name>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-11 17:42:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

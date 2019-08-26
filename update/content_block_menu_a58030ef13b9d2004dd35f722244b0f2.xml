@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="content_block_menu">
+    <content_block_menu action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <align_sections_with_tab>false</align_sections_with_tab>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <logged_on>false</logged_on>
+        <name>Reports</name>
+        <sys_class_name>content_block_menu</sys_class_name>
+        <sys_created_by>BXHM</sys_created_by>
+        <sys_created_on>2016-03-02 14:01:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a58030ef13b9d2004dd35f722244b0f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reports</sys_name>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>content_block_menu_a58030ef13b9d2004dd35f722244b0f2</sys_update_name>
+        <sys_updated_by>BXHM</sys_updated_by>
+        <sys_updated_on>2016-03-02 14:01:16</sys_updated_on>
+        <type>dropdown</type>
+    </content_block_menu>
+</record_update>

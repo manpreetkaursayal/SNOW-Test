@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_blglp_research.ResearchGroupInfo</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>ResearchGroupInfo</name>
+        <script><![CDATA[var ResearchGroupInfo = Class.create();
+ResearchGroupInfo.prototype = {
+    initialize: function() {
+    },
+	GetResearchGroupMembers: function() {
+		/* Find all research groups */
+		var grGroup = new GlideRecord('sys_user_group');
+		var resultList = 'sys_idIN ';
+	
+		/* Grab all groups that start with the name Research */
+		grGroup.addQuery('name', 'STARTSWITH', "Research");
+		grGroup.query();
+		while (grGroup.next()) {
+			var groupType = grGroup.getDisplayValue('type'); // Get display. Regular getValue() will return sys_id
+			
+			/* If Research type, loop through the members to build a result list. Note that we do not want to pull back the Admin groups so we must check the type. */
+			if (groupType == "Research") {
+				/* Query the User-Group relationships table */
+				var grUserGroupList = new GlideRecord('sys_user_grmember');
+				grUserGroupList.addQuery('group', grGroup.getUniqueValue());
+				grUserGroupList.query();
+				
+				/* Iterate through the resulting list of users and add them to the result list */
+				if (grUserGroupList.getRowCount() > 0 ) {
+					while (grUserGroupList.next()) {
+						resultList += ',' + grUserGroupList.getValue('user');
+					}
+				}
+			}
+		}
+		//return "sys_idIN ,c066198a2bb0d6c4dfc85b5fe8da15c9";
+		return resultList;
+	},
+	IsMember: function(userid) {
+		/* Find all research groups */
+		var grGroup = new GlideRecord('sys_user_group');
+	
+		/* Grab all groups that start with the name Research */
+		grGroup.addQuery('name', 'STARTSWITH', "Research");
+		grGroup.query();
+		while (grGroup.next()) {
+			var groupType = grGroup.getDisplayValue('type'); // Get display. Regular getValue() will return sys_id
+			
+			/* If Research type, loop through the members. Note that we do not want to pull back the Admin groups so we must check the type. */
+			if (groupType == "Research") {
+				/* Query the User-Group relationships table */
+				var grUserGroupList = new GlideRecord('sys_user_grmember');
+				grUserGroupList.addQuery('group', grGroup.getUniqueValue());
+				grUserGroupList.query();
+				
+				/* Iterate through the resulting list and check for the user */
+				if (grUserGroupList.getRowCount() > 0 ) {
+					while (grUserGroupList.next()) {
+						if (grUserGroupList.getValue('user') == userid) {
+							return true;
+						}
+					}
+				}
+			}
+		}
+		return false;
+	},
+    type: 'ResearchGroupInfo'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>ahernr</sys_created_by>
+        <sys_created_on>2016-06-21 16:39:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ed0ba81b0f882a004249d23be1050e33</sys_id>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_name>ResearchGroupInfo</sys_name>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_script_include_ed0ba81b0f882a004249d23be1050e33</sys_update_name>
+        <sys_updated_by>ahernr</sys_updated_by>
+        <sys_updated_on>2016-07-11 18:44:01</sys_updated_on>
+    </sys_script_include>
+</record_update>

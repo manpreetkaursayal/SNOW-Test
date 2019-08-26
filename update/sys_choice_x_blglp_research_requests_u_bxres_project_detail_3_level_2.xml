@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_bxres_project_detail_3_level_2" table="x_blglp_research_requests" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>News Run</dependent_value>
+            <element>u_bxres_project_detail_3_level_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Company News</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>0</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b508cc6e1328a280353e3e7f3244b0bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>Company News</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>News Run</dependent_value>
+            <element>u_bxres_project_detail_3_level_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Topic News</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>1</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f508cc6e1328a280353e3e7f3244b0bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>Topic News</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>News Run</dependent_value>
+            <element>u_bxres_project_detail_3_level_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Individual News</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>2</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3908cc6e1328a280353e3e7f3244b0bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>Individual News</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Data</dependent_value>
+            <element>u_bxres_project_detail_3_level_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Economic Data</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>3</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7908cc6e1328a280353e3e7f3244b0bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>Economic Data</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Data</dependent_value>
+            <element>u_bxres_project_detail_3_level_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Equity/Capital Markets</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>4</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b908cc6e1328a280353e3e7f3244b0bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>Equity/Capital Markets</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Data</dependent_value>
+            <element>u_bxres_project_detail_3_level_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alternative Assets</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>5</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f908cc6e1328a280353e3e7f3244b0bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>Alternative Assets</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Data</dependent_value>
+            <element>u_bxres_project_detail_3_level_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Commodities</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>6</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3d08cc6e1328a280353e3e7f3244b0bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>Commodities</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Data</dependent_value>
+            <element>u_bxres_project_detail_3_level_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Financial Data</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>7</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7d08cc6e1328a280353e3e7f3244b0bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>Financial Data</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Data</dependent_value>
+            <element>u_bxres_project_detail_3_level_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Comp Tables</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>8</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>bd08cc6e1328a280353e3e7f3244b0bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>Comp Tables</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Research Reports</dependent_value>
+            <element>u_bxres_project_detail_3_level_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Companies</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>9</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fd08cc6e1328a280353e3e7f3244b0bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>Companies</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Research Reports</dependent_value>
+            <element>u_bxres_project_detail_3_level_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Topics</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>10</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3108cc6e1328a280353e3e7f3244b0c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>Topics</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Research Reports</dependent_value>
+            <element>u_bxres_project_detail_3_level_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Industries</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>11</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7108cc6e1328a280353e3e7f3244b0c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>Industries</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Deal Run</dependent_value>
+            <element>u_bxres_project_detail_3_level_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>M&amp;A</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>12</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b108cc6e1328a280353e3e7f3244b0c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>M&amp;A</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Deal Run</dependent_value>
+            <element>u_bxres_project_detail_3_level_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ECM</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>13</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f108cc6e1328a280353e3e7f3244b0c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>ECM</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Deal Run</dependent_value>
+            <element>u_bxres_project_detail_3_level_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DCM</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>14</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3508cc6e1328a280353e3e7f3244b0c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>DCM</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Deal Run</dependent_value>
+            <element>u_bxres_project_detail_3_level_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Loans</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>15</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7508cc6e1328a280353e3e7f3244b0c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>Loans</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bxres_project_detail_3_level_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Others</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>16</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b508cc6e1328a280353e3e7f3244b0c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>Others</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Filings and Company Documents</dependent_value>
+            <element>u_bxres_project_detail_3_level_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Public Company Filings</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>17</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f508cc6e1328a280353e3e7f3244b0c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>Public Company Filings</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Filings and Company Documents</dependent_value>
+            <element>u_bxres_project_detail_3_level_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Private Company Filings</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>18</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3908cc6e1328a280353e3e7f3244b0c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>Private Company Filings</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Filings and Company Documents</dependent_value>
+            <element>u_bxres_project_detail_3_level_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deal Filing</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>19</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7908cc6e1328a280353e3e7f3244b0c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>Deal Filing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Filings and Company Documents</dependent_value>
+            <element>u_bxres_project_detail_3_level_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Prospectus</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>20</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b908cc6e1328a280353e3e7f3244b0c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>Prospectus</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Filings and Company Documents</dependent_value>
+            <element>u_bxres_project_detail_3_level_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Investor Presentations</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>21</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f908cc6e1328a280353e3e7f3244b0c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>Investor Presentations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Filings and Company Documents</dependent_value>
+            <element>u_bxres_project_detail_3_level_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Transcripts</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>22</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3d08cc6e1328a280353e3e7f3244b0c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>Transcripts</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Filings and Company Documents</dependent_value>
+            <element>u_bxres_project_detail_3_level_2</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other Filings</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>23</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7d08cc6e1328a280353e3e7f3244b0c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>Other Filings</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_bxres_project_detail_3_level_2</element>
+            <name>x_blglp_research_requests</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>bd08cc6e1328a280353e3e7f3244b0c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_bxres_project_detail_3_level_2</sys_name>
+            <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+            <sys_update_name>sys_choice_x_blglp_research_requests_u_bxres_project_detail_3_level_2</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

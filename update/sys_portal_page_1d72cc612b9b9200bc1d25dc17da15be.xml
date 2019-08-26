@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2019-08-26 12:57:50">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
+        <order>10</order>
+        <read_roles>x_blglp_research.admin,x_blglp_research.admin.copal,x_blglp_research.operators,x_blglp_research.operators.copal</read_roles>
+        <roles/>
+        <selectable>true</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>anderssc</sys_created_by>
+        <sys_created_on>2016-05-09 19:06:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>1d72cc612b9b9200bc1d25dc17da15be</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Research Request Home Page</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_portal_page_1d72cc612b9b9200bc1d25dc17da15be</sys_update_name>
+        <sys_updated_by>kopsachg</sys_updated_by>
+        <sys_updated_on>2016-06-24 21:17:26</sys_updated_on>
+        <title>Research Request Home Page</title>
+        <user/>
+        <view>research</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone999</dropzone>
+                <offset>1</offset>
+                <page display_value="Research Request Home Page">1d72cc612b9b9200bc1d25dc17da15be</page>
+                <summary/>
+                <sys_created_by>kopsachg</sys_created_by>
+                <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                <sys_id>3096e9a813342200353e3e7f3244b0be</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>kopsachg</sys_updated_by>
+                <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 07-20-2016 06:53:44 PM">3096e9a813342200353e3e7f3244b0be</portal_section>
+                        <sys_created_by>kopsachg</sys_created_by>
+                        <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                        <sys_id>7096e9a813342200353e3e7f3244b0be</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kopsachg</sys_updated_by>
+                        <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                        <value>Home_Admin Tickets</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 07-20-2016 06:53:44 PM">3096e9a813342200353e3e7f3244b0be</portal_section>
+                        <sys_created_by>kopsachg</sys_created_by>
+                        <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                        <sys_id>7496e9a813342200353e3e7f3244b0be</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kopsachg</sys_updated_by>
+                        <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 07-20-2016 06:53:44 PM">3096e9a813342200353e3e7f3244b0be</portal_section>
+                        <sys_created_by>kopsachg</sys_created_by>
+                        <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                        <sys_id>f096e9a813342200353e3e7f3244b0be</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kopsachg</sys_updated_by>
+                        <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                        <value>c2ef9d6c2b382200124fc8b219da15aa</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 07-20-2016 06:53:44 PM">3096e9a813342200353e3e7f3244b0be</portal_section>
+                        <sys_created_by>kopsachg</sys_created_by>
+                        <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                        <sys_id>f496e9a813342200353e3e7f3244b0be</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kopsachg</sys_updated_by>
+                        <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                        <value>1d72cc612b9b9200bc1d25dc17da15be</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>1</offset>
+                <page display_value="Research Request Home Page">1d72cc612b9b9200bc1d25dc17da15be</page>
+                <summary/>
+                <sys_created_by>kopsachg</sys_created_by>
+                <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                <sys_id>3896e9a813342200353e3e7f3244b0bb</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>kopsachg</sys_updated_by>
+                <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 07-20-2016 06:53:44 PM">3896e9a813342200353e3e7f3244b0bb</portal_section>
+                        <sys_created_by>kopsachg</sys_created_by>
+                        <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                        <sys_id>7896e9a813342200353e3e7f3244b0bb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kopsachg</sys_updated_by>
+                        <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                        <value>Home_Work in Progress (Open Time Segments)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 07-20-2016 06:53:44 PM">3896e9a813342200353e3e7f3244b0bb</portal_section>
+                        <sys_created_by>kopsachg</sys_created_by>
+                        <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                        <sys_id>7c96e9a813342200353e3e7f3244b0bb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kopsachg</sys_updated_by>
+                        <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 07-20-2016 06:53:44 PM">3896e9a813342200353e3e7f3244b0bb</portal_section>
+                        <sys_created_by>kopsachg</sys_created_by>
+                        <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                        <sys_id>f896e9a813342200353e3e7f3244b0bb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kopsachg</sys_updated_by>
+                        <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                        <value>a349b49c2b746244124fc8b219da1534</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 07-20-2016 06:53:44 PM">3896e9a813342200353e3e7f3244b0bb</portal_section>
+                        <sys_created_by>kopsachg</sys_created_by>
+                        <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                        <sys_id>fc96e9a813342200353e3e7f3244b0bb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kopsachg</sys_updated_by>
+                        <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                        <value>1d72cc612b9b9200bc1d25dc17da15be</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>1</offset>
+                <page display_value="Research Request Home Page">1d72cc612b9b9200bc1d25dc17da15be</page>
+                <summary/>
+                <sys_created_by>kopsachg</sys_created_by>
+                <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                <sys_id>3c96e9a813342200353e3e7f3244b0bc</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>kopsachg</sys_updated_by>
+                <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 07-20-2016 06:53:44 PM">3c96e9a813342200353e3e7f3244b0bc</portal_section>
+                        <sys_created_by>kopsachg</sys_created_by>
+                        <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                        <sys_id>7096e9a813342200353e3e7f3244b0bd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kopsachg</sys_updated_by>
+                        <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 07-20-2016 06:53:44 PM">3c96e9a813342200353e3e7f3244b0bc</portal_section>
+                        <sys_created_by>kopsachg</sys_created_by>
+                        <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                        <sys_id>7c96e9a813342200353e3e7f3244b0bc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kopsachg</sys_updated_by>
+                        <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                        <value>HOME_Today's Requests</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 07-20-2016 06:53:44 PM">3c96e9a813342200353e3e7f3244b0bc</portal_section>
+                        <sys_created_by>kopsachg</sys_created_by>
+                        <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                        <sys_id>f096e9a813342200353e3e7f3244b0bd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kopsachg</sys_updated_by>
+                        <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                        <value>1d72cc612b9b9200bc1d25dc17da15be</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 07-20-2016 06:53:44 PM">3c96e9a813342200353e3e7f3244b0bc</portal_section>
+                        <sys_created_by>kopsachg</sys_created_by>
+                        <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                        <sys_id>fc96e9a813342200353e3e7f3244b0bc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kopsachg</sys_updated_by>
+                        <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                        <value>a8ed79ca85665e00fb766ad38554e212</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="Research Request Home Page">1d72cc612b9b9200bc1d25dc17da15be</page>
+                <summary/>
+                <sys_created_by>kopsachg</sys_created_by>
+                <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                <sys_id>b096e9a813342200353e3e7f3244b0bc</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>kopsachg</sys_updated_by>
+                <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 07-20-2016 06:53:44 PM">b096e9a813342200353e3e7f3244b0bc</portal_section>
+                        <sys_created_by>kopsachg</sys_created_by>
+                        <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                        <sys_id>7496e9a813342200353e3e7f3244b0bc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kopsachg</sys_updated_by>
+                        <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                        <value>810db5ca85665e00fb766ad38554e29a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 07-20-2016 06:53:44 PM">b096e9a813342200353e3e7f3244b0bc</portal_section>
+                        <sys_created_by>kopsachg</sys_created_by>
+                        <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                        <sys_id>7896e9a813342200353e3e7f3244b0bc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kopsachg</sys_updated_by>
+                        <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                        <value>1d72cc612b9b9200bc1d25dc17da15be</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 07-20-2016 06:53:44 PM">b096e9a813342200353e3e7f3244b0bc</portal_section>
+                        <sys_created_by>kopsachg</sys_created_by>
+                        <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                        <sys_id>f096e9a813342200353e3e7f3244b0bc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kopsachg</sys_updated_by>
+                        <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                        <value>HOME_Outstanding Requests</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 07-20-2016 06:53:44 PM">b096e9a813342200353e3e7f3244b0bc</portal_section>
+                        <sys_created_by>kopsachg</sys_created_by>
+                        <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                        <sys_id>f496e9a813342200353e3e7f3244b0bc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kopsachg</sys_updated_by>
+                        <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone999</dropzone>
+                <offset>0</offset>
+                <page display_value="Research Request Home Page">1d72cc612b9b9200bc1d25dc17da15be</page>
+                <summary/>
+                <sys_created_by>kopsachg</sys_created_by>
+                <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                <sys_id>b496e9a813342200353e3e7f3244b0bd</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>kopsachg</sys_updated_by>
+                <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 07-20-2016 06:53:44 PM">b496e9a813342200353e3e7f3244b0bd</portal_section>
+                        <sys_created_by>kopsachg</sys_created_by>
+                        <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                        <sys_id>7896e9a813342200353e3e7f3244b0bd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kopsachg</sys_updated_by>
+                        <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                        <value>9b88f4da855a5a00fb766ad38554e2b9</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 07-20-2016 06:53:44 PM">b496e9a813342200353e3e7f3244b0bd</portal_section>
+                        <sys_created_by>kopsachg</sys_created_by>
+                        <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                        <sys_id>7c96e9a813342200353e3e7f3244b0bd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kopsachg</sys_updated_by>
+                        <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                        <value>1d72cc612b9b9200bc1d25dc17da15be</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 07-20-2016 06:53:44 PM">b496e9a813342200353e3e7f3244b0bd</portal_section>
+                        <sys_created_by>kopsachg</sys_created_by>
+                        <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                        <sys_id>f496e9a813342200353e3e7f3244b0bd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kopsachg</sys_updated_by>
+                        <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                        <value>HOME_Workflow Queue (All Active Tickets)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 07-20-2016 06:53:44 PM">b496e9a813342200353e3e7f3244b0bd</portal_section>
+                        <sys_created_by>kopsachg</sys_created_by>
+                        <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                        <sys_id>f896e9a813342200353e3e7f3244b0bd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kopsachg</sys_updated_by>
+                        <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="Research Request Home Page">1d72cc612b9b9200bc1d25dc17da15be</page>
+                <summary/>
+                <sys_created_by>kopsachg</sys_created_by>
+                <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                <sys_id>bc96e9a813342200353e3e7f3244b0ba</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>kopsachg</sys_updated_by>
+                <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 07-20-2016 06:53:44 PM">bc96e9a813342200353e3e7f3244b0ba</portal_section>
+                        <sys_created_by>kopsachg</sys_created_by>
+                        <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                        <sys_id>7096e9a813342200353e3e7f3244b0bb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kopsachg</sys_updated_by>
+                        <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                        <value>312e55e6859e5a00fb766ad38554e208</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 07-20-2016 06:53:44 PM">bc96e9a813342200353e3e7f3244b0ba</portal_section>
+                        <sys_created_by>kopsachg</sys_created_by>
+                        <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                        <sys_id>7496e9a813342200353e3e7f3244b0bb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kopsachg</sys_updated_by>
+                        <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                        <value>1d72cc612b9b9200bc1d25dc17da15be</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 07-20-2016 06:53:44 PM">bc96e9a813342200353e3e7f3244b0ba</portal_section>
+                        <sys_created_by>kopsachg</sys_created_by>
+                        <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                        <sys_id>f096e9a813342200353e3e7f3244b0bb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kopsachg</sys_updated_by>
+                        <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 07-20-2016 06:53:44 PM">bc96e9a813342200353e3e7f3244b0ba</portal_section>
+                        <sys_created_by>kopsachg</sys_created_by>
+                        <sys_created_on>2016-07-20 13:23:44</sys_created_on>
+                        <sys_id>fc96e9a813342200353e3e7f3244b0ba</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>kopsachg</sys_updated_by>
+                        <sys_updated_on>2016-07-20 13:23:44</sys_updated_on>
+                        <value>HOME_My Assigned Research Requests</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

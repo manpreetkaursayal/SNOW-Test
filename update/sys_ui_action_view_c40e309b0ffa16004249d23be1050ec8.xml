@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view">
+    <sys_ui_action_view action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_view</sys_class_name>
+        <sys_created_by>kopsachg</sys_created_by>
+        <sys_created_on>2016-04-20 13:24:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c40e309b0ffa16004249d23be1050ec8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Time.Submit Research Request</sys_name>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_ui_action display_value="Test Time">ed6dbc5b0ffa16004249d23be1050eca</sys_ui_action>
+        <sys_ui_view display_value="Submit Research Request" name="Submit_Research_Request">419d985085eada00fb766ad38554e239</sys_ui_view>
+        <sys_update_name>sys_ui_action_view_c40e309b0ffa16004249d23be1050ec8</sys_update_name>
+        <sys_updated_by>kopsachg</sys_updated_by>
+        <sys_updated_on>2016-04-20 13:24:12</sys_updated_on>
+        <visibility>include</visibility>
+    </sys_ui_action_view>
+</record_update>

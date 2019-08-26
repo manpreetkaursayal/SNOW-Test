@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <api_name>x_blglp_research.MyDateTimeAjax</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>MyDateTimeAjax</name>
+        <script><![CDATA[var MyDateTimeAjax = Class.create();
+MyDateTimeAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    nowDateTime: function () {
+        //return gs.nowDateTime();
+    return '2014-01-01 12:00:00';
+	}
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>BXHM</sys_created_by>
+        <sys_created_on>2016-03-17 23:17:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>05afff14851ed600fb766ad38554e214</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>MyDateTimeAjax</sys_name>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_script_include_05afff14851ed600fb766ad38554e214</sys_update_name>
+        <sys_updated_by>BXHM</sys_updated_by>
+        <sys_updated_on>2016-03-17 23:42:20</sys_updated_on>
+    </sys_script_include>
+</record_update>

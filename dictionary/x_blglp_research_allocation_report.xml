@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Allocation Report" max_length="40" name="x_blglp_research_allocation_report" sizeclass="5086" type="collection">
+        <element label="adp employee # (line attribute)" max_length="40" name="adp_employee_line_attribute" type="integer"/>
+        <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" reference_qual="typeLIKEb1cde8372b371600fb76b11be8da152c^EQ" reference_qual_condition="typeLIKEb1cde8372b371600fb76b11be8da152c^EQ" type="reference"/>
+        <element label="COST CENTER" max_length="40" name="cost_center" type="string"/>
+        <element label="COST CENTER1" max_length="40" name="cost_center1" type="integer"/>
+        <element label="ein number" max_length="40" name="ein_number" type="string"/>
+        <element label="Expenditure Item Date" max_length="40" name="expenditure_item_date" type="string"/>
+        <element label="Expenditure Org" max_length="40" name="expenditure_org" type="string"/>
+        <element label="Expenditure Type" max_length="40" name="expenditure_type" type="string"/>
+        <element label="FUTURE" max_length="40" name="future" type="string"/>
+        <element label="FUTURE1" max_length="40" name="future1" type="string"/>
+        <element label="gl date" max_length="40" name="gl_date" type="string"/>
+        <element label="header attribute10" max_length="100" name="header_attribute10" type="string"/>
+        <element label="header attribute11" max_length="100" name="header_attribute11" type="string"/>
+        <element label="header attribute12" max_length="100" name="header_attribute12" type="string"/>
+        <element label="header attribute13" max_length="100" name="header_attribute13" type="string"/>
+        <element label="header attribute14" max_length="100" name="header_attribute14" type="string"/>
+        <element label="header attribute15" max_length="100" name="header_attribute15" type="string"/>
+        <element label="header attribute2" max_length="100" name="header_attribute2" type="string"/>
+        <element label="header attribute3" max_length="100" name="header_attribute3" type="string"/>
+        <element label="header attribute6" max_length="100" name="header_attribute6" type="string"/>
+        <element label="header attribute7" max_length="100" name="header_attribute7" type="string"/>
+        <element label="header attribute8" max_length="100" name="header_attribute8" type="string"/>
+        <element label="header attribute9" max_length="100" name="header_attribute9" type="string"/>
+        <element label="header attribute category" max_length="100" name="header_attribute_category" type="string"/>
+        <element label="INTERCOMPANY" max_length="40" name="intercompany" type="string"/>
+        <element label="INTERCOMPANY1" max_length="40" name="intercompany1" type="string"/>
+        <element label="*invoice amount" max_length="40" name="invoice_amount" type="integer"/>
+        <element label="invoice currency code" max_length="40" name="invoice_currency_code" type="string"/>
+        <element label="*invoice date" max_length="40" name="invoice_date" type="string"/>
+        <element label="invoice description" max_length="40" name="invoice_description" type="string"/>
+        <element label="*Invoice Line Amount" max_length="15" name="invoice_line_amount" type="decimal"/>
+        <element label="Invoice Line Description" max_length="200" name="invoice_line_description" type="string"/>
+        <element label="*invoice line type" max_length="40" name="invoice_line_type" type="string"/>
+        <element label="*invoice number" max_length="40" name="invoice_number" type="string"/>
+        <element label="*invoice type" max_length="40" name="invoice_type" type="string"/>
+        <element label="LEGAL ENTITY" max_length="40" name="legal_entity" type="string"/>
+        <element label="LEGAL ENTITY1" max_length="40" name="legal_entity1" type="integer"/>
+        <element label="line attribute" max_length="40" name="line_attribute" type="string"/>
+        <element label="line attribute1" max_length="100" name="line_attribute1" type="string"/>
+        <element label="line attribute10" max_length="100" name="line_attribute10" type="string"/>
+        <element label="line attribute11" max_length="100" name="line_attribute11" type="string"/>
+        <element label="line attribute12" max_length="100" name="line_attribute12" type="string"/>
+        <element label="line attribute13" max_length="100" name="line_attribute13" type="string"/>
+        <element label="line attribute14" max_length="100" name="line_attribute14" type="string"/>
+        <element label="line attribute15" max_length="100" name="line_attribute15" type="string"/>
+        <element label="line attribute2" max_length="100" name="line_attribute2" type="string"/>
+        <element label="line attribute5" max_length="100" name="line_attribute5" type="string"/>
+        <element label="line attribute7" max_length="100" name="line_attribute7" type="string"/>
+        <element label="line attribute8" max_length="100" name="line_attribute8" type="string"/>
+        <element label="line attribute9" max_length="100" name="line_attribute9" type="string"/>
+        <element label="line attribute category" max_length="100" name="line_attribute_category" type="string"/>
+        <element label="NATURAL ACCOUNT" max_length="40" name="natural_account" type="string"/>
+        <element label="NATURAL ACCOUNT1" max_length="40" name="natural_account1" type="integer"/>
+        <element label="*operating unit" max_length="40" name="operating_unit" type="string"/>
+        <element label="pay alone" max_length="40" name="pay_alone" type="string"/>
+        <element label="pay group" max_length="40" name="pay_group" type="string"/>
+        <element label="pay method" max_length="40" name="pay_method" type="string"/>
+        <element label="PRODUCT" max_length="40" name="product" type="string"/>
+        <element label="PRODUCT1" max_length="40" name="product1" type="integer"/>
+        <element label="Project" max_length="40" name="project" type="integer"/>
+        <element label="Report Number" max_length="40" name="report_number" type="integer"/>
+        <element label="Requested For" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element label="Researcher" max_length="32" name="researcher" reference="sys_user" type="reference"/>
+        <element label="Research Request" max_length="32" name="research_request" reference="x_blglp_research_requests" type="reference"/>
+        <element label="sales tax" max_length="40" name="sales_tax" type="string"/>
+        <element label="*source" max_length="40" name="source" type="string"/>
+        <element label="*supplier number" max_length="40" name="supplier_number" type="integer"/>
+        <element label="*supplier site" max_length="40" name="supplier_site" type="integer"/>
+        <element label="Task" max_length="40" name="task" type="string"/>
+        <element label="tax amount" max_length="40" name="tax_amount" type="string"/>
+        <element label="tax classification code" max_length="40" name="tax_classification_code" type="string"/>
+        <element label="Time Segment" max_length="32" name="time_segment" reference="x_blglp_research_time_segment" type="reference"/>
+        <element label="Upl" max_length="40" name="upl" type="string"/>
+        <element label="wire reference(header attribute)" max_length="40" name="wire_reference_header_attribute" type="string"/>
+        <index name="index">
+            <element name="researcher"/>
+        </index>
+        <index name="index2">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index3">
+            <element name="time_segment"/>
+        </index>
+        <index name="index4">
+            <element name="research_request"/>
+        </index>
+        <index name="index5">
+            <element name="requested_for"/>
+        </index>
+    </element>
+</database>

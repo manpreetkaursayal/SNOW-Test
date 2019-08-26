@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dashboards">
+    <pa_dashboards action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <breakdown_source/>
+        <color>#ffffff</color>
+        <group/>
+        <groups/>
+        <is_breakdown>false</is_breakdown>
+        <managed_breakdown/>
+        <managed_publisher/>
+        <name>hi there</name>
+        <no_tabs>false</no_tabs>
+        <order/>
+        <owner display_value="Rajat Gupta">259fe8c8dbf31384a873d206ca9619d5</owner>
+        <restrict_to_roles/>
+        <role_override>true</role_override>
+        <roles/>
+        <should_migrate_permissions>false</should_migrate_permissions>
+        <sys_class_name>pa_dashboards</sys_class_name>
+        <sys_created_by>guptaraj</sys_created_by>
+        <sys_created_on>2019-03-06 12:00:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>b5104c591b8873041e5dcbbc1d4bcb4f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>hi there</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>pa_dashboards_b5104c591b8873041e5dcbbc1d4bcb4f</sys_update_name>
+        <sys_updated_by>guptaraj</sys_updated_by>
+        <sys_updated_on>2019-03-06 12:03:19</sys_updated_on>
+        <users/>
+        <visible_to>2</visible_to>
+    </pa_dashboards>
+</record_update>

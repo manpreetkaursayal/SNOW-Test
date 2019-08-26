@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Request Details" section_id="13d18bde2b975200fb76b11be8da15bf" sys_domain="global" table="x_blglp_research_requests" version="3" view="ess">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_bxres_instructions</element>
+            <position>0</position>
+            <sys_created_by>kopsachg</sys_created_by>
+            <sys_created_on>2016-06-26 11:29:16</sys_created_on>
+            <sys_id>ca36e5fc2b10aa00fb76b11be8da15ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_blglp_research_requests" sys_domain="global" view="5732e110a0223000cd19951361bf0d12">13d18bde2b975200fb76b11be8da15bf</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-06-26 11:29:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ongoing</element>
+            <position>1</position>
+            <sys_created_by>kopsachg</sys_created_by>
+            <sys_created_on>2016-06-26 11:29:16</sys_created_on>
+            <sys_id>0e36e5fc2b10aa00fb76b11be8da15ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_blglp_research_requests" sys_domain="global" view="5732e110a0223000cd19951361bf0d12">13d18bde2b975200fb76b11be8da15bf</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-06-26 11:29:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_bxres_deadline</element>
+            <position>2</position>
+            <sys_created_by>kopsachg</sys_created_by>
+            <sys_created_on>2016-06-26 11:29:16</sys_created_on>
+            <sys_id>4e36e5fc2b10aa00fb76b11be8da15ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Request Details" display_value="Request Details" name="x_blglp_research_requests" sys_domain="global" view="5732e110a0223000cd19951361bf0d12">13d18bde2b975200fb76b11be8da15bf</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-06-26 11:29:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Request Details</caption>
+            <header>false</header>
+            <name>x_blglp_research_requests</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-06-23 01:22:38</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>13d18bde2b975200fb76b11be8da15bf</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Request Details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+            <sys_update_name>sys_ui_section_13d18bde2b975200fb76b11be8da15bf</sys_update_name>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-06-24 18:45:47</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Self Service" name="ess">5732e110a0223000cd19951361bf0d12</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Load the current time into the start time field</description>
+        <field>is_active</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Load Current Time</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+    g_scratchpad.start="true";
+	g_scratchpad.end="true";
+	g_scratchpad.hours="true";
+	g_scratchpad.min="true";
+	
+	/* Only call this if the record is new */
+	if(g_form.isNewRecord()){
+		g_scratchpad.start="false";
+			
+		var ajax = new GlideAjax('ScopedAppDateTime');
+		ajax.addParam('sysparm_name', 'getNowDateTime');
+		ajax.getXML(function () {
+			g_form.setValue('u_bxtim_start_time', ajax.getAnswer());
+			
+		  //g_form.setValue('u_bxtim_end_time', ajax.getAnswer().addSecondsLocalTime(3600));
+		});
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>ahernr</sys_created_by>
+        <sys_created_on>2016-07-12 19:13:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>e0d961862bacee00fb76b11be8da1506</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Load Current Time</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_script_client_e0d961862bacee00fb76b11be8da1506</sys_update_name>
+        <sys_updated_by>ahernr</sys_updated_by>
+        <sys_updated_on>2016-07-13 19:08:52</sys_updated_on>
+        <table>x_blglp_research_time_segment</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

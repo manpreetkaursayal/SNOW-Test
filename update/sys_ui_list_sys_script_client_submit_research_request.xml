@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="sys_script_client" version="2" view="Submit_Research_Request">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="sys_script_client" element="NULL" name="sys_script_client" parent="NULL" relationship="NULL" sys_domain="global" view="419d985085eada00fb766ad38554e239">693329e62b275200fb76b11be8da15a7</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>fulsomea</sys_created_by>
+            <sys_created_on>2016-05-25 14:58:25</sys_created_on>
+            <sys_id>2d3329e62b275200fb76b11be8da15a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>fulsomea</sys_updated_by>
+            <sys_updated_on>2016-05-25 14:58:25</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>active</element>
+            <list_id display_value="sys_script_client" element="NULL" name="sys_script_client" parent="NULL" relationship="NULL" sys_domain="global" view="419d985085eada00fb766ad38554e239">693329e62b275200fb76b11be8da15a7</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>fulsomea</sys_created_by>
+            <sys_created_on>2016-05-25 14:58:25</sys_created_on>
+            <sys_id>6d3329e62b275200fb76b11be8da15a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>fulsomea</sys_updated_by>
+            <sys_updated_on>2016-05-25 14:58:25</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>table</element>
+            <list_id display_value="sys_script_client" element="NULL" name="sys_script_client" parent="NULL" relationship="NULL" sys_domain="global" view="419d985085eada00fb766ad38554e239">693329e62b275200fb76b11be8da15a7</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>fulsomea</sys_created_by>
+            <sys_created_on>2016-05-25 14:58:25</sys_created_on>
+            <sys_id>ad3329e62b275200fb76b11be8da15a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>fulsomea</sys_updated_by>
+            <sys_updated_on>2016-05-25 14:58:25</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>view</element>
+            <list_id display_value="sys_script_client" element="NULL" name="sys_script_client" parent="NULL" relationship="NULL" sys_domain="global" view="419d985085eada00fb766ad38554e239">693329e62b275200fb76b11be8da15a7</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>fulsomea</sys_created_by>
+            <sys_created_on>2016-05-25 14:58:25</sys_created_on>
+            <sys_id>ed3329e62b275200fb76b11be8da15a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>fulsomea</sys_updated_by>
+            <sys_updated_on>2016-05-25 14:58:25</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>type</element>
+            <list_id display_value="sys_script_client" element="NULL" name="sys_script_client" parent="NULL" relationship="NULL" sys_domain="global" view="419d985085eada00fb766ad38554e239">693329e62b275200fb76b11be8da15a7</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>fulsomea</sys_created_by>
+            <sys_created_on>2016-05-25 14:58:25</sys_created_on>
+            <sys_id>213329e62b275200fb76b11be8da15a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>fulsomea</sys_updated_by>
+            <sys_updated_on>2016-05-25 14:58:25</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="sys_script_client" element="NULL" name="sys_script_client" parent="NULL" relationship="NULL" sys_domain="global" view="419d985085eada00fb766ad38554e239">693329e62b275200fb76b11be8da15a7</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>fulsomea</sys_created_by>
+            <sys_created_on>2016-05-25 14:58:25</sys_created_on>
+            <sys_id>613329e62b275200fb76b11be8da15a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>fulsomea</sys_updated_by>
+            <sys_updated_on>2016-05-25 14:58:25</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sys_script_client</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>fulsomea</sys_created_by>
+            <sys_created_on>2016-05-25 14:58:24</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>693329e62b275200fb76b11be8da15a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_script_client</sys_name>
+            <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+            <sys_update_name>sys_ui_list_sys_script_client_Submit_Research_Request</sys_update_name>
+            <sys_updated_by>fulsomea</sys_updated_by>
+            <sys_updated_on>2016-05-25 14:58:24</sys_updated_on>
+            <sys_user/>
+            <view display_value="Submit Research Request" name="Submit_Research_Request">419d985085eada00fb766ad38554e239</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

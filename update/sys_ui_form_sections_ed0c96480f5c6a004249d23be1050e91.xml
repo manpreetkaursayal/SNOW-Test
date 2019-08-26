@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="ed0c96480f5c6a004249d23be1050e91" sys_domain="global" table="x_blglp_research_requests" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>josephst</sys_created_by>
+            <sys_created_on>2016-05-09 16:21:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c7dcdf552b1b9200bc1d25dc17da15a2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_blglp_research_requests" name="x_blglp_research_requests" sys_domain="global" view="Default view">ed0c96480f5c6a004249d23be1050e91</sys_ui_form>
+            <sys_ui_section caption="Research Request" display_value="Research Request" name="x_blglp_research_requests" sys_domain="global" view="Default view">27a3cd7661695ac0fb764481e7ed3711</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-05-09 17:11:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>kopsachg</sys_created_by>
+            <sys_created_on>2016-05-09 17:15:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8709abdd2b1b9200bc1d25dc17da1503</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_blglp_research_requests" name="x_blglp_research_requests" sys_domain="global" view="Default view">ed0c96480f5c6a004249d23be1050e91</sys_ui_form>
+            <sys_ui_section caption="Deadline and Status" display_value="Deadline and Status" name="x_blglp_research_requests" sys_domain="global" view="Default view">f209abdd2b1b9200bc1d25dc17da1503</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-05-09 17:15:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>kopsachg</sys_created_by>
+            <sys_created_on>2016-05-09 17:17:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4c99efdd2b1b9200bc1d25dc17da1580</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_blglp_research_requests" name="x_blglp_research_requests" sys_domain="global" view="Default view">ed0c96480f5c6a004249d23be1050e91</sys_ui_form>
+            <sys_ui_section caption="Submitter Details" display_value="Submitter Details" name="x_blglp_research_requests" sys_domain="global" view="Default view">8899efdd2b1b9200bc1d25dc17da1580</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-05-09 17:17:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>BXHM</sys_created_by>
+            <sys_created_on>2016-02-26 15:24:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>bc93d7b985715200fb766ad38554e27b</sys_id>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_blglp_research_requests" name="x_blglp_research_requests" sys_domain="global" view="Default view">ed0c96480f5c6a004249d23be1050e91</sys_ui_form>
+            <sys_ui_section caption="Instructions and Details" display_value="Instructions and Details" name="x_blglp_research_requests" sys_domain="global" view="Default view">c493d7b985715200fb766ad38554e27a</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-05-09 17:17:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>BXHM</sys_created_by>
+            <sys_created_on>2016-02-24 16:37:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1051ddd913f512004dd35f722244b098</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_blglp_research_requests" name="x_blglp_research_requests" sys_domain="global" view="Default view">ed0c96480f5c6a004249d23be1050e91</sys_ui_form>
+            <sys_ui_section caption="Project Type" display_value="Project Type" name="x_blglp_research_requests" sys_domain="global" view="Default view">bb41ddd913f512004dd35f722244b096</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-05-09 17:17:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>kopsachg</sys_created_by>
+            <sys_created_on>2016-05-09 17:21:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>937ae7112b5b9200bc1d25dc17da156c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_blglp_research_requests" name="x_blglp_research_requests" sys_domain="global" view="Default view">ed0c96480f5c6a004249d23be1050e91</sys_ui_form>
+            <sys_ui_section caption="PIB Details" display_value="PIB Details" name="x_blglp_research_requests" sys_domain="global" view="Default view">df7ae7112b5b9200bc1d25dc17da156b</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-05-09 17:21:21</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>BXHM</sys_created_by>
+            <sys_created_on>2016-03-02 16:19:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4450152f85f99200fb766ad38554e27d</sys_id>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_blglp_research_requests" name="x_blglp_research_requests" sys_domain="global" view="Default view">ed0c96480f5c6a004249d23be1050e91</sys_ui_form>
+            <sys_ui_section caption="Project Details" display_value="Project Details" name="x_blglp_research_requests" sys_domain="global" view="Default view">8050152f85f99200fb766ad38554e27d</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-05-09 17:21:21</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-06-24 20:13:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e91b0dd40f10aa004249d23be1050eda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_blglp_research_requests" name="x_blglp_research_requests" sys_domain="global" view="Default view">ed0c96480f5c6a004249d23be1050e91</sys_ui_form>
+            <sys_ui_section caption="Activity Feed" display_value="Activity Feed" name="x_blglp_research_requests" sys_domain="global" view="Default view">191b0dd40f10aa004249d23be1050eda</sys_ui_section>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-06-24 20:13:45</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_blglp_research_requests</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>BXHM</sys_created_by>
+            <sys_created_on>2016-02-22 16:56:27</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>ed0c96480f5c6a004249d23be1050e91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_blglp_research_requests</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_ed0c96480f5c6a004249d23be1050e91</sys_update_name>
+            <sys_updated_by>BXHM</sys_updated_by>
+            <sys_updated_on>2016-02-22 16:56:27</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

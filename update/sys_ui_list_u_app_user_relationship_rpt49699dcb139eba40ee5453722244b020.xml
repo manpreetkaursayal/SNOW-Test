@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="u_app_user_relationship" version="2" view="RPT49699dcb139eba40ee5453722244b020">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_user</element>
+            <list_id display_value="u_app_user_relationship" element="NULL" name="u_app_user_relationship" parent="NULL" relationship="NULL" sys_domain="global" view="d169190f139eba40ee5453722244b066">dd69190f139eba40ee5453722244b066</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>BXPW</sys_created_by>
+            <sys_created_on>2017-04-27 16:36:18</sys_created_on>
+            <sys_id>d569190f139eba40ee5453722244b067</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BXPW</sys_updated_by>
+            <sys_updated_on>2017-04-27 16:36:18</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_access</element>
+            <list_id display_value="u_app_user_relationship" element="NULL" name="u_app_user_relationship" parent="NULL" relationship="NULL" sys_domain="global" view="d169190f139eba40ee5453722244b066">dd69190f139eba40ee5453722244b066</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>BXPW</sys_created_by>
+            <sys_created_on>2017-04-27 16:36:19</sys_created_on>
+            <sys_id>5d69190f139eba40ee5453722244b067</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>BXPW</sys_updated_by>
+            <sys_updated_on>2017-04-27 16:36:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>u_app_user_relationship</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>BXPW</sys_created_by>
+            <sys_created_on>2017-04-27 16:36:18</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>dd69190f139eba40ee5453722244b066</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_app_user_relationship</sys_name>
+            <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+            <sys_update_name>sys_ui_list_u_app_user_relationship_RPT49699dcb139eba40ee5453722244b020</sys_update_name>
+            <sys_updated_by>BXPW</sys_updated_by>
+            <sys_updated_on>2017-04-27 16:36:18</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt49699dcb139eba40ee5453722244b020" name="RPT49699dcb139eba40ee5453722244b020">d169190f139eba40ee5453722244b066</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

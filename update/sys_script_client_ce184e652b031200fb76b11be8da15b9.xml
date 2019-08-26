@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Show or hide the notify requested for checkbox</description>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Show and hide notify</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   if(g_form.getValue("u_bxres_requested_for").toString() == g_form.getValue("u_bxres_submitted_by").toString()){
+	    g_form.setDisplay("do_not_notify", false); 
+	   // g_form.setDisplay("do_not_notify", false);
+	} else{
+		// g_form.setDisplay("do_not_notify", true);
+		 g_form.setDisplay("do_not_notify", true); 
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>BXHM</sys_created_by>
+        <sys_created_on>2016-04-27 18:35:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>ce184e652b031200fb76b11be8da15b9</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Show and hide notify</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_script_client_ce184e652b031200fb76b11be8da15b9</sys_update_name>
+        <sys_updated_by>ahernr</sys_updated_by>
+        <sys_updated_on>2016-06-30 21:15:04</sys_updated_on>
+        <table>x_blglp_research_requests</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

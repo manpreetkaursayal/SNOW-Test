@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true,hasLabels=true,live_feed=true" audit="true" extends="task" label="Research Requests" max_length="40" name="x_blglp_research_requests" sizeclass="16755" text_index="true" type="collection">
+        <element label="Annual Report/10K notes" max_length="40" name="annual_report_10k_notes" type="string"/>
+        <element choice="1" label="Charge Type" max_length="40" name="charge_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Billable" sequence="0" value="Billable"/>
+                <element inactive_on_update="false" label="Non-billable" sequence="1" value="Non-billable"/>
+            </choice>
+        </element>
+        <element label="Do Not Notify" max_length="40" name="do_not_notify" type="boolean"/>
+        <element choice="1" label="Do Not Notify To" max_length="40" name="do_not_notify_to" type="string">
+            <choice>
+                <element inactive_on_update="false" label="To Submitter" sequence="0" value="To Submitter"/>
+                <element inactive_on_update="false" label="To Requested For" sequence="1" value="To Requested For"/>
+            </choice>
+        </element>
+        <element label="Investor Presentation notes" max_length="40" name="investor_presentation_notes" type="string"/>
+        <element default="English" label="Language" max_length="40" name="language" type="string"/>
+        <element label="Locked" max_length="40" name="locked" type="boolean"/>
+        <element default="Research requests are charged at $125/hour. The total cost will depend on the scope and complexity of your request, please contact the Research Team for an estimate or &lt;A HREF=&quot;http://home.blackstone.com/corporate-services/global-research-services&quot;&gt;&lt;font color=&quot;0000FF&quot;&gt;click here&lt;/font&gt;&lt;/A&gt; for further information." label="Notice" max_length="65536" name="message_box" read_only="true" type="html"/>
+        <element default="0" label="Number of Time Segment" max_length="40" name="number_of_time_segment" read_only="true" type="integer"/>
+        <element label="Ongoing" max_length="40" name="ongoing" type="boolean"/>
+        <element label="Latest Comment" max_length="500" name="research_latest_comment" type="string"/>
+        <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=u_bxres_project_detail_level_2_label;u_bxres_project_detail_level_3_label,ref_ac_order_by=u_bxres_project_details,ref_ac_columns_search=true" label="Search" max_length="32" name="search" reference="x_blglp_research_config" reference_qual="u_bxres_project_details_level_3ISEMPTY^EQ" reference_qual_condition="u_bxres_project_details_level_3ISEMPTY^EQ" type="reference"/>
+        <element attributes="slushbucket_ref_no_expand=true,no_sort=true" label="Send Email To" max_length="1024" name="send_email_to" reference="sys_user" type="glide_list"/>
+        <element choice="1" choice_field="time_zone" choice_table="sys_user" label="Set Time Zone" max_length="40" name="set_time_zone" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Canada/Atlantic" sequence="0" value="Canada/Atlantic"/>
+                <element inactive_on_update="false" label="Canada/Central" sequence="1" value="Canada/Central"/>
+                <element inactive_on_update="false" label="Canada/Eastern" sequence="2" value="Canada/Eastern"/>
+                <element inactive_on_update="false" label="Canada/Mountain" sequence="3" value="Canada/Mountain"/>
+                <element inactive_on_update="false" label="Canada/Pacific" sequence="4" value="Canada/Pacific"/>
+                <element inactive_on_update="false" label="Europe/Amsterdam" sequence="5" value="Europe/Amsterdam"/>
+                <element inactive_on_update="false" label="Indian/Reunion" sequence="6" value="Indian/Reunion"/>
+                <element inactive_on_update="false" label="Europe/Zaporozhye" sequence="7" value="Europe/Zaporozhye"/>
+                <element inactive_on_update="false" label="Australia/Yancowinna" sequence="8" value="Australia/Yancowinna"/>
+                <element inactive_on_update="false" label="Asia/Yerevan" sequence="9" value="Asia/Yerevan"/>
+                <element inactive_on_update="false" label="America/Yellowknife" sequence="10" value="America/Yellowknife"/>
+                <element inactive_on_update="false" label="Brazil/West" sequence="11" value="Brazil/West"/>
+                <element inactive_on_update="false" label="Canada/Yukon" sequence="12" value="Canada/Yukon"/>
+                <element inactive_on_update="false" label="Israel" sequence="13" value="Israel"/>
+                <element inactive_on_update="false" label="Japan" sequence="14" value="Japan"/>
+                <element inactive_on_update="false" label="Mideast/Riyadh89" sequence="15" value="Mideast/Riyadh89"/>
+                <element inactive_on_update="false" label="Portugal" sequence="16" value="Portugal"/>
+                <element inactive_on_update="false" label="Singapore" sequence="17" value="Singapore"/>
+                <element inactive_on_update="false" label="US/Samoa" sequence="18" value="US/Samoa"/>
+                <element inactive_on_update="false" label="UTC" sequence="19" value="UTC"/>
+                <element inactive_on_update="false" label="Universal" sequence="20" value="Universal"/>
+                <element inactive_on_update="false" label="UCT" sequence="21" value="UCT"/>
+                <element inactive_on_update="false" label="US/Pacific-New" sequence="22" value="US/Pacific-New"/>
+                <element inactive_on_update="false" label="US/Michigan" sequence="23" value="US/Michigan"/>
+                <element inactive_on_update="false" label="US/Indiana-Starke" sequence="24" value="US/Indiana-Starke"/>
+                <element inactive_on_update="false" label="US/East-Indiana" sequence="25" value="US/East-Indiana"/>
+                <element inactive_on_update="false" label="US/Aleutian" sequence="26" value="US/Aleutian"/>
+                <element inactive_on_update="false" label="US/Alaska" sequence="27" value="US/Alaska"/>
+                <element inactive_on_update="false" label="Mideast/Riyadh88" sequence="28" value="Mideast/Riyadh88"/>
+                <element inactive_on_update="false" label="Mideast/Riyadh87" sequence="29" value="Mideast/Riyadh87"/>
+                <element inactive_on_update="false" label="Mexico/General" sequence="30" value="Mexico/General"/>
+                <element inactive_on_update="false" label="Mexico/BajaSur" sequence="31" value="Mexico/BajaSur"/>
+                <element inactive_on_update="false" label="Mexico/BajaNorte" sequence="32" value="Mexico/BajaNorte"/>
+                <element inactive_on_update="false" label="Iran" sequence="33" value="Iran"/>
+                <element inactive_on_update="false" label="Canada/Saskatchewan" sequence="34" value="Canada/Saskatchewan"/>
+                <element inactive_on_update="false" label="Canada/Newfoundland" sequence="35" value="Canada/Newfoundland"/>
+                <element inactive_on_update="false" label="Canada/East-Saskatchewan" sequence="36" value="Canada/East-Saskatchewan"/>
+                <element inactive_on_update="false" label="Brazil/East" sequence="37" value="Brazil/East"/>
+                <element inactive_on_update="false" label="Brazil/DeNoronha" sequence="38" value="Brazil/DeNoronha"/>
+                <element inactive_on_update="false" label="Brazil/Acre" sequence="39" value="Brazil/Acre"/>
+                <element inactive_on_update="false" label="America/Yakutat" sequence="40" value="America/Yakutat"/>
+                <element inactive_on_update="false" label="America/Winnipeg" sequence="41" value="America/Winnipeg"/>
+                <element inactive_on_update="false" label="America/Whitehorse" sequence="42" value="America/Whitehorse"/>
+                <element inactive_on_update="false" label="America/Virgin" sequence="43" value="America/Virgin"/>
+                <element inactive_on_update="false" label="America/Vancouver" sequence="44" value="America/Vancouver"/>
+                <element inactive_on_update="false" label="America/Tortola" sequence="45" value="America/Tortola"/>
+                <element inactive_on_update="false" label="America/Tijuana" sequence="46" value="America/Tijuana"/>
+                <element inactive_on_update="false" label="America/Thunder_Bay" sequence="47" value="America/Thunder_Bay"/>
+                <element inactive_on_update="false" label="America/Thule" sequence="48" value="America/Thule"/>
+                <element inactive_on_update="false" label="America/Tegucigalpa" sequence="49" value="America/Tegucigalpa"/>
+                <element inactive_on_update="false" label="America/Swift_Current" sequence="50" value="America/Swift_Current"/>
+                <element inactive_on_update="false" label="America/St_Vincent" sequence="51" value="America/St_Vincent"/>
+                <element inactive_on_update="false" label="America/St_Thomas" sequence="52" value="America/St_Thomas"/>
+                <element inactive_on_update="false" label="America/St_Lucia" sequence="53" value="America/St_Lucia"/>
+                <element inactive_on_update="false" label="America/St_Kitts" sequence="54" value="America/St_Kitts"/>
+                <element inactive_on_update="false" label="America/St_Johns" sequence="55" value="America/St_Johns"/>
+                <element inactive_on_update="false" label="America/Shiprock" sequence="56" value="America/Shiprock"/>
+                <element inactive_on_update="false" label="America/Scoresbysund" sequence="57" value="America/Scoresbysund"/>
+                <element inactive_on_update="false" label="America/Sao_Paulo" sequence="58" value="America/Sao_Paulo"/>
+                <element inactive_on_update="false" label="America/Santo_Domingo" sequence="59" value="America/Santo_Domingo"/>
+                <element inactive_on_update="false" label="America/Santiago" sequence="60" value="America/Santiago"/>
+                <element inactive_on_update="false" label="America/Rosario" sequence="61" value="America/Rosario"/>
+                <element inactive_on_update="false" label="America/Rio_Branco" sequence="62" value="America/Rio_Branco"/>
+                <element inactive_on_update="false" label="America/Regina" sequence="63" value="America/Regina"/>
+                <element inactive_on_update="false" label="America/Recife" sequence="64" value="America/Recife"/>
+                <element inactive_on_update="false" label="America/Rankin_Inlet" sequence="65" value="America/Rankin_Inlet"/>
+                <element inactive_on_update="false" label="America/Rainy_River" sequence="66" value="America/Rainy_River"/>
+                <element inactive_on_update="false" label="America/Puerto_Rico" sequence="67" value="America/Puerto_Rico"/>
+                <element inactive_on_update="false" label="America/Port_of_Spain" sequence="68" value="America/Port_of_Spain"/>
+                <element inactive_on_update="false" label="America/Porto_Velho" sequence="69" value="America/Porto_Velho"/>
+                <element inactive_on_update="false" label="America/Porto_Acre" sequence="70" value="America/Porto_Acre"/>
+                <element inactive_on_update="false" label="America/Port-au-Prince" sequence="71" value="America/Port-au-Prince"/>
+                <element inactive_on_update="false" label="America/Phoenix" sequence="72" value="America/Phoenix"/>
+                <element inactive_on_update="false" label="America/Paramaribo" sequence="73" value="America/Paramaribo"/>
+                <element inactive_on_update="false" label="America/Pangnirtung" sequence="74" value="America/Pangnirtung"/>
+                <element inactive_on_update="false" label="America/Panama" sequence="75" value="America/Panama"/>
+                <element inactive_on_update="false" label="America/North_Dakota/Center" sequence="76" value="America/North_Dakota/Center"/>
+                <element inactive_on_update="false" label="America/Noronha" sequence="77" value="America/Noronha"/>
+                <element inactive_on_update="false" label="America/Nome" sequence="78" value="America/Nome"/>
+                <element inactive_on_update="false" label="America/Nipigon" sequence="79" value="America/Nipigon"/>
+                <element inactive_on_update="false" label="America/New_York" sequence="80" value="America/New_York"/>
+                <element inactive_on_update="false" label="America/Nassau" sequence="81" value="America/Nassau"/>
+                <element inactive_on_update="false" label="America/Montserrat" sequence="82" value="America/Montserrat"/>
+                <element inactive_on_update="false" label="America/Montreal" sequence="83" value="America/Montreal"/>
+                <element inactive_on_update="false" label="America/Montevideo" sequence="84" value="America/Montevideo"/>
+                <element inactive_on_update="false" label="America/Monterrey" sequence="85" value="America/Monterrey"/>
+                <element inactive_on_update="false" label="America/Miquelon" sequence="86" value="America/Miquelon"/>
+                <element inactive_on_update="false" label="America/Mexico_City" sequence="87" value="America/Mexico_City"/>
+                <element inactive_on_update="false" label="America/Merida" sequence="88" value="America/Merida"/>
+                <element inactive_on_update="false" label="America/Menominee" sequence="89" value="America/Menominee"/>
+                <element inactive_on_update="false" label="America/Mendoza" sequence="90" value="America/Mendoza"/>
+                <element inactive_on_update="false" label="America/Mazatlan" sequence="91" value="America/Mazatlan"/>
+                <element inactive_on_update="false" label="America/Martinique" sequence="92" value="America/Martinique"/>
+                <element inactive_on_update="false" label="America/Manaus" sequence="93" value="America/Manaus"/>
+                <element inactive_on_update="false" label="America/Managua" sequence="94" value="America/Managua"/>
+                <element inactive_on_update="false" label="America/Maceio" sequence="95" value="America/Maceio"/>
+                <element inactive_on_update="false" label="America/Louisville" sequence="96" value="America/Louisville"/>
+                <element inactive_on_update="false" label="America/Los_Angeles" sequence="97" value="America/Los_Angeles"/>
+                <element inactive_on_update="false" label="America/Lima" sequence="98" value="America/Lima"/>
+                <element inactive_on_update="false" label="America/La_Paz" sequence="99" value="America/La_Paz"/>
+                <element inactive_on_update="false" label="America/Knox_IN" sequence="100" value="America/Knox_IN"/>
+                <element inactive_on_update="false" label="America/Kentucky/Monticello" sequence="101" value="America/Kentucky/Monticello"/>
+                <element inactive_on_update="false" label="America/Kentucky/Louisville" sequence="102" value="America/Kentucky/Louisville"/>
+                <element inactive_on_update="false" label="America/Juneau" sequence="103" value="America/Juneau"/>
+                <element inactive_on_update="false" label="America/Jujuy" sequence="104" value="America/Jujuy"/>
+                <element inactive_on_update="false" label="America/Jamaica" sequence="105" value="America/Jamaica"/>
+                <element inactive_on_update="false" label="America/Iqaluit" sequence="106" value="America/Iqaluit"/>
+                <element inactive_on_update="false" label="America/Inuvik" sequence="107" value="America/Inuvik"/>
+                <element inactive_on_update="false" label="America/Indianapolis" sequence="108" value="America/Indianapolis"/>
+                <element inactive_on_update="false" label="America/Indiana/Vevay" sequence="109" value="America/Indiana/Vevay"/>
+                <element inactive_on_update="false" label="America/Indiana/Marengo" sequence="110" value="America/Indiana/Marengo"/>
+                <element inactive_on_update="false" label="America/Indiana/Knox" sequence="111" value="America/Indiana/Knox"/>
+                <element inactive_on_update="false" label="America/Indiana/Indianapolis" sequence="112" value="America/Indiana/Indianapolis"/>
+                <element inactive_on_update="false" label="America/Hermosillo" sequence="113" value="America/Hermosillo"/>
+                <element inactive_on_update="false" label="America/Havana" sequence="114" value="America/Havana"/>
+                <element inactive_on_update="false" label="America/Halifax" sequence="115" value="America/Halifax"/>
+                <element inactive_on_update="false" label="America/Guyana" sequence="116" value="America/Guyana"/>
+                <element inactive_on_update="false" label="America/Guayaquil" sequence="117" value="America/Guayaquil"/>
+                <element inactive_on_update="false" label="America/Guatemala" sequence="118" value="America/Guatemala"/>
+                <element inactive_on_update="false" label="America/Guadeloupe" sequence="119" value="America/Guadeloupe"/>
+                <element inactive_on_update="false" label="America/Grenada" sequence="120" value="America/Grenada"/>
+                <element inactive_on_update="false" label="America/Grand_Turk" sequence="121" value="America/Grand_Turk"/>
+                <element inactive_on_update="false" label="America/Goose_Bay" sequence="122" value="America/Goose_Bay"/>
+                <element inactive_on_update="false" label="America/Godthab" sequence="123" value="America/Godthab"/>
+                <element inactive_on_update="false" label="America/Glace_Bay" sequence="124" value="America/Glace_Bay"/>
+                <element inactive_on_update="false" label="America/Fort_Wayne" sequence="125" value="America/Fort_Wayne"/>
+                <element inactive_on_update="false" label="America/Fortaleza" sequence="126" value="America/Fortaleza"/>
+                <element inactive_on_update="false" label="America/Ensenada" sequence="127" value="America/Ensenada"/>
+                <element inactive_on_update="false" label="America/El_Salvador" sequence="128" value="America/El_Salvador"/>
+                <element inactive_on_update="false" label="America/Eirunepe" sequence="129" value="America/Eirunepe"/>
+                <element inactive_on_update="false" label="America/Edmonton" sequence="130" value="America/Edmonton"/>
+                <element inactive_on_update="false" label="America/Dominica" sequence="131" value="America/Dominica"/>
+                <element inactive_on_update="false" label="America/Detroit" sequence="132" value="America/Detroit"/>
+                <element inactive_on_update="false" label="America/Denver" sequence="133" value="America/Denver"/>
+                <element inactive_on_update="false" label="America/Dawson_Creek" sequence="134" value="America/Dawson_Creek"/>
+                <element inactive_on_update="false" label="America/Dawson" sequence="135" value="America/Dawson"/>
+                <element inactive_on_update="false" label="America/Danmarkshavn" sequence="136" value="America/Danmarkshavn"/>
+                <element inactive_on_update="false" label="America/Curacao" sequence="137" value="America/Curacao"/>
+                <element inactive_on_update="false" label="America/Cuiaba" sequence="138" value="America/Cuiaba"/>
+                <element inactive_on_update="false" label="America/Costa_Rica" sequence="139" value="America/Costa_Rica"/>
+                <element inactive_on_update="false" label="America/Cordoba" sequence="140" value="America/Cordoba"/>
+                <element inactive_on_update="false" label="America/Chihuahua" sequence="141" value="America/Chihuahua"/>
+                <element inactive_on_update="false" label="America/Chicago" sequence="142" value="America/Chicago"/>
+                <element inactive_on_update="false" label="America/Cayman" sequence="143" value="America/Cayman"/>
+                <element inactive_on_update="false" label="America/Cayenne" sequence="144" value="America/Cayenne"/>
+                <element inactive_on_update="false" label="America/Catamarca" sequence="145" value="America/Catamarca"/>
+                <element inactive_on_update="false" label="America/Caracas" sequence="146" value="America/Caracas"/>
+                <element inactive_on_update="false" label="America/Cancun" sequence="147" value="America/Cancun"/>
+                <element inactive_on_update="false" label="America/Cambridge_Bay" sequence="148" value="America/Cambridge_Bay"/>
+                <element inactive_on_update="false" label="America/Buenos_Aires" sequence="149" value="America/Buenos_Aires"/>
+                <element inactive_on_update="false" label="America/Boise" sequence="150" value="America/Boise"/>
+                <element inactive_on_update="false" label="America/Bogota" sequence="151" value="America/Bogota"/>
+                <element inactive_on_update="false" label="America/Boa_Vista" sequence="152" value="America/Boa_Vista"/>
+                <element inactive_on_update="false" label="America/Belize" sequence="153" value="America/Belize"/>
+                <element inactive_on_update="false" label="America/Belem" sequence="154" value="America/Belem"/>
+                <element inactive_on_update="false" label="America/Barbados" sequence="155" value="America/Barbados"/>
+                <element inactive_on_update="false" label="America/Atka" sequence="156" value="America/Atka"/>
+                <element inactive_on_update="false" label="America/Asuncion" sequence="157" value="America/Asuncion"/>
+                <element inactive_on_update="false" label="America/Aruba" sequence="158" value="America/Aruba"/>
+                <element inactive_on_update="false" label="America/Araguaina" sequence="159" value="America/Araguaina"/>
+                <element inactive_on_update="false" label="America/Antigua" sequence="160" value="America/Antigua"/>
+                <element inactive_on_update="false" label="America/Anguilla" sequence="161" value="America/Anguilla"/>
+                <element inactive_on_update="false" label="America/Anchorage" sequence="162" value="America/Anchorage"/>
+                <element inactive_on_update="false" label="America/Adak" sequence="163" value="America/Adak"/>
+                <element inactive_on_update="false" label="Asia/Yekaterinburg" sequence="164" value="Asia/Yekaterinburg"/>
+                <element inactive_on_update="false" label="Asia/Yakutsk" sequence="165" value="Asia/Yakutsk"/>
+                <element inactive_on_update="false" label="Asia/Vladivostok" sequence="166" value="Asia/Vladivostok"/>
+                <element inactive_on_update="false" label="Asia/Vientiane" sequence="167" value="Asia/Vientiane"/>
+                <element inactive_on_update="false" label="Asia/Urumqi" sequence="168" value="Asia/Urumqi"/>
+                <element inactive_on_update="false" label="Asia/Ulan_Bator" sequence="169" value="Asia/Ulan_Bator"/>
+                <element inactive_on_update="false" label="Asia/Ulaanbaatar" sequence="170" value="Asia/Ulaanbaatar"/>
+                <element inactive_on_update="false" label="Asia/Ujung_Pandang" sequence="171" value="Asia/Ujung_Pandang"/>
+                <element inactive_on_update="false" label="Asia/Tokyo" sequence="172" value="Asia/Tokyo"/>
+                <element inactive_on_update="false" label="Asia/Thimphu" sequence="173" value="Asia/Thimphu"/>
+                <element inactive_on_update="false" label="Asia/Thimbu" sequence="174" value="Asia/Thimbu"/>
+                <element inactive_on_update="false" label="Asia/Tel_Aviv" sequence="175" value="Asia/Tel_Aviv"/>
+                <element inactive_on_update="false" label="Asia/Tehran" sequence="176" value="Asia/Tehran"/>
+                <element inactive_on_update="false" label="Asia/Tbilisi" sequence="177" value="Asia/Tbilisi"/>
+                <element inactive_on_update="false" label="Asia/Tashkent" sequence="178" value="Asia/Tashkent"/>
+                <element inactive_on_update="false" label="Asia/Taipei" sequence="179" value="Asia/Taipei"/>
+                <element inactive_on_update="false" label="Asia/Singapore" sequence="180" value="Asia/Singapore"/>
+                <element inactive_on_update="false" label="Asia/Shanghai" sequence="181" value="Asia/Shanghai"/>
+                <element inactive_on_update="false" label="Asia/Seoul" sequence="182" value="Asia/Seoul"/>
+                <element inactive_on_update="false" label="Asia/Samarkand" sequence="183" value="Asia/Samarkand"/>
+                <element inactive_on_update="false" label="Asia/Sakhalin" sequence="184" value="Asia/Sakhalin"/>
+                <element inactive_on_update="false" label="Asia/Saigon" sequence="185" value="Asia/Saigon"/>
+                <element inactive_on_update="false" label="Asia/Riyadh89" sequence="186" value="Asia/Riyadh89"/>
+                <element inactive_on_update="false" label="Asia/Riyadh88" sequence="187" value="Asia/Riyadh88"/>
+                <element inactive_on_update="false" label="Asia/Riyadh87" sequence="188" value="Asia/Riyadh87"/>
+                <element inactive_on_update="false" label="Asia/Riyadh" sequence="189" value="Asia/Riyadh"/>
+                <element inactive_on_update="false" label="Asia/Rangoon" sequence="190" value="Asia/Rangoon"/>
+                <element inactive_on_update="false" label="Asia/Qyzylorda" sequence="191" value="Asia/Qyzylorda"/>
+                <element inactive_on_update="false" label="Asia/Qatar" sequence="192" value="Asia/Qatar"/>
+                <element inactive_on_update="false" label="Asia/Pyongyang" sequence="193" value="Asia/Pyongyang"/>
+                <element inactive_on_update="false" label="Asia/Pontianak" sequence="194" value="Asia/Pontianak"/>
+                <element inactive_on_update="false" label="Asia/Phnom_Penh" sequence="195" value="Asia/Phnom_Penh"/>
+                <element inactive_on_update="false" label="Asia/Oral" sequence="196" value="Asia/Oral"/>
+                <element inactive_on_update="false" label="Asia/Omsk" sequence="197" value="Asia/Omsk"/>
+                <element inactive_on_update="false" label="Asia/Novosibirsk" sequence="198" value="Asia/Novosibirsk"/>
+                <element inactive_on_update="false" label="Asia/Nicosia" sequence="199" value="Asia/Nicosia"/>
+                <element inactive_on_update="false" label="Asia/Muscat" sequence="200" value="Asia/Muscat"/>
+                <element inactive_on_update="false" label="Asia/Manila" sequence="201" value="Asia/Manila"/>
+                <element inactive_on_update="false" label="Asia/Makassar" sequence="202" value="Asia/Makassar"/>
+                <element inactive_on_update="false" label="Asia/Magadan" sequence="203" value="Asia/Magadan"/>
+                <element inactive_on_update="false" label="Asia/Macau" sequence="204" value="Asia/Macau"/>
+                <element inactive_on_update="false" label="Asia/Macao" sequence="205" value="Asia/Macao"/>
+                <element inactive_on_update="false" label="Asia/Kuwait" sequence="206" value="Asia/Kuwait"/>
+                <element inactive_on_update="false" label="Asia/Kuching" sequence="207" value="Asia/Kuching"/>
+                <element inactive_on_update="false" label="Asia/Kuala_Lumpur" sequence="208" value="Asia/Kuala_Lumpur"/>
+                <element inactive_on_update="false" label="Asia/Krasnoyarsk" sequence="209" value="Asia/Krasnoyarsk"/>
+                <element inactive_on_update="false" label="Asia/Katmandu" sequence="210" value="Asia/Katmandu"/>
+                <element inactive_on_update="false" label="Asia/Kashgar" sequence="211" value="Asia/Kashgar"/>
+                <element inactive_on_update="false" label="Asia/Karachi" sequence="212" value="Asia/Karachi"/>
+                <element inactive_on_update="false" label="Asia/Kamchatka" sequence="213" value="Asia/Kamchatka"/>
+                <element inactive_on_update="false" label="Asia/Kabul" sequence="214" value="Asia/Kabul"/>
+                <element inactive_on_update="false" label="Asia/Jerusalem" sequence="215" value="Asia/Jerusalem"/>
+                <element inactive_on_update="false" label="Asia/Jayapura" sequence="216" value="Asia/Jayapura"/>
+                <element inactive_on_update="false" label="Asia/Jakarta" sequence="217" value="Asia/Jakarta"/>
+                <element inactive_on_update="false" label="Asia/Istanbul" sequence="218" value="Asia/Istanbul"/>
+                <element inactive_on_update="false" label="Asia/Irkutsk" sequence="219" value="Asia/Irkutsk"/>
+                <element inactive_on_update="false" label="Asia/Hovd" sequence="220" value="Asia/Hovd"/>
+                <element inactive_on_update="false" label="Asia/Hong_Kong" sequence="221" value="Asia/Hong_Kong"/>
+                <element inactive_on_update="false" label="Asia/Harbin" sequence="222" value="Asia/Harbin"/>
+                <element inactive_on_update="false" label="Asia/Gaza" sequence="223" value="Asia/Gaza"/>
+                <element inactive_on_update="false" label="Asia/Dushanbe" sequence="224" value="Asia/Dushanbe"/>
+                <element inactive_on_update="false" label="Asia/Dubai" sequence="225" value="Asia/Dubai"/>
+                <element inactive_on_update="false" label="Asia/Dili" sequence="226" value="Asia/Dili"/>
+                <element inactive_on_update="false" label="Asia/Dhaka" sequence="227" value="Asia/Dhaka"/>
+                <element inactive_on_update="false" label="Asia/Damascus" sequence="228" value="Asia/Damascus"/>
+                <element inactive_on_update="false" label="Asia/Dacca" sequence="229" value="Asia/Dacca"/>
+                <element inactive_on_update="false" label="Asia/Colombo" sequence="230" value="Asia/Colombo"/>
+                <element inactive_on_update="false" label="Asia/Chungking" sequence="231" value="Asia/Chungking"/>
+                <element inactive_on_update="false" label="Asia/Chongqing" sequence="232" value="Asia/Chongqing"/>
+                <element inactive_on_update="false" label="Asia/Choibalsan" sequence="233" value="Asia/Choibalsan"/>
+                <element inactive_on_update="false" label="Asia/Brunei" sequence="234" value="Asia/Brunei"/>
+                <element inactive_on_update="false" label="Asia/Bishkek" sequence="235" value="Asia/Bishkek"/>
+                <element inactive_on_update="false" label="Asia/Beirut" sequence="236" value="Asia/Beirut"/>
+                <element inactive_on_update="false" label="Asia/Bangkok" sequence="237" value="Asia/Bangkok"/>
+                <element inactive_on_update="false" label="Asia/Baku" sequence="238" value="Asia/Baku"/>
+                <element inactive_on_update="false" label="Asia/Bahrain" sequence="239" value="Asia/Bahrain"/>
+                <element inactive_on_update="false" label="Asia/Baghdad" sequence="240" value="Asia/Baghdad"/>
+                <element inactive_on_update="false" label="Asia/Ashkhabad" sequence="241" value="Asia/Ashkhabad"/>
+                <element inactive_on_update="false" label="Asia/Ashgabat" sequence="242" value="Asia/Ashgabat"/>
+                <element inactive_on_update="false" label="Asia/Aqtobe" sequence="243" value="Asia/Aqtobe"/>
+                <element inactive_on_update="false" label="Asia/Aqtau" sequence="244" value="Asia/Aqtau"/>
+                <element inactive_on_update="false" label="Asia/Anadyr" sequence="245" value="Asia/Anadyr"/>
+                <element inactive_on_update="false" label="Asia/Amman" sequence="246" value="Asia/Amman"/>
+                <element inactive_on_update="false" label="Asia/Almaty" sequence="247" value="Asia/Almaty"/>
+                <element inactive_on_update="false" label="Asia/Aden" sequence="248" value="Asia/Aden"/>
+                <element inactive_on_update="false" label="Australia/West" sequence="249" value="Australia/West"/>
+                <element inactive_on_update="false" label="Australia/Victoria" sequence="250" value="Australia/Victoria"/>
+                <element inactive_on_update="false" label="Australia/Tasmania" sequence="251" value="Australia/Tasmania"/>
+                <element inactive_on_update="false" label="Australia/Sydney" sequence="252" value="Australia/Sydney"/>
+                <element inactive_on_update="false" label="Australia/South" sequence="253" value="Australia/South"/>
+                <element inactive_on_update="false" label="Australia/Queensland" sequence="254" value="Australia/Queensland"/>
+                <element inactive_on_update="false" label="Australia/Perth" sequence="255" value="Australia/Perth"/>
+                <element inactive_on_update="false" label="Australia/NSW" sequence="256" value="Australia/NSW"/>
+                <element inactive_on_update="false" label="Australia/North" sequence="257" value="Australia/North"/>
+                <element inactive_on_update="false" label="Australia/Melbourne" sequence="258" value="Australia/Melbourne"/>
+                <element inactive_on_update="false" label="Australia/Lord_Howe" sequence="259" value="Australia/Lord_Howe"/>
+                <element inactive_on_update="false" label="Australia/Lindeman" sequence="260" value="Australia/Lindeman"/>
+                <element inactive_on_update="false" label="Australia/LHI" sequence="261" value="Australia/LHI"/>
+                <element inactive_on_update="false" label="Australia/Hobart" sequence="262" value="Australia/Hobart"/>
+                <element inactive_on_update="false" label="Australia/Darwin" sequence="263" value="Australia/Darwin"/>
+                <element inactive_on_update="false" label="Australia/Canberra" sequence="264" value="Australia/Canberra"/>
+                <element inactive_on_update="false" label="Australia/Broken_Hill" sequence="265" value="Australia/Broken_Hill"/>
+                <element inactive_on_update="false" label="Australia/Brisbane" sequence="266" value="Australia/Brisbane"/>
+                <element inactive_on_update="false" label="Australia/Adelaide" sequence="267" value="Australia/Adelaide"/>
+                <element inactive_on_update="false" label="Australia/ACT" sequence="268" value="Australia/ACT"/>
+                <element inactive_on_update="false" label="Europe/Zagreb" sequence="269" value="Europe/Zagreb"/>
+                <element inactive_on_update="false" label="Europe/Warsaw" sequence="270" value="Europe/Warsaw"/>
+                <element inactive_on_update="false" label="Europe/Vilnius" sequence="271" value="Europe/Vilnius"/>
+                <element inactive_on_update="false" label="Europe/Vienna" sequence="272" value="Europe/Vienna"/>
+                <element inactive_on_update="false" label="Europe/Vatican" sequence="273" value="Europe/Vatican"/>
+                <element inactive_on_update="false" label="Europe/Vaduz" sequence="274" value="Europe/Vaduz"/>
+                <element inactive_on_update="false" label="Europe/Uzhgorod" sequence="275" value="Europe/Uzhgorod"/>
+                <element inactive_on_update="false" label="Europe/Tiraspol" sequence="276" value="Europe/Tiraspol"/>
+                <element inactive_on_update="false" label="Europe/Tirane" sequence="277" value="Europe/Tirane"/>
+                <element inactive_on_update="false" label="Europe/Tallinn" sequence="278" value="Europe/Tallinn"/>
+                <element inactive_on_update="false" label="Europe/Sofia" sequence="279" value="Europe/Sofia"/>
+                <element inactive_on_update="false" label="Europe/Skopje" sequence="280" value="Europe/Skopje"/>
+                <element inactive_on_update="false" label="Europe/Simferopol" sequence="281" value="Europe/Simferopol"/>
+                <element inactive_on_update="false" label="Europe/Sarajevo" sequence="282" value="Europe/Sarajevo"/>
+                <element inactive_on_update="false" label="Europe/San_Marino" sequence="283" value="Europe/San_Marino"/>
+                <element inactive_on_update="false" label="Europe/Samara" sequence="284" value="Europe/Samara"/>
+                <element inactive_on_update="false" label="Europe/Riga" sequence="285" value="Europe/Riga"/>
+                <element inactive_on_update="false" label="Europe/Prague" sequence="286" value="Europe/Prague"/>
+                <element inactive_on_update="false" label="Europe/Oslo" sequence="287" value="Europe/Oslo"/>
+                <element inactive_on_update="false" label="Europe/Nicosia" sequence="288" value="Europe/Nicosia"/>
+                <element inactive_on_update="false" label="Europe/Moscow" sequence="289" value="Europe/Moscow"/>
+                <element inactive_on_update="false" label="Europe/Monaco" sequence="290" value="Europe/Monaco"/>
+                <element inactive_on_update="false" label="Europe/Minsk" sequence="291" value="Europe/Minsk"/>
+                <element inactive_on_update="false" label="Europe/Malta" sequence="292" value="Europe/Malta"/>
+                <element inactive_on_update="false" label="Europe/Luxembourg" sequence="293" value="Europe/Luxembourg"/>
+                <element inactive_on_update="false" label="Europe/Ljubljana" sequence="294" value="Europe/Ljubljana"/>
+                <element inactive_on_update="false" label="Europe/Lisbon" sequence="295" value="Europe/Lisbon"/>
+                <element inactive_on_update="false" label="Europe/Kiev" sequence="296" value="Europe/Kiev"/>
+                <element inactive_on_update="false" label="Europe/Kaliningrad" sequence="297" value="Europe/Kaliningrad"/>
+                <element inactive_on_update="false" label="Europe/Istanbul" sequence="298" value="Europe/Istanbul"/>
+                <element inactive_on_update="false" label="Europe/Helsinki" sequence="299" value="Europe/Helsinki"/>
+                <element inactive_on_update="false" label="Europe/Gibraltar" sequence="300" value="Europe/Gibraltar"/>
+                <element inactive_on_update="false" label="Europe/Chisinau" sequence="301" value="Europe/Chisinau"/>
+                <element inactive_on_update="false" label="Europe/Budapest" sequence="302" value="Europe/Budapest"/>
+                <element inactive_on_update="false" label="Europe/Bucharest" sequence="303" value="Europe/Bucharest"/>
+                <element inactive_on_update="false" label="Europe/Bratislava" sequence="304" value="Europe/Bratislava"/>
+                <element inactive_on_update="false" label="Europe/Belgrade" sequence="305" value="Europe/Belgrade"/>
+                <element inactive_on_update="false" label="Europe/Belfast" sequence="306" value="Europe/Belfast"/>
+                <element inactive_on_update="false" label="Europe/Athens" sequence="307" value="Europe/Athens"/>
+                <element inactive_on_update="false" label="Europe/Andorra" sequence="308" value="Europe/Andorra"/>
+                <element inactive_on_update="false" label="Indian/Mayotte" sequence="309" value="Indian/Mayotte"/>
+                <element inactive_on_update="false" label="Indian/Mauritius" sequence="310" value="Indian/Mauritius"/>
+                <element inactive_on_update="false" label="Indian/Maldives" sequence="311" value="Indian/Maldives"/>
+                <element inactive_on_update="false" label="Indian/Mahe" sequence="312" value="Indian/Mahe"/>
+                <element inactive_on_update="false" label="Indian/Kerguelen" sequence="313" value="Indian/Kerguelen"/>
+                <element inactive_on_update="false" label="Indian/Comoro" sequence="314" value="Indian/Comoro"/>
+                <element inactive_on_update="false" label="Indian/Cocos" sequence="315" value="Indian/Cocos"/>
+                <element inactive_on_update="false" label="Indian/Christmas" sequence="316" value="Indian/Christmas"/>
+                <element inactive_on_update="false" label="Indian/Chagos" sequence="317" value="Indian/Chagos"/>
+                <element inactive_on_update="false" label="Indian/Antananarivo" sequence="318" value="Indian/Antananarivo"/>
+                <element inactive_on_update="false" label="Europe/Berlin" sequence="319" value="Europe/Berlin"/>
+                <element inactive_on_update="false" label="Europe/Brussels" sequence="320" value="Europe/Brussels"/>
+                <element inactive_on_update="false" label="Europe/Copenhagen" sequence="321" value="Europe/Copenhagen"/>
+                <element inactive_on_update="false" label="Europe/Dublin" sequence="322" value="Europe/Dublin"/>
+                <element inactive_on_update="false" label="Europe/London" sequence="323" value="Europe/London"/>
+                <element inactive_on_update="false" label="Europe/Madrid" sequence="324" value="Europe/Madrid"/>
+                <element inactive_on_update="false" label="Europe/Paris" sequence="325" value="Europe/Paris"/>
+                <element inactive_on_update="false" label="Europe/Rome" sequence="326" value="Europe/Rome"/>
+                <element inactive_on_update="false" label="Europe/Stockholm" sequence="327" value="Europe/Stockholm"/>
+                <element inactive_on_update="false" label="Europe/Zurich" sequence="328" value="Europe/Zurich"/>
+                <element inactive_on_update="false" label="GMT" sequence="329" value="GMT"/>
+                <element inactive_on_update="false" label="Hongkong" sequence="330" value="Hongkong"/>
+                <element inactive_on_update="false" label="US/Arizona" sequence="331" value="US/Arizona"/>
+                <element inactive_on_update="false" label="US/Central" sequence="332" value="US/Central"/>
+                <element inactive_on_update="false" label="US/Eastern" sequence="333" value="US/Eastern"/>
+                <element inactive_on_update="false" label="US/Hawaii" sequence="334" value="US/Hawaii"/>
+                <element inactive_on_update="false" label="US/Mountain" sequence="335" value="US/Mountain"/>
+                <element inactive_on_update="false" label="US/Pacific" sequence="336" value="US/Pacific"/>
+            </choice>
+        </element>
+        <element label="State(FCR) Allowed" max_length="40" name="state_fcr_allowed" type="string"/>
+        <element attributes="omit_sys_original=true" label="Total Billing Amount" max_length="15" name="time_billing" read_only="true" type="currency"/>
+        <element default="0" label="Ticket Time Total" max_length="40" name="time_total" read_only="true" type="integer"/>
+        <element label="Toggle" max_length="40" name="toggle" type="boolean"/>
+        <element label="Total Bill" max_length="40" name="total_bill" type="string"/>
+        <element label="Total Duration" max_length="40" name="total_dur" type="string"/>
+        <element default="0" label="Total Duration" max_length="40" name="tot_dur" type="integer"/>
+        <element label="Time segment added" max_length="40" name="u_boolean_1" type="boolean"/>
+        <element label="Additional Information Added by BX Research" max_length="4000" name="u_bxres_additional_information_notes" type="journal"/>
+        <element choice="1" choice_field="u_bxres_config_menu_type" choice_table="x_blglp_research_config" label="Market Data" max_length="4000" name="u_bxres_additional_market_data" reference="x_blglp_research_config" reference_qual="u_bxres_config_menu_type=3^EQ" reference_qual_condition="u_bxres_config_menu_type=3^EQ" spell_check="true" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="Market Data Product" sequence="0" value="3"/>
+                <element inactive_on_update="false" label="Project Type" sequence="1" value="0"/>
+                <element inactive_on_update="false" label="Rate" sequence="2" value="1"/>
+            </choice>
+        </element>
+        <element label="Additional Notes" max_length="4000" name="u_bxres_additional_notes" spell_check="true" type="string"/>
+        <element label="Annual Report/10K" max_length="40" name="u_bxres_annual_report_10k" type="boolean"/>
+        <element label="Annual Report/10K" max_length="160" name="u_bxres_annual_report_10k_string" type="string"/>
+        <element label="CIQ Profile" max_length="40" name="u_bxres_ciq_profile" type="boolean"/>
+        <element label="Bxres ciq profile string" max_length="160" name="u_bxres_ciq_profile_string" type="string"/>
+        <element label="Company/Topic" max_length="160" name="u_bxres_company" type="string"/>
+        <element label="Cover Sheet" max_length="40" name="u_bxres_cover_sheet" type="boolean"/>
+        <element label="Cover sheet notes" max_length="160" name="u_bxres_cover_sheet_string" type="string"/>
+        <element label="Deadline" max_length="40" name="u_bxres_deadline" type="glide_date_time"/>
+        <element attributes="slushbucket_ref_no_expand=true,no_sort=true" choice="1" label="Difficulty" max_length="1024" name="u_bxres_difficulty" reference_cascade_rule="cascade" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="Easy" sequence="0" value="Easy"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="Medium"/>
+                <element inactive_on_update="false" label="Hard" sequence="2" value="Hard"/>
+            </choice>
+        </element>
+        <element label="Estimated Turnaround Time" max_length="40" name="u_bxres_estimated_turnaround_time" type="glide_date_time"/>
+        <element label="Instructions" max_length="4000" name="u_bxres_instructions" spell_check="true" type="string"/>
+        <element label="Interim Report/10Q" max_length="40" name="u_bxres_interim_report_10q" type="boolean"/>
+        <element label="Bxres interim report 10q string" max_length="160" name="u_bxres_interim_report_10q_string" type="string"/>
+        <element label="Internal Notes" max_length="4000" name="u_bxres_internal_notes" type="string"/>
+        <element label="Investor Presentation" max_length="40" name="u_bxres_investor_presentation" type="boolean"/>
+        <element label="Investor Presentation" max_length="160" name="u_bxres_investor_presentation_string" type="string"/>
+        <element attributes="slushbucket_ref_no_expand=true,no_sort=true" label="Scope" max_length="1024" name="u_bxres_list" type="glide_list"/>
+        <element label="Location" max_length="160" name="u_bxres_location" type="string"/>
+        <element label="News Run" max_length="40" name="u_bxres_news_run" type="boolean"/>
+        <element choice="1" label="News run months" max_length="40" name="u_bxres_news_run_choice" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="6" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="7" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="8" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="9" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="10" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="11" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="12" sequence="11" value="12"/>
+                <element inactive_on_update="false" label="12+" sequence="12" value="12+"/>
+            </choice>
+        </element>
+        <element label="Other Details" max_length="4000" name="u_bxres_other_details" spell_check="true" type="string"/>
+        <element label="Other Details 3" max_length="4000" name="u_bxres_other_details_3" spell_check="true" type="string"/>
+        <element choice="1" label="PIB" max_length="40" name="u_bxres_pib" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element default="Company:&#13;&#10;Ticker:&#13;&#10;Location:&#13;&#10;&#13;&#10;*Please amend PIB contents as required:&#13;&#10;&#13;&#10;- Cover Sheet&#13;&#10;- CIQ Profile&#13;&#10;- Share Price Chart&#13;&#10;- Investor Presentation&#13;&#10;- Annual Report/10K&#13;&#10;- Interim Report/10Q&#13;&#10;- Research Reports&#13;&#10;- News Run 6 Months" label="PIB Detail" mandatory="true" max_length="4000" name="u_bxres_pib_detail" type="string"/>
+        <element choice="1" dependent="u_bxres_rr_project_type_3_list" dependent_on_field="u_bxres_rr_project_type_3_list" label="Project Detail 3 Level 2" max_length="40" name="u_bxres_project_detail_3_level_2" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="News Run" inactive_on_update="false" label="Company News" sequence="0" value="Company News"/>
+                <element dependent_value="News Run" inactive_on_update="false" label="Topic News" sequence="1" value="Topic News"/>
+                <element dependent_value="News Run" inactive_on_update="false" label="Individual News" sequence="2" value="Individual News"/>
+                <element dependent_value="Data" inactive_on_update="false" label="Economic Data" sequence="3" value="Economic Data"/>
+                <element dependent_value="Data" inactive_on_update="false" label="Equity/Capital Markets" sequence="4" value="Equity/Capital Markets"/>
+                <element dependent_value="Data" inactive_on_update="false" label="Alternative Assets" sequence="5" value="Alternative Assets"/>
+                <element dependent_value="Data" inactive_on_update="false" label="Commodities" sequence="6" value="Commodities"/>
+                <element dependent_value="Data" inactive_on_update="false" label="Financial Data" sequence="7" value="Financial Data"/>
+                <element dependent_value="Data" inactive_on_update="false" label="Comp Tables" sequence="8" value="Comp Tables"/>
+                <element dependent_value="Research Reports" inactive_on_update="false" label="Companies" sequence="9" value="Companies"/>
+                <element dependent_value="Research Reports" inactive_on_update="false" label="Topics" sequence="10" value="Topics"/>
+                <element dependent_value="Research Reports" inactive_on_update="false" label="Industries" sequence="11" value="Industries"/>
+                <element dependent_value="Deal Run" inactive_on_update="false" label="M&amp;A" sequence="12" value="M&amp;A"/>
+                <element dependent_value="Deal Run" inactive_on_update="false" label="ECM" sequence="13" value="ECM"/>
+                <element dependent_value="Deal Run" inactive_on_update="false" label="DCM" sequence="14" value="DCM"/>
+                <element dependent_value="Deal Run" inactive_on_update="false" label="Loans" sequence="15" value="Loans"/>
+                <element inactive_on_update="false" label="Others" sequence="16" value="Others"/>
+                <element dependent_value="Filings and Company Documents" inactive_on_update="false" label="Public Company Filings" sequence="17" value="Public Company Filings"/>
+                <element dependent_value="Filings and Company Documents" inactive_on_update="false" label="Private Company Filings" sequence="18" value="Private Company Filings"/>
+                <element dependent_value="Filings and Company Documents" inactive_on_update="false" label="Deal Filing" sequence="19" value="Deal Filing"/>
+                <element dependent_value="Filings and Company Documents" inactive_on_update="false" label="Prospectus" sequence="20" value="Prospectus"/>
+                <element dependent_value="Filings and Company Documents" inactive_on_update="false" label="Investor Presentations" sequence="21" value="Investor Presentations"/>
+                <element dependent_value="Filings and Company Documents" inactive_on_update="false" label="Transcripts" sequence="22" value="Transcripts"/>
+                <element dependent_value="Filings and Company Documents" inactive_on_update="false" label="Other Filings" sequence="23" value="Other Filings"/>
+            </choice>
+        </element>
+        <element label="Requested For" mandatory="true" max_length="32" name="u_bxres_requested_for" reference="sys_user" reference_qual="u_employee_type=Employee^u_bx_core_active=true^u_lan_idISNOTEMPTY^EQ" reference_qual_condition="u_employee_type=Employee^u_bx_core_active=true^u_lan_idISNOTEMPTY^EQ" type="reference"/>
+        <element label="Research Reports" max_length="40" name="u_bxres_research_reports" type="boolean"/>
+        <element label="Bxres research reports string" max_length="160" name="u_bxres_research_reports_string" type="string"/>
+        <element choice="1" dependent="u_bxres_rr_project_type_list" dependent_on_field="u_bxres_rr_project_type_list" label="Project Detail Level 2" max_length="40" name="u_bxres_rr_project_detail_level_2_list" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Data" inactive_on_update="false" label="Alternative Assets" value="Alternative Assets"/>
+                <element dependent_value="Data" inactive_on_update="false" label="Commodities" value="Commodities"/>
+                <element dependent_value="Data" inactive_on_update="false" label="Comp Tables" value="Comp Tables"/>
+                <element dependent_value="Research Reports" inactive_on_update="false" label="Companies" value="Companies"/>
+                <element dependent_value="News Run" inactive_on_update="false" label="Company News" value="Company News"/>
+                <element dependent_value="Deal Run" inactive_on_update="false" label="DCM" value="DCM"/>
+                <element dependent_value="Filings and Company Documents" inactive_on_update="false" label="Deal Filings" value="Deal Filings"/>
+                <element dependent_value="Deal Run" inactive_on_update="false" label="ECM" value="ECM"/>
+                <element dependent_value="Data" inactive_on_update="false" label="Economic Data" value="Economic Data"/>
+                <element dependent_value="Data" inactive_on_update="false" label="Equity / Capital Markets" value="Equity / Capital Markets"/>
+                <element dependent_value="Data" inactive_on_update="false" label="Financial Data" value="Financial Data"/>
+                <element dependent_value="News Run" inactive_on_update="false" label="Individual News" value="Individual News"/>
+                <element dependent_value="Research Reports" inactive_on_update="false" label="Industries" value="Industries"/>
+                <element dependent_value="Filings and Company Documents" inactive_on_update="false" label="Investor Presentations" value="Investor Presentations"/>
+                <element dependent_value="Deal Run" inactive_on_update="false" label="Loans" value="Loans"/>
+                <element dependent_value="Deal Run" inactive_on_update="false" label="M &amp; A" value="M &amp; A"/>
+                <element dependent_value="Filings and Company Documents" inactive_on_update="false" label="Other Filings" value="Other Filings"/>
+                <element dependent_value="Filings and Company Documents" inactive_on_update="false" label="Private Company Filings" value="Private Company Filings"/>
+                <element dependent_value="Filings and Company Documents" inactive_on_update="false" label="Prospectus" value="Prospectus"/>
+                <element dependent_value="Filings and Company Documents" inactive_on_update="false" label="Public Company Filings" value="Public Company Filings"/>
+                <element dependent_value="News Run" inactive_on_update="false" label="Topic News" value="Topic News"/>
+                <element dependent_value="Research Reports" inactive_on_update="false" label="Topics" value="Topics"/>
+                <element dependent_value="Filings and Company Documents" inactive_on_update="false" label="Transcripts" value="Transcripts"/>
+            </choice>
+        </element>
+        <element choice="1" dependent="u_bxres_rr_project_detail_level_2_list" dependent_on_field="u_bxres_rr_project_detail_level_2_list" label="Project Detail Level 3" max_length="40" name="u_bxres_rr_project_detail_level_3_list" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Public Company Filings" inactive_on_update="false" label="Annual and Interim Reports" value="Annual and Interim Reports"/>
+                <element dependent_value="Comp Tables" inactive_on_update="false" label="Companies" value="Companies"/>
+                <element dependent_value="Deal Filings" inactive_on_update="false" label="Deal / Merger Filings" value="Deal / Merger Filings"/>
+                <element dependent_value="Equity / Capital Markets" inactive_on_update="false" label="Equity Markets" value="Equity Markets"/>
+                <element dependent_value="Equity / Capital Markets" inactive_on_update="false" label="Fixed Income" value="Fixed Income"/>
+                <element dependent_value="Equity / Capital Markets" inactive_on_update="false" label="FX" value="FX"/>
+                <element dependent_value="Alternative Assets" inactive_on_update="false" label="Hedge Funds" value="Hedge Funds"/>
+                <element dependent_value="Equity / Capital Markets" inactive_on_update="false" label="Interest Rate &amp; Derivatives" value="Interest Rate &amp; Derivatives"/>
+                <element dependent_value="Investor Presentations" inactive_on_update="false" label="Other Filings" value="Other Filings"/>
+                <element dependent_value="Private Company Filings" inactive_on_update="false" label="Private Company Annual Report" value="Private Company Annual Report"/>
+                <element dependent_value="Alternative Assets" inactive_on_update="false" label="Private Equity" value="Private Equity"/>
+                <element dependent_value="Prospectus" inactive_on_update="false" label="Prospectus" value="Prospectus"/>
+                <element dependent_value="Alternative Assets" inactive_on_update="false" label="Real Estate" value="Real Estate"/>
+                <element dependent_value="Comp Tables" inactive_on_update="false" label="Transactions" value="Transactions"/>
+            </choice>
+        </element>
+        <element choice="1" label="Project Type 2" max_length="40" name="u_bxres_rr_project_type_2_list" reference="x_blglp_research_config" reference_qual="u_bxres_project_detailsISNOTEMPTY^EQ" reference_qual_condition="u_bxres_project_detailsISNOTEMPTY^EQ" type="string">
+            <choice>
+                <element inactive_on_update="false" label="PIB" sequence="0" value="PIB"/>
+                <element inactive_on_update="false" label="News Run" sequence="1" value="News Run"/>
+                <element inactive_on_update="false" label="Data" sequence="2" value="Data"/>
+                <element inactive_on_update="false" label="Research Reports" sequence="3" value="Research Reports"/>
+                <element inactive_on_update="false" label="Deal Run" sequence="4" value="Deal Run"/>
+                <element inactive_on_update="false" label="Other" sequence="5" value="Other"/>
+                <element inactive_on_update="false" label="Filings and Company Documents" sequence="6" value="Filings and Company Documents"/>
+                <element inactive_on_update="false" label="Location" sequence="7" value="Location"/>
+                <element inactive_on_update="false" label="Underlying Data" sequence="8" value="Underlying Data"/>
+            </choice>
+        </element>
+        <element choice="1" label="Project Type 3" max_length="40" name="u_bxres_rr_project_type_3_list" type="string">
+            <choice>
+                <element inactive_on_update="false" label="PIB" sequence="0" value="PIB"/>
+                <element inactive_on_update="false" label="News Run" sequence="1" value="News Run"/>
+                <element inactive_on_update="false" label="Data" sequence="2" value="Data"/>
+                <element inactive_on_update="false" label="Research Reports" sequence="3" value="Research Reports"/>
+                <element inactive_on_update="false" label="Deal Run" sequence="4" value="Deal Run"/>
+                <element inactive_on_update="false" label="Filings and Company Documents" sequence="5" value="Filings and Company Documents"/>
+                <element inactive_on_update="false" label="Other" sequence="6" value="Other"/>
+                <element inactive_on_update="false" label="Underlying Data" sequence="7" value="Underlying Data"/>
+                <element inactive_on_update="false" label="Location" sequence="8" value="Location"/>
+            </choice>
+        </element>
+        <element choice="1" label="Project Type" mandatory="true" max_length="40" name="u_bxres_rr_project_type_list" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Deal Run" sequence="0" value="Deal Run"/>
+                <element inactive_on_update="false" label="Filings and Company Documents" sequence="1" value="Filings and Company Documents"/>
+                <element inactive_on_update="false" label="News Run" sequence="2" value="News Run"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="Other"/>
+                <element inactive_on_update="false" label="PIB" sequence="4" value="PIB"/>
+                <element inactive_on_update="false" label="Research Reports" sequence="5" value="Research Reports"/>
+                <element inactive_on_update="false" label="Data" sequence="6" value="Data"/>
+            </choice>
+        </element>
+        <element attributes="slushbucket_ref_no_expand=true,no_sort=true" choice="1" label="Scope" max_length="1024" name="u_bxres_scope" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="Short" sequence="0" value="Short"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="Medium"/>
+                <element inactive_on_update="false" label="Long" sequence="2" value="Long"/>
+            </choice>
+        </element>
+        <element choice="1" label="Scope/Duration" max_length="40" name="u_bxres_scope_duration" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Short" sequence="0" value="Short"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="Medium"/>
+                <element inactive_on_update="false" label="Long" sequence="2" value="Long"/>
+            </choice>
+        </element>
+        <element label="Share Price Chart" max_length="40" name="u_bxres_share_price_chart" type="boolean"/>
+        <element choice="1" label="Share price chart months" max_length="40" name="u_bxres_share_price_chart_choice" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="3" sequence="1" value="3"/>
+                <element inactive_on_update="false" label="6" sequence="2" value="6"/>
+                <element inactive_on_update="false" label="12" sequence="3" value="12"/>
+                <element inactive_on_update="false" label="24" sequence="4" value="24"/>
+                <element inactive_on_update="false" label="36" sequence="5" value="36"/>
+            </choice>
+        </element>
+        <element choice="1" default="1" label="State" max_length="40" name="u_bxres_state" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Submitted" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Assigned" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Work In Progress" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Awaiting Further Information" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Resolved" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Closed" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Finalize" sequence="6" value="8"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="7" value="7"/>
+            </choice>
+        </element>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Submitted By" mandatory="true" max_length="32" name="u_bxres_submitted_by" read_only="true" reference="sys_user" reference_qual="active=true^u_employee_typeINemployee,,,,consultant^u_lan_idISNOTEMPTY^EQ" reference_qual_condition="active=true^u_employee_typeINemployee,,,,consultant^u_lan_idISNOTEMPTY^EQ" type="reference" use_dynamic_default="true"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Submitter Name" max_length="32" name="u_bxres_submitter_name" reference="sys_user" reference_qual="active=true^u_employee_typeINemployee,consultant^u_lan_idISNOTEMPTY^EQ" reference_qual_condition="active=true^u_employee_typeINemployee,consultant^u_lan_idISNOTEMPTY^EQ" type="reference" use_dynamic_default="true"/>
+        <element label="Supplemental Market Data Products" max_length="4000" name="u_bxres_supplemental_market_data_products" type="journal"/>
+        <element label="Ticker" max_length="160" name="u_bxres_ticker" type="string"/>
+        <element choice="1" label="State" max_length="40" name="u_bxtim_state" type="integer">
+            <choice/>
+        </element>
+        <element choice="1" label="Difficulty" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Easy" sequence="0" value="Easy"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="Medium"/>
+                <element inactive_on_update="false" label="Hard" sequence="2" value="Hard"/>
+            </choice>
+        </element>
+        <element choice="1" label="Priority" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="0" value="Low"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="Medium"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="High"/>
+            </choice>
+        </element>
+        <element label="New Due Date" max_length="40" name="u_due_date_2" type="due_date"/>
+        <element label="Start /End Time" max_length="40" name="u_glide_date_time_3" type="glide_date_time"/>
+        <element attributes="max_unit=hours" calculation="var minutes = current.time_total.getDisplayValue();&#13;&#10;&#9;&#13;&#10;function convertMinutesToHours (data) {&#13;&#10;&#9;var hours = Math.floor(data / 60);&#13;&#10;&#9;var minutes = data % 60;&#13;&#10;&#9;if (minutes &lt; 10){ minutes = '0' + minutes; }&#13;&#10;&#9;var timeString = hours + ':' + minutes + ':00';&#13;&#10;&#9;return timeString;&#13;&#10;}&#13;&#10;convertMinutesToHours(minutes);" label="Duration" max_length="40" name="u_glide_duration_1" read_only="true" type="glide_duration" virtual="true"/>
+        <element label="Estimated Turnaround Time" max_length="40" name="u_integer_estimated_turnaround_time" type="string"/>
+        <element label="Time Segment user" max_length="40" name="u_string_11" type="string"/>
+        <element label="Start_Btn_Click_count" max_length="40" name="u_string_12" type="integer"/>
+        <element label="First/Last Name" max_length="40" name="u_string_5" type="string"/>
+        <element label="Analyst Location" max_length="40" name="u_string_analyst_location" type="string"/>
+    </element>
+</database>

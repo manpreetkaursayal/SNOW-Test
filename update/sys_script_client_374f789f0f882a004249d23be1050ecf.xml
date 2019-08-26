@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>If the Request is moved into the Closed status, make sure that there is time logged against it.</description>
+        <field>u_bxres_state</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Prevent Closure If No Time Worked</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+
+	/* If the status is Closed(6) or Finalized(8), check to ensure there is time logged */
+	if ((g_form.getValue('u_bxres_state') == 6) || (g_form.getValue('u_bxres_state') == 8)) {
+	
+		g_form.hideFieldMsg("u_bxres_state", true);
+		if (g_form.getValue('time_total') <= 0) {
+			g_form.setValue('u_bxres_state', oldValue);
+			g_form.showErrorBox("u_bxres_state", "You cannot move the request to Closed/Finalized without any time logged.");
+			
+		}
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>ahernr</sys_created_by>
+        <sys_created_on>2016-06-21 17:03:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>374f789f0f882a004249d23be1050ecf</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Prevent Closure If No Time Worked</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_script_client_374f789f0f882a004249d23be1050ecf</sys_update_name>
+        <sys_updated_by>ahernr</sys_updated_by>
+        <sys_updated_on>2016-07-11 01:41:24</sys_updated_on>
+        <table>x_blglp_research_requests</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

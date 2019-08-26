@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>If this is a new record and/or if the selection for Project Detail does not contain additional tiers of information, hide the Project Details level 2 and 3 menus.</description>
+        <field>u_bxres_rr_project_type_list</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Hide Project Detail Levels 2 and 3</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	
+	if(g_form.isNewRecord()){
+		//var pd = g_form.getValue('u_bxres_rr_project_type_list');
+		g_form.setDisplay('u_bxres_rr_project_detail_level_2_list',false);
+		g_form.setDisplay('u_bxres_rr_project_detail_level_3_list',false);
+	}
+	else{
+			var ga = new GlideAjax('CheckCategoryValue');
+			ga.addParam('sysparm_name','getCategory');
+			ga.addParam('sysparm_user_name',pd);
+			ga.getXML(ParseResponse);
+		}
+	}
+	function ParseResponse(response) {
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+		if(answer == "hide"){
+			g_form.setDisplay('u_bxres_rr_project_detail_level_2_list',false);
+			g_form.setDisplay('u_bxres_rr_project_detail_level_3_list',false);
+		}
+		else if(answer =="show"){
+			g_form.setDisplay('u_bxres_rr_project_detail_level_2_list',true);
+			g_form.setDisplay('u_bxres_rr_project_detail_level_3_list',true);
+		}
+		
+	}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>BXHM</sys_created_by>
+        <sys_created_on>2016-03-22 16:01:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>ffd7333913929e004dd35f722244b0f4</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>Hide Project Detail Levels 2 and 3</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_script_client_ffd7333913929e004dd35f722244b0f4</sys_update_name>
+        <sys_updated_by>ahernr</sys_updated_by>
+        <sys_updated_on>2016-07-07 21:36:59</sys_updated_on>
+        <table>x_blglp_research_requests</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

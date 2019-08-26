@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>An issue was found that when a new request is submitted in Chrome and the back button is used, it retains the values from the previous form submission. This includes a Project Code field which shows a blank value but actually has a sys_id set and therefore allows the user to submit. We must clear this value along with other retained values to present the user with a clean form.</description>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Clear Form Values On Back Button Use</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    if (g_form.isNewRecord()) {
+		if ((g_form.getValue('u_project_code') != '') && (g_form.getDisplayValue('u_project_code') == '')) {
+			g_form.setValue('u_project_code', '');
+			g_form.setValue('u_bxres_rr_project_type_list', '');
+			g_form.setValue('ux_bxres_instructions', '');
+			g_form.setValue('ongoing', false);
+			g_form.setValue('u_bxres_deadline', '');
+			g_form.setValue('u_bxres_instructions', '');
+			//g_form.setValue('u_bxres_submitted_by', '');
+			g_form.setValue('u_bxres_requested_for', '');
+		}
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>ahernr</sys_created_by>
+        <sys_created_on>2016-06-22 18:58:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>eff2aaa70f006a004249d23be1050eea</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Clear Form Values On Back Button Use</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_script_client_eff2aaa70f006a004249d23be1050eea</sys_update_name>
+        <sys_updated_by>ahernr</sys_updated_by>
+        <sys_updated_on>2016-06-28 18:42:10</sys_updated_on>
+        <table>x_blglp_research_requests</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="state_fcr_allowed" label="State(FCR) Allowed" language="en" table="x_blglp_research_requests">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>state_fcr_allowed</element>
+            <help/>
+            <hint/>
+            <label>State(FCR) Allowed</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <plural>State(FCR) Allowed</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>anujb</sys_created_by>
+            <sys_created_on>2016-04-06 09:03:09</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>37fb37aa85ee5e00fb766ad38554e201</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>State(FCR) Allowed</sys_name>
+            <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+            <sys_update_name>sys_documentation_x_blglp_research_requests_state_fcr_allowed_en</sys_update_name>
+            <sys_updated_by>anujb</sys_updated_by>
+            <sys_updated_on>2016-04-06 09:03:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

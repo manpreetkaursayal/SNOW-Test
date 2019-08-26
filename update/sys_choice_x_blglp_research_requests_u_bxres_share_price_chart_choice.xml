@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_bxres_share_price_chart_choice" table="x_blglp_research_requests" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bxres_share_price_chart_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>0</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7908cc6e1328a280353e3e7f3244b0c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bxres_share_price_chart_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>1</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b908cc6e1328a280353e3e7f3244b0c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bxres_share_price_chart_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>6</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>2</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f908cc6e1328a280353e3e7f3244b0c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bxres_share_price_chart_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>12</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>3</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3d08cc6e1328a280353e3e7f3244b0c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bxres_share_price_chart_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>24</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>4</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7d08cc6e1328a280353e3e7f3244b0c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>24</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bxres_share_price_chart_choice</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>36</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence>5</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>bd08cc6e1328a280353e3e7f3244b0c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+            <value>36</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_bxres_share_price_chart_choice</element>
+            <name>x_blglp_research_requests</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2016-07-14 01:22:49</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>fd08cc6e1328a280353e3e7f3244b0c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_bxres_share_price_chart_choice</sys_name>
+            <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+            <sys_update_name>sys_choice_x_blglp_research_requests_u_bxres_share_price_chart_choice</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2016-07-14 01:22:49</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

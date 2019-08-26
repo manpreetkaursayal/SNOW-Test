@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>false</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_blglp_research_requests</collection>
+        <condition table="x_blglp_research_requests">u_bxres_state=2^do_not_notify=false^EQ<item endquery="false" field="u_bxres_state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="false" field="do_not_notify" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description>Research Request Submitted</description>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<br><hr><br>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>approval.cancelled</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>true</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>
+<style type="text/css"><!--
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+--></style>
+</p>
+<p>
+<style type="text/css"><!--
+body{
+      background-color:#ffffff;
+    }
+    .tableBackground{
+      background-color:#000000;
+      width:100%;
+      padding:10px;
+    }
+    h1{
+      font-family:
+      font-family:Garamond, Georgia, sans-serif;
+      color: #585858;
+      font-size:16px;
+      padding-bottom:15px;
+      border-bottom:1px solid #c7c6c6;
+    }
+    p{
+      font-family:Calibri, Arial, sans-serif;
+      font-size:14px;
+      color: #333333;
+      line-height: 20px;
+    }
+
+    a{
+      text-decoration:none;
+      color:#0098c3;
+    }
+    a:link {
+	text-decoration: none;
+	color: #376092;
+}
+a:visited {
+	text-decoration: none;
+	color: #376092;
+}
+a:hover {
+	text-decoration: none;
+	color: #376092;
+}
+a:active {
+	text-decoration: none;
+	color: #376092;
+}
+.permalink_section {	white-space: pre-wrap; /* css-3 */    
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */    
+    white-space: -o-pre-wrap; /* Opera 7 */    
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+	font-family: arial;
+	font-size: 14px;
+	color: #595959;
+}
+--></style>
+</p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0" border-color="#ffffff"></table>
+<table style="background-color: white; border-collapse: collapse; border-spacing: 0; border-color: ffffff; width: 100%;" border="0" width="100%" cellspacing="2" cellpadding="2">
+<tbody>
+<tr>
+<td style="height: 4px; width: 12.5%; background-color: #ea2839; left: 0%;"></td>
+<td style="height: 4px; width: 12.5%; background-color: #a30050; left: 12.5%;"></td>
+<td style="height: 4px; width: 12.5%; background-color: #9b1889; left: 25%;"></td>
+<td style="height: 4px; width: 12.5%; background-color: #009ac3; left: 37.5%;"></td>
+<td style="height: 4px; width: 12.5%; background-color: #00b0ca; left: 50%;"></td>
+<td style="height: 4px; width: 12.5%; background-color: #00b2a9; left: 62.5%; color: #00b2a9;"></td>
+<td style="height: 4px; width: 12.5%; background-color: #bed600; left: 75%;"></td>
+</tr>
+<tr>
+<td style="height: 6px; width: 12.5%; background-color: #ffffff; left: 0%;"></td>
+<td style="height: 6px; width: 12.5%; background-color: #ffffff; left: 12.5%;"></td>
+<td style="height: 6px; width: 12.5%; background-color: #ffffff; left: 25%;"></td>
+<td style="height: 6px; width: 12.5%; background-color: #ffffff; left: 37.5%;"></td>
+<td style="height: 6px; width: 12.5%; background-color: #ffffff; left: 50%;"></td>
+<td style="height: 6px; width: 12.5%; background-color: #ffffff; left: 62.5%;"></td>
+<td style="height: 6px; width: 12.5%; background-color: #ffffff; left: 75%;"></td>
+</tr>
+<tr>
+<td style="height: 14px; width: 12.5%; background-color: #ffffff; left: 0%;"></td>
+<td style="height: 14px; width: 12.5%; background-color: #ffffff; left: 12.5%;"></td>
+<td style="height: 14px; width: 12.5%; background-color: #ffffff; left: 25%;"></td>
+<td style="height: 14px; width: 12.5%; background-color: #ffffff; left: 37.5%;"></td>
+<td style="height: 14px; width: 12.5%; background-color: #ffffff; left: 50%;"></td>
+<th style="height: 14px; width: 12.5%; background-color: #ffffff; left: 62.5%;" align="center" nowrap="nowrap">&nbsp;</th>
+<td style="height: 14px; width: 12.5%; background-color: #00b2a9; left: 75%;" align="center" nowrap="nowrap" bgcolor="#00FFFF"><span style="font-size: 12px; color: #ffffff; font-family: arial;">View My Tickets</span></td>
+</tr>
+</tbody>
+</table>
+<table style="border-color: ffffff; border: 0; width: 100%; cellspacing: 0; cellpadding: 0;" width="100%">
+<tbody>
+<tr><th align="left" nowrap="nowrap"><span style="font-size: 18px; border-collapse: collapse; font-family: Georgia, 'Times New Roman', Times, serif; color: #595959; border-spacing: 0; height: 0.4in;">We have received your request: ${URI_REF}</span></th>
+<td width="10">&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 14px; color: #595959; font-family: arial;">Thank you for your submission. We have received your request, please click <a href="https://blackstoneprod.service-now.com/">here</a> for details and status updates.</span></p>
+<table>
+<tbody>
+<tr>
+<td></td>
+</tr>
+<tr></tr>
+</tbody>
+</table>
+<table style="background-color: white;" border="0" width="100%" cellspacing="5" cellpadding="0">
+<tbody>
+<tr>
+<td style="font-family: Georgia, serif; width: 100.0%; border: none; border-left: solid #a30050 2.25pt; padding: 0in 5.4pt 0in 5.4pt; height: .1in; font-size: 14pt;" width="100%">
+<p class="MsoNormal"><span style="font-size: 15.0pt; font-family: 'Georgia','serif'; mso-fareast-font-family: 'Times New Roman'; color: #595959;">Request Details <o:p></o:p> </span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<table style="background-color: white; color: #595959; font-family: ariel; font-size: 14px;" border="0" width="100%" cellspacing="5" cellpadding="0">
+<tbody>
+<tr>
+<td width="142" height="18"><span style="font-size: 14px; color: #595959; font-family: arial;">Submitted By:</span></td>
+<td class="permalink_section">${u_bxres_submitted_by}</td>
+</tr>
+<tr>
+<td height="18"><span style="font-size: 14px; color: #595959; font-family: arial;">Oracle Project Code:</span></td>
+<td class="permalink_section">${u_oracle_project_code}</td>
+</tr>
+<tr>
+<td height="18"><span style="font-size: 14px; color: #595959; font-family: arial;">Deadline:</span></td>
+<td class="permalink_section">${u_bxres_deadline}</td>
+</tr>
+<tr>
+<td height="18"><span style="font-size: 14px; color: #595959; font-family: arial;">Project Type:</span></td>
+<td class="permalink_section">${u_bxres_rr_project_type_list}</td>
+</tr>
+<tr>
+<td height="18"><span style="font-size: 14px; color: #595959; font-family: arial;">Instructions:</span></td>
+<td class="permalink_section">${u_bxres_instructions}</td>
+</tr>
+</tbody>
+</table>
+<p><br /><span style="font-size: 14px; color: #595959; font-family: arial;">If your request is urgent, or if you have any questions, please contact <a href="mailto:research@blackstone.com">research@blackstone.com</a>.<br /> For further assistance and information on Global Research Services, please click <a href="http://mybx.blackstone.com/corporate-services/global-research-services">here.</a></span></p>
+<table class="tableBackground" style="border-top: 2px solid #0098c3; border-spacing: 0; border-collapse: collapse;" border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="border-collapse: collapse; border-spacing: 0;">
+<td style="font-size: 14px; font-family: arial; border-collapse: collapse; padding: 2px; color: #595959; border-spacing: 0;">Service Desk - Americas &nbsp;&nbsp;&nbsp; (x5599) &nbsp;&nbsp;&nbsp; +1 212 583 5599</td>
+</tr>
+<tr style="border-collapse: collapse; border-spacing: 0;">
+<td style="font-family: arial; font-size: 14px; border-collapse: collapse; padding: 2px; color: #595959; border-spacing: 0;">Service Desk - EMEA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (x4231) &nbsp;&nbsp;&nbsp; +44 (0)20 7451 4231</td>
+</tr>
+<tr style="border-collapse: collapse; border-spacing: 0;">
+<td style="font-family: arial; font-size: 14px; border-collapse: collapse; padding: 2px; color: #595959; border-spacing: 0;">Service Desk - APAC &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (x7799) &nbsp;&nbsp;&nbsp; +852 3651 7799</td>
+</tr>
+</tbody>
+</table>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Research Requests Submitted(ReqBy)Update</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>u_bxres_submitted_by</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>false</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Ticket Number: ${number} - Submitted</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>anujb</sys_created_by>
+        <sys_created_on>2016-04-18 07:32:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d64a1d6685365240fb766ad38554e2cd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Research Requests Submitted(ReqBy)Update</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sysevent_email_action_d64a1d6685365240fb766ad38554e2cd</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-12-21 21:05:55</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

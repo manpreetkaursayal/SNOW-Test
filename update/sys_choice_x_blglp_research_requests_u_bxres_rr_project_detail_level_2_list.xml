@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_bxres_rr_project_detail_level_2_list" table="x_blglp_research_requests" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Data</dependent_value>
+            <element>u_bxres_rr_project_detail_level_2_list</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alternative Assets</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence/>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-07-14 02:06:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c6125826132ca280353e3e7f3244b011</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-14 02:06:48</sys_updated_on>
+            <value>Alternative Assets</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Data</dependent_value>
+            <element>u_bxres_rr_project_detail_level_2_list</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Commodities</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence/>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-07-14 02:08:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>438250a6132ca280353e3e7f3244b0b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-14 02:08:47</sys_updated_on>
+            <value>Commodities</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Data</dependent_value>
+            <element>u_bxres_rr_project_detail_level_2_list</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Comp Tables</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence/>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-07-14 02:09:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>19b2d4a6132ca280353e3e7f3244b063</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-14 02:09:29</sys_updated_on>
+            <value>Comp Tables</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Research Reports</dependent_value>
+            <element>u_bxres_rr_project_detail_level_2_list</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Companies</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence/>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-07-14 02:56:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>2a8d1c6a136ca280353e3e7f3244b0f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-14 02:56:48</sys_updated_on>
+            <value>Companies</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>News Run</dependent_value>
+            <element>u_bxres_rr_project_detail_level_2_list</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Company News</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence/>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-07-14 02:55:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a45ddce6136ca280353e3e7f3244b0c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-14 02:55:51</sys_updated_on>
+            <value>Company News</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Deal Run</dependent_value>
+            <element>u_bxres_rr_project_detail_level_2_list</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DCM</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence/>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-07-14 02:50:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d3fb14e6136ca280353e3e7f3244b090</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-14 02:50:02</sys_updated_on>
+            <value>DCM</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Filings and Company Documents</dependent_value>
+            <element>u_bxres_rr_project_detail_level_2_list</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deal Filings</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence/>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-07-14 02:54:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f01d5c2a136ca280353e3e7f3244b010</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-14 02:54:47</sys_updated_on>
+            <value>Deal Filings</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Deal Run</dependent_value>
+            <element>u_bxres_rr_project_detail_level_2_list</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ECM</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence/>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-07-14 02:50:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>780c14e6136ca280353e3e7f3244b091</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-14 02:50:08</sys_updated_on>
+            <value>ECM</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Data</dependent_value>
+            <element>u_bxres_rr_project_detail_level_2_list</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Economic Data</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence/>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-07-14 02:11:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>101358e6132ca280353e3e7f3244b0ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-14 02:11:03</sys_updated_on>
+            <value>Economic Data</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Data</dependent_value>
+            <element>u_bxres_rr_project_detail_level_2_list</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Equity / Capital Markets</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence/>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-07-14 02:41:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c00ad0e2136ca280353e3e7f3244b025</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-14 02:41:21</sys_updated_on>
+            <value>Equity / Capital Markets</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Data</dependent_value>
+            <element>u_bxres_rr_project_detail_level_2_list</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Financial Data</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence/>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-07-14 02:43:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>9c8a9c26136ca280353e3e7f3244b057</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-14 02:43:33</sys_updated_on>
+            <value>Financial Data</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>News Run</dependent_value>
+            <element>u_bxres_rr_project_detail_level_2_list</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Individual News</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence/>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-07-14 02:56:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>006ddce6136ca280353e3e7f3244b0c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-14 02:56:05</sys_updated_on>
+            <value>Individual News</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Research Reports</dependent_value>
+            <element>u_bxres_rr_project_detail_level_2_list</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Industries</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence/>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-07-14 02:56:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>309d10aa136ca280353e3e7f3244b02a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-14 02:56:58</sys_updated_on>
+            <value>Industries</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Filings and Company Documents</dependent_value>
+            <element>u_bxres_rr_project_detail_level_2_list</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Investor Presentations</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence/>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-07-14 02:53:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d8ec5c2a136ca280353e3e7f3244b04a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-14 02:53:56</sys_updated_on>
+            <value>Investor Presentations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Deal Run</dependent_value>
+            <element>u_bxres_rr_project_detail_level_2_list</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Loans</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence/>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-07-14 02:50:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>201cd4e6136ca280353e3e7f3244b07b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-14 02:50:23</sys_updated_on>
+            <value>Loans</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Deal Run</dependent_value>
+            <element>u_bxres_rr_project_detail_level_2_list</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>M &amp; A</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence/>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-07-14 02:50:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5a1c58e6136ca280353e3e7f3244b044</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-14 02:50:30</sys_updated_on>
+            <value>M &amp; A</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Filings and Company Documents</dependent_value>
+            <element>u_bxres_rr_project_detail_level_2_list</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other Filings</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence/>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-07-14 02:53:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e9cc5c2a136ca280353e3e7f3244b00d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-14 02:53:28</sys_updated_on>
+            <value>Other Filings</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Filings and Company Documents</dependent_value>
+            <element>u_bxres_rr_project_detail_level_2_list</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Private Company Filings</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence/>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-07-14 02:55:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>122d502a136ca280353e3e7f3244b0d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-14 02:55:09</sys_updated_on>
+            <value>Private Company Filings</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Filings and Company Documents</dependent_value>
+            <element>u_bxres_rr_project_detail_level_2_list</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Prospectus</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence/>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-07-14 02:54:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>97ec98e6136ca280353e3e7f3244b0f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-14 02:54:08</sys_updated_on>
+            <value>Prospectus</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Filings and Company Documents</dependent_value>
+            <element>u_bxres_rr_project_detail_level_2_list</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Public Company Filings</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence/>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-07-14 02:55:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0b3d582a136ca280353e3e7f3244b061</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-14 02:55:29</sys_updated_on>
+            <value>Public Company Filings</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>News Run</dependent_value>
+            <element>u_bxres_rr_project_detail_level_2_list</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Topic News</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence/>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-07-14 02:56:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f66d146a136ca280353e3e7f3244b0f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-14 02:56:17</sys_updated_on>
+            <value>Topic News</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Research Reports</dependent_value>
+            <element>u_bxres_rr_project_detail_level_2_list</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Topics</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence/>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-07-14 02:57:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>cf9d5c6a136ca280353e3e7f3244b0f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-14 02:57:06</sys_updated_on>
+            <value>Topics</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Filings and Company Documents</dependent_value>
+            <element>u_bxres_rr_project_detail_level_2_list</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Transcripts</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <sequence/>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-07-14 02:53:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>bfcc1c2a136ca280353e3e7f3244b012</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-14 02:53:37</sys_updated_on>
+            <value>Transcripts</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_bxres_rr_project_detail_level_2_list</element>
+            <name>x_blglp_research_requests</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-07-14 02:06:48</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>4e125826132ca280353e3e7f3244b011</sys_id>
+            <sys_mod_count>23</sys_mod_count>
+            <sys_name>u_bxres_rr_project_detail_level_2_list</sys_name>
+            <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+            <sys_update_name>sys_choice_x_blglp_research_requests_u_bxres_rr_project_detail_level_2_list</sys_update_name>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-07-14 02:57:07</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

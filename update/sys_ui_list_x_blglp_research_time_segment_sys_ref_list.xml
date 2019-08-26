@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_blglp_research_time_segment" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_blglp_research_time_segment" element="NULL" name="x_blglp_research_time_segment" parent="NULL" relationship="NULL" sys_domain="global" view="9b32e110a0223000cd19951361bf0d0d">e4f6b1dc85cb9240fb766ad38554e207</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>kopsachg</sys_created_by>
+            <sys_created_on>2016-03-28 17:54:33</sys_created_on>
+            <sys_id>9c5f5bbf139652404dd35f722244b0a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-03-28 17:54:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_blglp_research_time_segment" element="NULL" name="x_blglp_research_time_segment" parent="NULL" relationship="NULL" sys_domain="global" view="9b32e110a0223000cd19951361bf0d0d">e4f6b1dc85cb9240fb766ad38554e207</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>7153723</sys_created_by>
+            <sys_created_on>2016-03-28 17:28:34</sys_created_on>
+            <sys_id>77595ff7139652404dd35f722244b052</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7153723</sys_updated_by>
+            <sys_updated_on>2016-03-28 17:28:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>calc_dur</element>
+            <list_id display_value="x_blglp_research_time_segment" element="NULL" name="x_blglp_research_time_segment" parent="NULL" relationship="NULL" sys_domain="global" view="9b32e110a0223000cd19951361bf0d0d">e4f6b1dc85cb9240fb766ad38554e207</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>7153723</sys_created_by>
+            <sys_created_on>2016-03-28 17:28:34</sys_created_on>
+            <sys_id>b7595ff7139652404dd35f722244b052</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7153723</sys_updated_by>
+            <sys_updated_on>2016-03-28 17:28:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>combine_indi</element>
+            <list_id display_value="x_blglp_research_time_segment" element="NULL" name="x_blglp_research_time_segment" parent="NULL" relationship="NULL" sys_domain="global" view="9b32e110a0223000cd19951361bf0d0d">e4f6b1dc85cb9240fb766ad38554e207</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>7153723</sys_created_by>
+            <sys_created_on>2016-03-28 17:28:34</sys_created_on>
+            <sys_id>f7595ff7139652404dd35f722244b052</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7153723</sys_updated_by>
+            <sys_updated_on>2016-03-28 17:28:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>edit_hours_or_time</element>
+            <list_id display_value="x_blglp_research_time_segment" element="NULL" name="x_blglp_research_time_segment" parent="NULL" relationship="NULL" sys_domain="global" view="9b32e110a0223000cd19951361bf0d0d">e4f6b1dc85cb9240fb766ad38554e207</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>7153723</sys_created_by>
+            <sys_created_on>2016-03-28 17:28:34</sys_created_on>
+            <sys_id>3b595ff7139652404dd35f722244b052</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7153723</sys_updated_by>
+            <sys_updated_on>2016-03-28 17:28:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>green</element>
+            <list_id display_value="x_blglp_research_time_segment" element="NULL" name="x_blglp_research_time_segment" parent="NULL" relationship="NULL" sys_domain="global" view="9b32e110a0223000cd19951361bf0d0d">e4f6b1dc85cb9240fb766ad38554e207</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>7153723</sys_created_by>
+            <sys_created_on>2016-03-28 17:28:34</sys_created_on>
+            <sys_id>7b595ff7139652404dd35f722244b052</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7153723</sys_updated_by>
+            <sys_updated_on>2016-03-28 17:28:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>green_indicator</element>
+            <list_id display_value="x_blglp_research_time_segment" element="NULL" name="x_blglp_research_time_segment" parent="NULL" relationship="NULL" sys_domain="global" view="9b32e110a0223000cd19951361bf0d0d">e4f6b1dc85cb9240fb766ad38554e207</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>7153723</sys_created_by>
+            <sys_created_on>2016-03-28 17:28:34</sys_created_on>
+            <sys_id>bb595ff7139652404dd35f722244b052</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7153723</sys_updated_by>
+            <sys_updated_on>2016-03-28 17:28:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>grey</element>
+            <list_id display_value="x_blglp_research_time_segment" element="NULL" name="x_blglp_research_time_segment" parent="NULL" relationship="NULL" sys_domain="global" view="9b32e110a0223000cd19951361bf0d0d">e4f6b1dc85cb9240fb766ad38554e207</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>7153723</sys_created_by>
+            <sys_created_on>2016-03-28 17:28:34</sys_created_on>
+            <sys_id>fb595ff7139652404dd35f722244b052</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7153723</sys_updated_by>
+            <sys_updated_on>2016-03-28 17:28:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>grey_indicator</element>
+            <list_id display_value="x_blglp_research_time_segment" element="NULL" name="x_blglp_research_time_segment" parent="NULL" relationship="NULL" sys_domain="global" view="9b32e110a0223000cd19951361bf0d0d">e4f6b1dc85cb9240fb766ad38554e207</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>7153723</sys_created_by>
+            <sys_created_on>2016-03-28 17:28:34</sys_created_on>
+            <sys_id>3f595ff7139652404dd35f722244b052</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7153723</sys_updated_by>
+            <sys_updated_on>2016-03-28 17:28:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>rr_state</element>
+            <list_id display_value="x_blglp_research_time_segment" element="NULL" name="x_blglp_research_time_segment" parent="NULL" relationship="NULL" sys_domain="global" view="9b32e110a0223000cd19951361bf0d0d">e4f6b1dc85cb9240fb766ad38554e207</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>7153723</sys_created_by>
+            <sys_created_on>2016-03-28 17:28:34</sys_created_on>
+            <sys_id>7f595ff7139652404dd35f722244b052</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7153723</sys_updated_by>
+            <sys_updated_on>2016-03-28 17:28:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>start_indicator</element>
+            <list_id display_value="x_blglp_research_time_segment" element="NULL" name="x_blglp_research_time_segment" parent="NULL" relationship="NULL" sys_domain="global" view="9b32e110a0223000cd19951361bf0d0d">e4f6b1dc85cb9240fb766ad38554e207</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>7153723</sys_created_by>
+            <sys_created_on>2016-03-28 17:28:34</sys_created_on>
+            <sys_id>bf595ff7139652404dd35f722244b052</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>7153723</sys_updated_by>
+            <sys_updated_on>2016-03-28 17:28:34</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_blglp_research_time_segment</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>kopsachg</sys_created_by>
+            <sys_created_on>2016-03-28 17:54:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>e4f6b1dc85cb9240fb766ad38554e207</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_blglp_research_time_segment</sys_name>
+            <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+            <sys_update_name>sys_ui_list_x_blglp_research_time_segment_sys_ref_list</sys_update_name>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-03-28 17:54:33</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">9b32e110a0223000cd19951361bf0d0d</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

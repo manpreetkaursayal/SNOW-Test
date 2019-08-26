@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow write for u_bxres_additional_market_data in x_blglp_research_requests, if the ACL script returns true.</description>
+        <name>x_blglp_research_requests.u_bxres_additional_market_data</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[if(((gs.hasRole('x_blglp_research.admin')||gs.hasRole('x_blglp_research.operators')||gs.hasRole('x_blglp_research.admin.copal')||gs.hasRole('x_blglp_research.operators.copal'))&&(current.locked!=true))||(current.locked==true && (gs.hasRole('admin'))))
+	answer = true;]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>anujb</sys_created_by>
+        <sys_created_on>2016-04-04 12:46:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>320c5e06132256404dd35f722244b078</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_blglp_research_requests.u_bxres_additional_market_data</sys_name>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_security_acl_320c5e06132256404dd35f722244b078</sys_update_name>
+        <sys_updated_by>kopsachg</sys_updated_by>
+        <sys_updated_on>2016-07-07 18:57:17</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

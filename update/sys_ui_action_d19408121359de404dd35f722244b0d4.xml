@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>sys_add_time</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2/>
+        <comments>Allows users to add time segments ad hoc.</comments>
+        <condition>new ResearchGroupInfo().IsMember(gs.getUserID())&amp;&amp;current.u_bxres_state&lt;6&amp;&amp;(gs.hasRole('x_blglp_research.operators.copal')||gs.hasRole('x_blglp_research.admin.copal')||gs.hasRole('x_blglp_research.admin')||gs.hasRole('x_blglp_research.operators'))</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Add Time</name>
+        <onclick>popupAddTime()</onclick>
+        <order>100</order>
+        <script><![CDATA[function popupAddTime() {
+	
+	var tasknum = g_form.getValue('current.number');
+	var parentState = g_form.getValue('current.u_bxres_state');
+	var submitDate = g_form.getValue('current.sys_created_on');
+	var id = g_form.getUniqueValue();
+	var recordExists = (id != '' && tasknum != '');
+	if (recordExists){
+	/* GlideDialogForm is an undocumented API class. If takes the following args: Dialog Title, Table, Callback when the dialog is submitted */
+	var dialog = new GlideDialogForm("Add Time", "x_blglp_research_time_segment", function() {location.reload();});
+	dialog.addParm('sysparm_view', 'DefaultView'); // Specify a form view
+	dialog.addParm('sysparm_view_forced', 'true'); // Override any potential end user preference
+	
+	/* Specify the callback function to be executed when the dialog is loaded */
+	dialog.setLoadCallback(function(iframeDoc) {
+		// To get the iframe: document.defaultView in non-IE, document.parentWindow in IE
+		var dialogFrame = 'defaultView' in iframeDoc ? iframeDoc.defaultView : iframeDoc.parentWindow;
+		dialogFrame.addLoadEvent( function() {
+			dialogFrame.g_form.setValue('u_bxtime_parent_request_id', 'Add Time');
+			dialogFrame.g_form.setValue('u_bxtim_parent_request_id', id);
+			dialogFrame.g_form.setValue('u_bxtim_parent_request_submit_date', submitDate);
+			dialogFrame.g_form.setValue('rr_state', parentState);
+			
+			/* Hide the submit date since we need to access the value but do not want it seen */
+			dialogFrame.g_form.setDisplay('u_bxtim_parent_request_submit_date', false);
+			
+			/* Check the value in the Reseacher field to determine if an open time segment exists for that user */
+			var checkTS = new GlideAjax('TimeSegmentInfo');
+			checkTS.addParam('sysparm_name', 'activeTimeSegmentExists');
+			checkTS.addParam('sysparm_parent_sys_id', id);
+			checkTS.addParam('sysparm_user_id', g_user.userID); // Get current user
+			
+			/* Since this is async, we must wait for the ajax response before popping the dialog */
+			checkTS.getXMLAnswer( function(response) {
+				/* If there is an open time segment, we cannot add more so throw an error */
+				if ( response == "true" ) {
+					dialogFrame.g_form.setValue('u_bxtim_assigned_to', '');
+					dialogFrame.g_form.showErrorBox('u_bxtim_assigned_to', "You already have an active time segment against this request. Please close it or select another researcher to add additional time.");
+				}
+			});
+		});
+	});
+	dialog.render(); // Show the dialog to the end user
+	} else {
+		alert('The system encountered an error while trying to read from the parent record. Please try again.');
+		return false;
+	}
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>BXHM</sys_created_by>
+        <sys_created_on>2016-02-02 17:12:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d19408121359de404dd35f722244b0d4</sys_id>
+        <sys_mod_count>113</sys_mod_count>
+        <sys_name>Add Time</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_ui_action_d19408121359de404dd35f722244b0d4</sys_update_name>
+        <sys_updated_by>fulsomea</sys_updated_by>
+        <sys_updated_on>2016-08-03 20:52:55</sys_updated_on>
+        <table>x_blglp_research_requests</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

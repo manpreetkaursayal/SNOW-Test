@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>ahernr</sys_created_by>
+        <sys_created_on>2016-04-07 15:41:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>04d02e8b132696404dd35f722244b049</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_blglp_research_requests.x_blglp_research.user</sys_name>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_security_acl display_value="x_blglp_research_requests">84d02e8b132696404dd35f722244b048</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_04d02e8b132696404dd35f722244b049</sys_update_name>
+        <sys_updated_by>ahernr</sys_updated_by>
+        <sys_updated_on>2016-04-07 15:41:44</sys_updated_on>
+        <sys_user_role display_value="x_blglp_research.user" name="x_blglp_research.user">7e19b8f5610dde80fb764481e7ed37bc</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

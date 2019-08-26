@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_blglp_research_requests">x_blglp_research_requests</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>RES</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>BXHM</sys_created_by>
+        <sys_created_on>2016-01-19 21:22:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bb19b8f5610dde80fb764481e7ed37d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RES</sys_name>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_number_bb19b8f5610dde80fb764481e7ed37d7</sys_update_name>
+        <sys_updated_by>BXHM</sys_updated_by>
+        <sys_updated_on>2016-01-19 21:22:06</sys_updated_on>
+    </sys_number>
+</record_update>

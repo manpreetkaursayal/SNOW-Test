@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Research Requests" name="Research Requests">a9cd678ddba22300067f0763b99619b6</category>
+        <collection>x_blglp_research_requests</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description>Research Request Submitted</description>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<br><hr><br>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>approval.cancelled</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from>Research Request</from>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>true</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>
+<title></title>
+<style type="text/css"><!--
+div.MsoNormal {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+li.MsoNormal {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoNormal {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+a:link {
+	color: #0098c3;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #0098c3;
+}
+a:hover {
+	text-decoration: none;
+	color: #0098c3;
+}
+a:active {
+	text-decoration: none;
+	color: #0098c3;
+}
+.bxspacer {
+	color: #D9D9D9;
+}
+p.MsoNormal1 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoNormal11 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoNormal12 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoNormal13 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoNormal14 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoNormal15 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoNormal16 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoNormal17 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoNormal18 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoNormal19 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+div.MsoNormal1 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+li.MsoNormal1 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoNormal2 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+div.MsoNormal2 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+li.MsoNormal2 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoNormal3 {mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+--></style>
+</p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td bgcolor="#d9d9d9">&nbsp;</td>
+<td bgcolor="#d9d9d9">&nbsp;</td>
+<td bgcolor="#d9d9d9">&nbsp;</td>
+</tr>
+<tr>
+<td bgcolor="#d9d9d9">&nbsp;</td>
+<td width="98%" height="98%">
+<table class="MsoTableGrid" style="width: 100.0%; border-collapse: collapse; border: none; mso-border-alt: solid windowtext .5pt; mso-yfti-tbllook: 1184; mso-padding-alt: 0in .1in 0in 5.75pt;" border="1" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; height: 1.0pt;">
+<td style="width: 16.66%; border: none; border-bottom: solid #EA2839 4.5pt; background: #D9D9D9; mso-background-themecolor: background1; mso-background-themeshade: 217; padding: 0in .1in 0in 5.75pt; height: 1.0pt;" width="16%"><span style="font-size: 1.0pt;"> </span></td>
+<td style="width: 16.66%; border: none; border-bottom: solid #A30050 4.5pt; background: #D9D9D9; mso-background-themecolor: background1; mso-background-themeshade: 217; padding: 0in .1in 0in 5.75pt; height: 1.0pt;" valign="top" width="16%"><span style="font-size: 1.0pt;"> </span></td>
+<td style="width: 16.68%; border: none; border-bottom: solid #9B1889 4.5pt; background: #D9D9D9; mso-background-themecolor: background1; mso-background-themeshade: 217; padding: 0in .1in 0in 5.75pt; height: 1.0pt;" valign="top" width="16%"><span style="font-size: 1.0pt;"> </span></td>
+<td style="width: 16.66%; border: none; border-bottom: solid #0070C0 4.5pt; background: #D9D9D9; mso-background-themecolor: background1; mso-background-themeshade: 217; padding: 0in .1in 0in 5.75pt; height: 1.0pt;" valign="top" width="16%"><span style="font-size: 1.0pt;"> </span></td>
+<td style="width: 16.66%; border: none; border-bottom: solid #00B2A9 4.5pt; background: #D9D9D9; mso-background-themecolor: background1; mso-background-themeshade: 217; padding: 0in .1in 0in 5.75pt; height: 1.0pt;" valign="top" width="16%"><span style="font-size: 1.0pt;"> </span></td>
+<td style="width: 16.68%; border: none; border-bottom: solid #BED600 4.5pt; background: #D9D9D9; mso-background-themecolor: background1; mso-background-themeshade: 217; padding: 0in .1in 0in 5.75pt; height: 1.0pt;" colspan="2" valign="top" width="16%"><span style="font-size: 1.0pt;"> </span></td>
+</tr>
+<tr style="mso-yfti-irow: 1;">
+<td style="width: 100.0%; border: none; border-bottom: solid #00B2A9 2.25pt; padding: 0in .1in 0in 5.75pt;" colspan="7" valign="top" width="100%">
+<table class="MsoTableGrid" style="width: 100.0%; border-collapse: collapse; border: none; mso-border-alt: solid #BFBFBF .5pt; mso-border-themecolor: background1; mso-border-themeshade: 191; mso-yfti-tbllook: 1184; mso-padding-alt: 0in 5.75pt 0in 0in; mso-border-insideh: .5pt solid #BFBFBF; mso-border-insideh-themecolor: background1; mso-border-insideh-themeshade: 191; mso-border-insidev: .5pt solid #BFBFBF; mso-border-insidev-themecolor: background1; mso-border-insidev-themeshade: 191;" border="1" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; height: .6in;">
+<td style="width: 100.0%; border: none; border-bottom: solid #BFBFBF 1.0pt; mso-border-bottom-themecolor: background1; mso-border-bottom-themeshade: 191; mso-border-bottom-alt: solid #BFBFBF .5pt; padding: 0in 5.75pt 0in 0in; height: .6in;" width="100%">
+<p class="MsoNormal"><span style="font-size: 16.0pt; font-family: 'Georgia','serif'; color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';">We have received your Research Request</span><span style="font-size: 16.0pt; font-family: 'Georgia','serif';"> <o:p></o:p> </span></p>
+</td>
+</tr>
+<tr style="mso-yfti-irow: 1; mso-yfti-lastrow: yes;">
+<td style="width: 100.0%; border: none; mso-border-top-alt: solid #BFBFBF .5pt; mso-border-top-themecolor: background1; mso-border-top-themeshade: 191; padding: 0in 5.75pt 0in 0in;" valign="top" width="100%">
+<p class="MsoNormal"><br /> <span style="font-size: 10.5pt; mso-ascii-font-family: Calibri; mso-fareast-font-family: 'Times New Roman'; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri; color: #595959;">Thank you for your submission. We will review your request, please click <a href="/nav_to.do?uri=x_blglp_research_requests.do?sys_id=${sys_id}">here</a> for details and status updates</span><span style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin; color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';">. <o:p></o:p> </span></p>
+<p class="MsoNormal"><span style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;"> <o:p>&nbsp;</o:p> </span></p>
+<table class="MsoTableGrid" style="width: 100.0%; border-collapse: collapse; border: none; mso-border-alt: solid windowtext .5pt; mso-yfti-tbllook: 1184; mso-padding-alt: 0in 5.4pt 0in 5.4pt;" border="1" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes; height: .3in;">
+<td style="width: 100.0%; border: none; border-left: solid #a30050 2.25pt; padding: 0in 5.4pt 0in 5.4pt; height: .3in;" width="100%">
+<p class="MsoNormal"><span style="font-size: 12.0pt; color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';">Details</span><span style="font-size: 12.0pt;"> <o:p></o:p> </span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<table class="MsoTableGrid" style="width: 100.0%; border-collapse: collapse; border: none; mso-border-alt: solid windowtext .5pt; mso-yfti-tbllook: 1184; mso-padding-alt: 0in 5.4pt 0in 5.4pt;" border="1" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes; height: 3.5pt;">
+<td style="width: 100.0%; border: none; padding: 0in 5.4pt 0in 5.4pt; height: 3.5pt;" valign="top" width="100%">
+<table border="0" width="100%" cellspacing="0" cellpadding="2">
+<tbody>
+<tr>
+<td valign="top" nowrap="nowrap" width="23%">
+<p class="MsoNormal1"><span style="color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';">Ticket Number:<span style="mso-spacerun: yes;">&nbsp;</span></span></p>
+</td>
+<td width="77%">
+<p class="MsoNormal15"><span style="color: #595959;"><a style="text-decoration: none; color: #0098c3;" href="/nav_to.do?uri=x_blglp_research_requests.do%3Fsys_id=${sys_id}%26sysparm_stack=x_blglp_research_requests_list.do%3Fsysparm_query=active=true">${number}</a> <o:p></o:p> </span> <o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td class="MsoNormal1" valign="top" nowrap="nowrap">
+<p class="MsoNormal11"><span style="color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';">Submitted By:</span></p>
+</td>
+<td>
+<p class="MsoNormal16"><span style="color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';"><a href="http://home.blackstone.com/search/AdvancedPeopleSearch?searchQuery=${u_bxres_submitted_by}">${u_bxres_submitted_by.first_name} ${u_bxres_submitted_by.last_name}</a></span> <o:p></o:p> <span style="color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';"> <o:p>&nbsp;</o:p> </span><span style="color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';"> <o:p></o:p> </span> <o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td class="MsoNormal1" valign="top" nowrap="nowrap">
+<p class="MsoNormal11"><span style="color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';">Requested For:</span></p>
+</td>
+<td>
+<p class="MsoNormal16"><span style="color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';"><a href="http://home.blackstone.com/search/AdvancedPeopleSearch?searchQuery=${u_bxres_requested_for}">${u_bxres_requested_for}</a></span> <o:p></o:p> <span style="color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';"> <o:p>&nbsp;</o:p> </span><span style="color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';"> <o:p></o:p> </span> <o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td valign="top" nowrap="nowrap">
+<p class="MsoNormal12"><span style="color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';">Project Code:</span></p>
+</td>
+<td>
+<p class="MsoNormal17"><span style="color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';">${u_project_code}</span><span style="color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';"> <o:p></o:p> </span> <o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td valign="top" nowrap="nowrap">
+<p class="MsoNormal13"><span style="color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';">Deadline:</span><span style="color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';"> <o:p></o:p> </span> <o:p></o:p></p>
+</td>
+<td>
+<p class="MsoNormal18"><span style="color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';">${u_bxres_deadline} <o:p></o:p> </span><span style="color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';"> <o:p></o:p> </span><span style="color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';"> <o:p></o:p> </span> <o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td valign="top" nowrap="nowrap">
+<p class="MsoNormal14"><span style="color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';">Project Type:</span></p>
+</td>
+<td>
+<p class="MsoNormal19"><span style="color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';">${u_bxres_rr_project_type_list} <o:p></o:p> </span><span style="color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';"> <o:p>&nbsp;</o:p> </span></p>
+</td>
+</tr>
+<tr>
+<td valign="top" nowrap="nowrap">
+<p class="MsoNormal2"><span style="color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';"> <o:p></o:p> </span><span style="color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';"> <o:p></o:p> </span><span style="color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';">Instructions:<span style="mso-spacerun: yes;">&nbsp;</span></span></p>
+</td>
+<td>
+<p class="MsoNormal3"><span style="color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';">${u_bxres_instructions} <o:p></o:p> </span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="MsoNormal"><o:p><br /> </o:p></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="MsoNormal"><span style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin; color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';"> <o:p></o:p> </span><span style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;"> <o:p>&nbsp;</o:p> </span><span style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin; color: #595959; mso-themecolor: text1; mso-themetint: 166; mso-style-textfill-fill-color: #595959; mso-style-textfill-fill-themecolor: text1; mso-style-textfill-fill-alpha: 100.0%; mso-style-textfill-fill-colortransforms: 'lumm=65000 lumo=35000';"> <o:p></o:p> </span> <o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><span style="font-size: 10.5pt; mso-ascii-font-family: Calibri; mso-fareast-font-family: 'Times New Roman'; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri; color: #595959;">For further assistance and information on Global Research Service, please click <a href="http://home.blackstone.com/corporate-services/global-research-services">here</a>.</span></p>
+<p class="MsoNormal">&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr style="mso-yfti-irow: 2; mso-yfti-lastrow: yes; height: .8in;">
+<td style="width: 85.38%; border: solid windowtext 1.0pt; border-top: none; mso-border-top-alt: solid #00B2A9 2.25pt; mso-border-alt: solid windowtext .5pt; background: black; mso-background-themecolor: text1; padding: 0in .1in 0in 5.75pt; height: .8in;" colspan="6" width="85%"><span style="mso-ascii-font-family: Calibri; mso-fareast-font-family: 'Times New Roman'; mso-hansi-font-family: Calibri; mso-bidi-font-family: Calibri; color: #d9d9d9;">If your request is urgent, or if you have any questions, please contact<a href="mailto:research@blackstone.com"> research@blackstone.com</a></span> <o:p></o:p></td>
+<td style="width: 14.62%; border-top: none; border-left: none; border-bottom: solid windowtext 1.0pt; border-right: solid windowtext 1.0pt; mso-border-top-alt: solid #00B2A9 2.25pt; mso-border-left-alt: solid windowtext .5pt; mso-border-alt: solid windowtext .5pt; background: black; mso-background-themecolor: text1; padding: 0in .1in 0in 5.75pt; height: .8in;" width="14%"></td>
+</tr>
+<tr height="0">
+<td style="border: none;" width="125"></td>
+<td style="border: none;" width="125"></td>
+<td style="border: none;" width="125"></td>
+<td style="border: none;" width="125"></td>
+<td style="border: none;" width="125"></td>
+<td style="border: none;" width="15"></td>
+<td style="border: none;" width="109"></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td bgcolor="#d9d9d9">&nbsp;</td>
+</tr>
+<tr>
+<td class="bxspacer" bgcolor="#d9d9d9">....</td>
+<td bgcolor="#d9d9d9">&nbsp;</td>
+<td class="bxspacer" bgcolor="#d9d9d9">....</td>
+</tr>
+</tbody>
+</table>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Research Request Submitted</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>send_email_to</recipient_fields>
+        <recipient_groups>72c044fe61e55ac0fb764481e7ed37ff,0125d87661295ac0fb764481e7ed37f9,29b55c7661295ac0fb764481e7ed37c4</recipient_groups>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Research Request: ${number} - Submitted</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>kopsachg</sys_created_by>
+        <sys_created_on>2016-04-07 15:48:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>3472ae0785669e00fb766ad38554e28a</sys_id>
+        <sys_mod_count>77</sys_mod_count>
+        <sys_name>Research Request Submitted</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sysevent_email_action_3472ae0785669e00fb766ad38554e28a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-12-21 21:05:53</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

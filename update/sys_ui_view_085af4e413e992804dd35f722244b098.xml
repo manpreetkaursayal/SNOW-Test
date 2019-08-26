@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Time_Entry_View</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>BXHM</sys_created_by>
+        <sys_created_on>2016-02-09 20:46:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>085af4e413e992804dd35f722244b098</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Time_entry_view</sys_name>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_ui_view_085af4e413e992804dd35f722244b098</sys_update_name>
+        <sys_updated_by>BXHM</sys_updated_by>
+        <sys_updated_on>2016-02-09 20:46:18</sys_updated_on>
+        <title>Time_entry_view</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

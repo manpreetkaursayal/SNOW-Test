@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Validate that the deadline date/time is not in the past.</description>
+        <field>u_bxres_deadline</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Validate Deadline Date</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if(isLoading || newValue == '') {
+		return;
+	}
+	var cdt = g_form.getValue('u_bxres_deadline'); //First Date/Time field  
+	var dttype = 'minute'; //this can be day, hour, minute, second. By default it will return seconds.  
+	  
+	var ajax = new GlideAjax('global.ClientDateTimeUtils');
+	ajax.addParam('sysparm_name','getNowDateTimeDiff');  
+	ajax.addParam('sysparm_fdt', cdt);  
+	ajax.addParam('sysparm_difftype', dttype);  
+	ajax.getXML(doSomething);  
+	  
+	function doSomething(response){
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+		if(answer.indexOf('-')!=-1){
+			g_form.setValue('u_bxres_deadline', '');
+			g_form.showErrorBox('u_bxres_deadline', "Deadline date cannot be in the past");
+		} else if (isInvalidFormat(newValue)){
+			g_form.setValue('u_bxres_deadline', '');
+			g_form.showErrorBox('u_bxres_deadline', "You've selected an invalid date format. Please try again, making sure to use the format MM-DD-YYYY HH:MM:SS AM/PM.");
+		}
+	}
+	
+	function isInvalidFormat(date) {
+		return date.match(/^\d{2}-\d{2}-\d{4} \d{2}:\d{2}:\d{2} [A-Z]{2}$/) == null;
+	}
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>josephst</sys_created_by>
+        <sys_created_on>2016-05-20 11:18:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>38004bb02b2b1600fb76b11be8da15f3</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Validate Deadline Date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_script_client_38004bb02b2b1600fb76b11be8da15f3</sys_update_name>
+        <sys_updated_by>fulsomea</sys_updated_by>
+        <sys_updated_on>2016-08-03 20:54:09</sys_updated_on>
+        <table>x_blglp_research_requests</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

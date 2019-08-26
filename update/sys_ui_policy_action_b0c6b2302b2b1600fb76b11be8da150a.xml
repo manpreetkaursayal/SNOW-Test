@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_choice_1</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>josephst</sys_created_by>
+        <sys_created_on>2016-05-20 10:34:04</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b0c6b2302b2b1600fb76b11be8da150a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_choice_1</sys_name>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_b0c6b2302b2b1600fb76b11be8da150a</sys_update_name>
+        <sys_updated_by>josephst</sys_updated_by>
+        <sys_updated_on>2016-05-20 10:34:04</sys_updated_on>
+        <table>x_blglp_research_requests</table>
+        <ui_policy display_value="Toggle Mandatory fields for Resolved/Closed/Finalized">1cb5fefc2be71600fb76b11be8da15dd</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

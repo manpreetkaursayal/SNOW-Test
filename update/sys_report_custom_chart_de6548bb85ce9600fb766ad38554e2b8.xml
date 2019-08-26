@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_custom_chart">
+    <sys_report_custom_chart action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <height>450</height>
+        <name>test</name>
+        <other_threshold>12</other_threshold>
+        <render_script><![CDATA[var opened = new SummaryTableWriter('incident', '');
+opened.setTitle("Trend of Open Incidents");
+opened.setTrend('opened_at', 'month');
+opened.generate();]]></render_script>
+        <roles/>
+        <sys_class_name>sys_report_custom_chart</sys_class_name>
+        <sys_created_by>BXHM</sys_created_by>
+        <sys_created_on>2016-03-15 15:50:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>de6548bb85ce9600fb766ad38554e2b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_report_custom_chart_de6548bb85ce9600fb766ad38554e2b8</sys_update_name>
+        <sys_updated_by>BXHM</sys_updated_by>
+        <sys_updated_on>2016-03-15 15:50:37</sys_updated_on>
+        <table/>
+        <type>script</type>
+        <width>650</width>
+        <x_axis_label/>
+        <y_axis_label/>
+    </sys_report_custom_chart>
+</record_update>

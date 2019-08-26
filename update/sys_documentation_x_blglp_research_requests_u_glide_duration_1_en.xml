@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_glide_duration_1" label="Duration" language="en" table="x_blglp_research_requests">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_glide_duration_1</element>
+            <help/>
+            <hint/>
+            <label>Duration</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <plural>Durations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>fulsomea</sys_created_by>
+            <sys_created_on>2016-05-13 15:05:19</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>fdb133e22b5f5200fb76b11be8da1537</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Duration</sys_name>
+            <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+            <sys_update_name>sys_documentation_x_blglp_research_requests_u_glide_duration_1_en</sys_update_name>
+            <sys_updated_by>fulsomea</sys_updated_by>
+            <sys_updated_on>2016-05-13 15:05:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

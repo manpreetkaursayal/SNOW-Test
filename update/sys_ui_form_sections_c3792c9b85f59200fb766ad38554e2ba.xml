@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="c3792c9b85f59200fb766ad38554e2ba" sys_domain="global" table="x_blglp_research_time_segment" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>BXHM</sys_created_by>
+            <sys_created_on>2016-03-01 18:51:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4b792c9b85f59200fb766ad38554e2ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_blglp_research_time_segment" name="x_blglp_research_time_segment" sys_domain="global" view="Default view">c3792c9b85f59200fb766ad38554e2ba</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_blglp_research_time_segment" sys_domain="global" view="Default view">a019e2d2618912c0fb764481e7ed37c5</sys_ui_section>
+            <sys_updated_by>BXHM</sys_updated_by>
+            <sys_updated_on>2016-03-01 18:51:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>fulsomea</sys_created_by>
+            <sys_created_on>2016-05-09 17:03:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0b56639d2b1b9200bc1d25dc17da150a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_blglp_research_time_segment" name="x_blglp_research_time_segment" sys_domain="global" view="Default view">c3792c9b85f59200fb766ad38554e2ba</sys_ui_form>
+            <sys_ui_section caption="Billing Details" display_value="Billing Details" name="x_blglp_research_time_segment" sys_domain="global" view="Default view">7656639d2b1b9200bc1d25dc17da150a</sys_ui_section>
+            <sys_updated_by>fulsomea</sys_updated_by>
+            <sys_updated_on>2016-05-10 14:23:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_blglp_research_time_segment</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>BXHM</sys_created_by>
+            <sys_created_on>2016-03-01 18:51:46</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>c3792c9b85f59200fb766ad38554e2ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_blglp_research_time_segment</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c3792c9b85f59200fb766ad38554e2ba</sys_update_name>
+            <sys_updated_by>BXHM</sys_updated_by>
+            <sys_updated_on>2016-03-01 18:51:46</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

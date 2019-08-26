@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_client_template">
+    <sys_email_client_template action="INSERT_OR_UPDATE">
+        <blind_copied/>
+        <body/>
+        <body_html/>
+        <condition/>
+        <content_type>text/plain</content_type>
+        <copied/>
+        <from>Research Request &lt;blackstoneprod@service-now.com&gt;</from>
+        <name>Research Request Send Mail</name>
+        <order>100</order>
+        <recipients>u_bxres_requested_for</recipients>
+        <reply_to>Research Request &lt;blackstoneprod@service-now.com&gt;</reply_to>
+        <subject>Research Request : ${number} ${u_bxres_rr_project_type_list}</subject>
+        <sys_class_name>sys_email_client_template</sys_class_name>
+        <sys_created_by>anujb</sys_created_by>
+        <sys_created_on>2016-04-18 09:18:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7371fd2285765240fb766ad38554e2ff</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>Research Request Send Mail</sys_name>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_email_client_template_7371fd2285765240fb766ad38554e2ff</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-12-21 21:06:09</sys_updated_on>
+        <table>x_blglp_research_requests</table>
+    </sys_email_client_template>
+</record_update>

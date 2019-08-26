@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>false</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Hide Ongoing From Self Service Users</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   g_form.setReadOnly('ongoing', true);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>fulsomea</sys_created_by>
+        <sys_created_on>2016-07-07 20:52:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d62050e02be0ae00fb76b11be8da1509</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Hide Ongoing From Self Service Users</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_script_client_d62050e02be0ae00fb76b11be8da1509</sys_update_name>
+        <sys_updated_by>fulsomea</sys_updated_by>
+        <sys_updated_on>2016-07-07 21:06:16</sys_updated_on>
+        <table>x_blglp_research_requests</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view>ess</view>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_list_control">
+    <sys_ui_list_control action="INSERT_OR_UPDATE">
+        <columns_condition/>
+        <edit_condition/>
+        <edit_default_filter/>
+        <edit_roles/>
+        <empty_condition/>
+        <filter_condition/>
+        <filter_roles>x_blglp_research.admin,x_blglp_research.admin.copal,x_blglp_research.operators,x_blglp_research.operators.copal,x_blglp_research.user,report_admin</filter_roles>
+        <hierarchical_lists>false</hierarchical_lists>
+        <label/>
+        <link_condition/>
+        <link_roles>x_blglp_research.admin,x_blglp_research.admin.copal,x_blglp_research.operators,x_blglp_research.operators.copal,x_blglp_research.user</link_roles>
+        <list_edit_insert_row>false</list_edit_insert_row>
+        <list_edit_ref_qual_tag/>
+        <list_edit_type/>
+        <name>x_blglp_research_billing_details</name>
+        <new_condition/>
+        <new_roles>x_blglp_publishing.user,x_blglp_research.admin,x_blglp_research.admin.copal,x_blglp_research.operators.copal,x_blglp_publishing.publishing_admin</new_roles>
+        <omit_columns_if_empty>false</omit_columns_if_empty>
+        <omit_drilldown_link>false</omit_drilldown_link>
+        <omit_edit_button>true</omit_edit_button>
+        <omit_filters>false</omit_filters>
+        <omit_if_empty>false</omit_if_empty>
+        <omit_links>false</omit_links>
+        <omit_new_button>true</omit_new_button>
+        <related_list/>
+        <sys_class_name>sys_ui_list_control</sys_class_name>
+        <sys_created_by>BXHM</sys_created_by>
+        <sys_created_on>2016-03-18 18:48:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>957b0cfc13561e004dd35f722244b008</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_blglp_research_billing_details</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_ui_list_control_957b0cfc13561e004dd35f722244b008</sys_update_name>
+        <sys_updated_by>BXHM</sys_updated_by>
+        <sys_updated_on>2016-03-18 19:04:31</sys_updated_on>
+    </sys_ui_list_control>
+</record_update>

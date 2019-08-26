@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_blglp_research_requests</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p>
+<style type="text/css"><!--
+body{
+      background-color:#ffffff;
+    }
+    .tableBackground{
+      background-color:#000000;
+      width:100%;
+      padding:10px;
+    }
+    h1{
+      font-family:
+      font-family:Garamond, Georgia, sans-serif;
+      color: #585858;
+      font-size:16px;
+      padding-bottom:15px;
+      border-bottom:1px solid #c7c6c6;
+    }
+    p{
+      font-family:Calibri, Arial, sans-serif;
+      font-size:14px;
+      color: #333333;
+      line-height: 20px;
+    }
+    a{
+      text-decoration:none;
+      color:#0098c3;
+    }
+    a:link {
+  text-decoration: none;
+  color: #376092;
+}
+a:visited {
+  text-decoration: none;
+  color: #376092;
+}
+a:hover {
+  text-decoration: none;
+  color: #376092;
+}
+a:active {
+  text-decoration: none;
+  color: #376092;
+}
+.permalink_section {  
+  white-space: pre-wrap; /* css-3 */    
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */    
+  white-space: -o-pre-wrap; /* Opera 7 */    
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+  font-family: arial;
+  font-size: 14px;
+  color: #595959;
+}
+--></style>
+</p>
+<table border="0" width="100%" cellspacing="0" cellpadding="0" border-color="#ffffff"></table>
+<table style="background-color: white; border-collapse: collapse; border-spacing: 0; border-color: ffffff; width: 100%;" border="0" width="100%" cellspacing="2" cellpadding="2">
+<tbody>
+<tr>
+<td style="height: 4px; width: 12.5%; background-color: #ea2839; left: 0%;"></td>
+<td style="height: 4px; width: 12.5%; background-color: #a30050; left: 12.5%;"></td>
+<td style="height: 4px; width: 12.5%; background-color: #9b1889; left: 25%;"></td>
+<td style="height: 4px; width: 12.5%; background-color: #009ac3; left: 37.5%;"></td>
+<td style="height: 4px; width: 12.5%; background-color: #00b0ca; left: 50%;"></td>
+<td style="height: 4px; width: 12.5%; background-color: #00b2a9; left: 62.5%; color: #00b2a9;"></td>
+<td style="height: 4px; width: 12.5%; background-color: #bed600; left: 75%;"></td>
+</tr>
+<tr>
+<td style="height: 6px; width: 12.5%; background-color: #ffffff; left: 0%;"></td>
+<td style="height: 6px; width: 12.5%; background-color: #ffffff; left: 12.5%;"></td>
+<td style="height: 6px; width: 12.5%; background-color: #ffffff; left: 25%;"></td>
+<td style="height: 6px; width: 12.5%; background-color: #ffffff; left: 37.5%;"></td>
+<td style="height: 6px; width: 12.5%; background-color: #ffffff; left: 50%;"></td>
+<td style="height: 6px; width: 12.5%; background-color: #ffffff; left: 62.5%;"></td>
+<td style="height: 6px; width: 12.5%; background-color: #ffffff; left: 75%;"></td>
+</tr>
+<tr>
+<td style="height: 14px; width: 12.5%; background-color: #ffffff; left: 0%;"></td>
+<td style="height: 14px; width: 12.5%; background-color: #ffffff; left: 12.5%;"></td>
+<td style="height: 14px; width: 12.5%; background-color: #ffffff; left: 25%;"></td>
+<td style="height: 14px; width: 12.5%; background-color: #ffffff; left: 37.5%;"></td>
+<td style="height: 14px; width: 12.5%; background-color: #ffffff; left: 50%;"></td>
+<th style="height: 14px; width: 12.5%; background-color: #ffffff; left: 62.5%;" align="center" nowrap="nowrap">&nbsp;</th>
+<td style="height: 14px; width: 12.5%; background-color: #00b2a9; left: 75%;" align="center" nowrap="nowrap" bgcolor="#00FFFF"><span style="text-decoration: none; color: #ffffff; calibri, arial, sans-serif; font-size: 12px; font-weight: 300; margin-top: 2px; background-color: #00b2a9;">View My Tickets</span></td>
+</tr>
+</tbody>
+</table>
+<table style="border-color: #ffffff; border: 0; width: 100%; cellspacing: 0; cellpadding: 0; padding-bottom: 10px; border-bottom: 1px solid #c7c6c6;">
+<tbody>
+<tr><th align="left" nowrap="nowrap"><span style="font-size: 18.0pt; font-family: aramond, Georgia, sans-serif; font-weight: 600; color: #595959; border-collapse: collapse; border-spacing: 0; height: 0.4in; margin-left: 11px; flex-wrap: inherit;">We have completed your request: ${URI_REF}</span></th>
+<td width="10">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 14px; color: #595959; font-family: arial; margin-left: 11px; overflow: inhert;">We have completed your request Ticket Number: ${URI_REF}.</span><br /><span style="font-size: 14px; color: #595959; font-family: arial; margin-left: 11px; overflow: inhert;">The total time spent on this request was ${time_total}&nbsp;for a total internal allocated charge of ${time_billing}.</span></p>
+<table style="background-color: white;" border="0" width="100%" cellspacing="5" cellpadding="0">
+<tbody>
+<tr>
+<td style="width: 100.0%; border: none; border-left: solid #a30050 2.25pt; padding: 0in 5.4pt 0in 5.4pt; height: .1in;" width="100%"><span style="font-size: 20px; font-family: 'Georgia','serif'; font-weight: 500; color: #595959;">Details</span></td>
+</tr>
+</tbody>
+</table>
+<table style="background-color: white; color: #595959; font-family: ariel; font-size: 14px;" border="0" width="100%" cellspacing="5" cellpadding="0">
+<tbody>
+<tr>
+<td width="142" height="18"><span style="margin-left: 11px; font-size: 14px; color: #595959; font-family: arial;">Time Total:</span></td>
+<td class="permalink_section">${time_total}</td>
+</tr>
+<tr>
+<td width="142" height="18"><span style="margin-left: 11px; font-size: 14px; color: #595959; font-family: arial;">Total Bill:</span></td>
+<td class="permalink_section">${t<span>ime_billing</span>}</td>
+</tr>
+<tr>
+<td width="142" height="18"><span style="margin-left: 11px; font-size: 14px; color: #595959; font-family: arial;">Submitted By:</span></td>
+<td class="permalink_section">${u_bxres_submitted_by}</td>
+</tr>
+<tr>
+<td height="18"><span style="margin-left: 11px; font-size: 14px; color: #595959; font-family: arial;">Oracle Project Code:</span></td>
+<td class="permalink_section">${u_oracle_project_code}</td>
+</tr>
+<tr>
+<td height="18"><span style="margin-left: 11px; font-size: 14px; color: #595959; font-family: arial;">Deadline:</span></td>
+<td class="permalink_section">${u_bxres_deadline}</td>
+</tr>
+<tr>
+<td height="18"><span style="margin-left: 11px; font-size: 14px; color: #595959; font-family: arial;">Project Type:</span></td>
+<td class="permalink_section">${u_bxres_rr_project_type_list}</td>
+</tr>
+<tr>
+<td height="18"><span style="margin-left: 11px; font-size: 14px; color: #595959; font-family: arial;">Instructions:</span></td>
+<td class="permalink_section">${u_bxres_instructions}</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-size: 14px; color: #595959; font-family: arial; margin-left: 11px;">If you have any questions about your completed request please contact <a href="mailto:research@blackstone.com">research@blackstone.com</a>.<br /> <span style="margin-left: 11px;">For further assistance and information on Global Research Services, please click <a href="http://mybx.blackstone.com/corporate-services/global-research-services">here.</a></span></span></p>
+<table style="font-size: 14px; color: #595959; font-family: arial; margin-left: 11px;">
+<tbody></tbody>
+</table>
+<table class="tableBackground" style="border-top: 2px solid #0098c3; border-spacing: 0; border-collapse: collapse;" border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr style="border-collapse: collapse; border-spacing: 0;">
+<td style="font-size: 14px; font-family: arial; border-collapse: collapse; padding: 2px; color: #d3d3d3; border-spacing: 0;">Service Desk - Americas &nbsp;&nbsp;&nbsp; (x5599) &nbsp;&nbsp;&nbsp; +1 212 583 5599</td>
+</tr>
+<tr style="border-collapse: collapse; border-spacing: 0;">
+<td style="font-family: arial; font-size: 14px; border-collapse: collapse; padding: 2px; color: #d3d3d3; border-spacing: 0;">Service Desk - EMEA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (x4231) &nbsp;&nbsp;&nbsp; +44 (0)20 7451 4231</td>
+</tr>
+<tr style="border-collapse: collapse; border-spacing: 0;">
+<td style="font-family: arial; font-size: 14px; border-collapse: collapse; padding: 2px; color: #d3d3d3; border-spacing: 0;">Service Desk - APAC &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (x7799) &nbsp;&nbsp;&nbsp; +852 3651 7799</td>
+</tr>
+</tbody>
+</table>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>BXRES Research Closed</name>
+        <sms_alternate/>
+        <subject>Research Closed</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>BXHM</sys_created_by>
+        <sys_created_on>2016-03-30 17:46:33</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>70bfed6c85221e00fb766ad38554e20d</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>BXRES Research Closed</sys_name>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sysevent_email_template_70bfed6c85221e00fb766ad38554e20d</sys_update_name>
+        <sys_updated_by>BXHM</sys_updated_by>
+        <sys_updated_on>2016-04-12 20:29:23</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

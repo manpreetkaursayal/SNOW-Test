@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>true</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_blglp_research_requests</collection>
+        <condition/>
+        <description/>
+        <execute_function>true</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Reset Fields After Back Button</name>
+        <onclick/>
+        <order>10</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[function onDisplay(current, g_scratchpad) {
+	/* An issue was found that when a new request is submitted in Chrome and the back button is used, it retains the
+	values from the previous form submission. This includes a Project Code field which shows a blank value but 
+	actually has a sys_id set and therefore allows the user to submit. We must clear this value along with other 
+	retained values to present the user with a clean form. */
+	
+    //if (current.isValidRecord()) {
+		/*if ((current.getValue('u_project_code') != '') && (current.getDisplayValue('u_project_code') == '')) {
+			current.setValue('u_project_code', '');
+			current.setValue('u_bxres_rr_project_type_list', '');
+			current.setValue('ux_bxres_instructions', '');
+			current.setValue('ongoing', false);
+			current.setValue('u_bxres_deadline', '');
+			current.setValue('u_bxres_instructions', 'TESTING');
+			current.setValue('u_bxres_requested_for', gs.getUserID());
+		}*/
+		current.u_bxres_instructions = "FSDSD";
+//	}
+   
+}]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>ahernr</sys_created_by>
+        <sys_created_on>2016-06-28 18:23:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d3e711692b9caa00fb76b11be8da1536</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Reset Fields After Back Button</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_script_d3e711692b9caa00fb76b11be8da1536</sys_update_name>
+        <sys_updated_by>ahernr</sys_updated_by>
+        <sys_updated_on>2016-06-28 18:41:02</sys_updated_on>
+        <template/>
+        <when>before_display</when>
+    </sys_script>
+</record_update>

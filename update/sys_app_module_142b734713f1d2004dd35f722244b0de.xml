@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Research">f619b8f5610dde80fb764481e7ed37bc</application>
+        <assessment/>
+        <content_page display_value="Research Request Homepage">b53e84df85b59200fb766ad38554e2b7</content_page>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage display_value="Research request homepage">eba6985785f59200fb766ad38554e26a</homepage>
+        <image/>
+        <link_type>HOMEPAGE</link_type>
+        <map_page/>
+        <mobile_title>Home</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_blglp_research_requests</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query>home.do</query>
+        <report/>
+        <roles>admin</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>BXHM</sys_created_by>
+        <sys_created_on>2016-03-01 15:31:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>142b734713f1d2004dd35f722244b0de</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Homepage</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_app_module_142b734713f1d2004dd35f722244b0de</sys_update_name>
+        <sys_updated_by>anujb</sys_updated_by>
+        <sys_updated_on>2016-05-03 13:29:28</sys_updated_on>
+        <timeline_page/>
+        <title>Homepage</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

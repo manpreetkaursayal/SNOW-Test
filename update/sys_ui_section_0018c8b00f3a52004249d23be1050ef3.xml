@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="PIB Details" section_id="0018c8b00f3a52004249d23be1050ef3" sys_domain="global" table="x_blglp_research_requests" version="3" view="Submit_Research_Request">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_bxres_cover_sheet</element>
+            <position>0</position>
+            <sys_created_by>kopsachg</sys_created_by>
+            <sys_created_on>2016-06-26 11:30:52</sys_created_on>
+            <sys_id>11962dbc2b10aa00fb76b11be8da1533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PIB Details" display_value="PIB Details" name="x_blglp_research_requests" sys_domain="global" view="419d985085eada00fb766ad38554e239">0018c8b00f3a52004249d23be1050ef3</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-06-26 11:30:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_bxres_ciq_profile</element>
+            <position>1</position>
+            <sys_created_by>kopsachg</sys_created_by>
+            <sys_created_on>2016-06-26 11:30:52</sys_created_on>
+            <sys_id>51962dbc2b10aa00fb76b11be8da1533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PIB Details" display_value="PIB Details" name="x_blglp_research_requests" sys_domain="global" view="419d985085eada00fb766ad38554e239">0018c8b00f3a52004249d23be1050ef3</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-06-26 11:30:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_bxres_research_reports</element>
+            <position>2</position>
+            <sys_created_by>kopsachg</sys_created_by>
+            <sys_created_on>2016-06-26 11:30:52</sys_created_on>
+            <sys_id>91962dbc2b10aa00fb76b11be8da1533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PIB Details" display_value="PIB Details" name="x_blglp_research_requests" sys_domain="global" view="419d985085eada00fb766ad38554e239">0018c8b00f3a52004249d23be1050ef3</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-06-26 11:30:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_bxres_research_reports_string</element>
+            <position>3</position>
+            <sys_created_by>kopsachg</sys_created_by>
+            <sys_created_on>2016-06-26 11:30:52</sys_created_on>
+            <sys_id>d1962dbc2b10aa00fb76b11be8da1533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PIB Details" display_value="PIB Details" name="x_blglp_research_requests" sys_domain="global" view="419d985085eada00fb766ad38554e239">0018c8b00f3a52004249d23be1050ef3</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-06-26 11:30:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_bxres_share_price_chart</element>
+            <position>4</position>
+            <sys_created_by>kopsachg</sys_created_by>
+            <sys_created_on>2016-06-26 11:30:52</sys_created_on>
+            <sys_id>15962dbc2b10aa00fb76b11be8da1533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PIB Details" display_value="PIB Details" name="x_blglp_research_requests" sys_domain="global" view="419d985085eada00fb766ad38554e239">0018c8b00f3a52004249d23be1050ef3</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-06-26 11:30:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_bxres_share_price_chart_choice</element>
+            <position>5</position>
+            <sys_created_by>kopsachg</sys_created_by>
+            <sys_created_on>2016-06-26 11:30:52</sys_created_on>
+            <sys_id>55962dbc2b10aa00fb76b11be8da1533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PIB Details" display_value="PIB Details" name="x_blglp_research_requests" sys_domain="global" view="419d985085eada00fb766ad38554e239">0018c8b00f3a52004249d23be1050ef3</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-06-26 11:30:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>kopsachg</sys_created_by>
+            <sys_created_on>2016-06-26 11:30:52</sys_created_on>
+            <sys_id>95962dbc2b10aa00fb76b11be8da1533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PIB Details" display_value="PIB Details" name="x_blglp_research_requests" sys_domain="global" view="419d985085eada00fb766ad38554e239">0018c8b00f3a52004249d23be1050ef3</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-06-26 11:30:52</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_bxres_investor_presentation</element>
+            <position>7</position>
+            <sys_created_by>kopsachg</sys_created_by>
+            <sys_created_on>2016-06-26 11:30:52</sys_created_on>
+            <sys_id>d5962dbc2b10aa00fb76b11be8da1533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PIB Details" display_value="PIB Details" name="x_blglp_research_requests" sys_domain="global" view="419d985085eada00fb766ad38554e239">0018c8b00f3a52004249d23be1050ef3</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-06-26 11:30:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_bxres_annual_report_10k</element>
+            <position>8</position>
+            <sys_created_by>kopsachg</sys_created_by>
+            <sys_created_on>2016-06-26 11:30:52</sys_created_on>
+            <sys_id>19962dbc2b10aa00fb76b11be8da1533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PIB Details" display_value="PIB Details" name="x_blglp_research_requests" sys_domain="global" view="419d985085eada00fb766ad38554e239">0018c8b00f3a52004249d23be1050ef3</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-06-26 11:30:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_bxres_interim_report_10q</element>
+            <position>9</position>
+            <sys_created_by>kopsachg</sys_created_by>
+            <sys_created_on>2016-06-26 11:30:52</sys_created_on>
+            <sys_id>59962dbc2b10aa00fb76b11be8da1533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PIB Details" display_value="PIB Details" name="x_blglp_research_requests" sys_domain="global" view="419d985085eada00fb766ad38554e239">0018c8b00f3a52004249d23be1050ef3</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-06-26 11:30:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_bxres_news_run</element>
+            <position>10</position>
+            <sys_created_by>kopsachg</sys_created_by>
+            <sys_created_on>2016-06-26 11:30:52</sys_created_on>
+            <sys_id>99962dbc2b10aa00fb76b11be8da1533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PIB Details" display_value="PIB Details" name="x_blglp_research_requests" sys_domain="global" view="419d985085eada00fb766ad38554e239">0018c8b00f3a52004249d23be1050ef3</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-06-26 11:30:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_bxres_news_run_choice</element>
+            <position>11</position>
+            <sys_created_by>kopsachg</sys_created_by>
+            <sys_created_on>2016-06-26 11:30:52</sys_created_on>
+            <sys_id>d9962dbc2b10aa00fb76b11be8da1533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PIB Details" display_value="PIB Details" name="x_blglp_research_requests" sys_domain="global" view="419d985085eada00fb766ad38554e239">0018c8b00f3a52004249d23be1050ef3</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-06-26 11:30:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>12</position>
+            <sys_created_by>kopsachg</sys_created_by>
+            <sys_created_on>2016-06-26 11:30:52</sys_created_on>
+            <sys_id>1d962dbc2b10aa00fb76b11be8da1533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PIB Details" display_value="PIB Details" name="x_blglp_research_requests" sys_domain="global" view="419d985085eada00fb766ad38554e239">0018c8b00f3a52004249d23be1050ef3</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-06-26 11:30:52</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_bxres_location</element>
+            <position>13</position>
+            <sys_created_by>kopsachg</sys_created_by>
+            <sys_created_on>2016-06-26 11:30:52</sys_created_on>
+            <sys_id>5d962dbc2b10aa00fb76b11be8da1533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PIB Details" display_value="PIB Details" name="x_blglp_research_requests" sys_domain="global" view="419d985085eada00fb766ad38554e239">0018c8b00f3a52004249d23be1050ef3</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-06-26 11:30:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_bxres_ticker</element>
+            <position>14</position>
+            <sys_created_by>kopsachg</sys_created_by>
+            <sys_created_on>2016-06-26 11:30:52</sys_created_on>
+            <sys_id>9d962dbc2b10aa00fb76b11be8da1533</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="PIB Details" display_value="PIB Details" name="x_blglp_research_requests" sys_domain="global" view="419d985085eada00fb766ad38554e239">0018c8b00f3a52004249d23be1050ef3</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-06-26 11:30:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>PIB Details</caption>
+            <header>false</header>
+            <name>x_blglp_research_requests</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>BXHM</sys_created_by>
+            <sys_created_on>2016-04-12 15:03:43</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>0018c8b00f3a52004249d23be1050ef3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>PIB Details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+            <sys_update_name>sys_ui_section_0018c8b00f3a52004249d23be1050ef3</sys_update_name>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-04-12 18:10:13</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Submit Research Request" name="Submit_Research_Request">419d985085eada00fb766ad38554e239</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

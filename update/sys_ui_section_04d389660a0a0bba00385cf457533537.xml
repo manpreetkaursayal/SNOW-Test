@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="04d389660a0a0bba00385cf457533537" sys_domain="global" table="" version="3" view="ess">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow_ixl.xml</element>
+            <position>0</position>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-06-22 21:30:00</sys_created_on>
+            <sys_id>be5903271344ae000bab76022244b095</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="">f58c71791346d6004dd35f722244b086</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="NULL" sys_domain="global" view="5732e110a0223000cd19951361bf0d12">04d389660a0a0bba00385cf457533537</sys_ui_section>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-06-22 21:30:00</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name/>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ahernr</sys_created_by>
+            <sys_created_on>2016-06-22 21:30:00</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>04d389660a0a0bba00385cf457533537</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_overrides/>
+            <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+            <sys_update_name>sys_ui_section_04d389660a0a0bba00385cf457533537</sys_update_name>
+            <sys_updated_by>ahernr</sys_updated_by>
+            <sys_updated_on>2016-06-22 21:30:00</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Self Service" name="ess">5732e110a0223000cd19951361bf0d12</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

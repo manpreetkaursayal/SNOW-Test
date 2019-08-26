@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>u_string_2</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>BXHM</sys_created_by>
+        <sys_created_on>2016-03-24 16:58:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d41ceea61392de004dd35f722244b08b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_string_2</sys_name>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_d41ceea61392de004dd35f722244b08b</sys_update_name>
+        <sys_updated_by>BXHM</sys_updated_by>
+        <sys_updated_on>2016-03-24 16:59:10</sys_updated_on>
+        <table>x_blglp_research_time_segment</table>
+        <ui_policy display_value="Edit the Hours and mins">e9cb2aa61392de004dd35f722244b0a6</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

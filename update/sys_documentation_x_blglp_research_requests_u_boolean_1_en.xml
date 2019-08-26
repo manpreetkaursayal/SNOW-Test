@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_boolean_1" label="Time segment added" language="en" table="x_blglp_research_requests">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_boolean_1</element>
+            <help/>
+            <hint/>
+            <label>Time segment added</label>
+            <language>en</language>
+            <name>x_blglp_research_requests</name>
+            <plural>Time segment added</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>BXHM</sys_created_by>
+            <sys_created_on>2016-03-06 06:44:59</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>ed13b760858ed200fb766ad38554e2bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Time segment added</sys_name>
+            <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+            <sys_update_name>sys_documentation_x_blglp_research_requests_u_boolean_1_en</sys_update_name>
+            <sys_updated_by>BXHM</sys_updated_by>
+            <sys_updated_on>2016-03-06 06:44:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Validate that the estimated turnaround date/time is not in the past.</description>
+        <field>u_bxres_estimated_turnaround_time</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Validate Estimated Turnaround Time</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if(isLoading || newValue == '') {
+		return;
+	}
+	
+	var estTime = g_form.getValue('u_bxres_estimated_turnaround_time'); //First Date/Time field  
+	var submitDate = g_form.getValue('sys_created_on');
+	var startDate = new Date(estTime);
+	var submitDate = new Date(submitDate);	
+	
+	/* Convert the datetimes to integers since 1970 and compare the values. If est turnaround time is 
+	   smaller than submit, we know it is before it and we will therefore throw an error */
+	if ( startDate.getTime() < submitDate.getTime() ) {
+		g_form.setValue('u_bxres_estimated_turnaround_time','');
+		g_form.showErrorBox("u_bxres_estimated_turnaround_time", "You cannot add a time that is earlier than the submit date of the request");	
+	}
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>ahernr</sys_created_by>
+        <sys_created_on>2016-06-03 20:27:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>92d40da92b739200fb76b11be8da154d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Validate Estimated Turnaround Time</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_script_client_92d40da92b739200fb76b11be8da154d</sys_update_name>
+        <sys_updated_by>ahernr</sys_updated_by>
+        <sys_updated_on>2016-06-08 18:56:31</sys_updated_on>
+        <table>x_blglp_research_requests</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

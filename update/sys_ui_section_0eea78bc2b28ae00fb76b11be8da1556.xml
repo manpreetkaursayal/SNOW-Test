@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="0eea78bc2b28ae00fb76b11be8da1556" sys_domain="global" table="x_blglp_research_requests" version="3" view="sys_popup">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow_ixl.xml</element>
+            <position>0</position>
+            <sys_created_by>kopsachg</sys_created_by>
+            <sys_created_on>2016-07-08 18:35:44</sys_created_on>
+            <sys_id>ceea78bc2b28ae00fb76b11be8da1556</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="">f58c71791346d6004dd35f722244b086</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_blglp_research_requests" sys_domain="global" view="c7402b100a0a0b8400cf971d83ee4384">0eea78bc2b28ae00fb76b11be8da1556</sys_ui_section>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-07-08 18:35:44</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_blglp_research_requests</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>kopsachg</sys_created_by>
+            <sys_created_on>2016-07-08 18:35:44</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>0eea78bc2b28ae00fb76b11be8da1556</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_blglp_research_requests</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+            <sys_update_name>sys_ui_section_0eea78bc2b28ae00fb76b11be8da1556</sys_update_name>
+            <sys_updated_by>kopsachg</sys_updated_by>
+            <sys_updated_on>2016-07-08 18:35:44</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Sys_popup" name="sys_popup">c7402b100a0a0b8400cf971d83ee4384</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

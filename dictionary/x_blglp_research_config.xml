@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" label="Research Config" max_length="40" name="x_blglp_research_config" type="collection">
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" reference="x_blglp_research_requests" type="reference"/>
+        <element default="125" label="Price" max_length="3" name="price" type="currency"/>
+        <element label="Config Label" max_length="40" name="u_bxres_config_label" type="string"/>
+        <element choice="1" label="Config Menu Type" max_length="40" name="u_bxres_config_menu_type" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Market Data Product" sequence="0" value="3"/>
+                <element inactive_on_update="false" label="Shift Code" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Rate" sequence="3" value="1"/>
+            </choice>
+        </element>
+        <element label="Config Value" max_length="40" name="u_bxres_config_value" type="string"/>
+        <element display="true" label="Config Label" max_length="40" name="u_bxres_project_details" type="string"/>
+        <element label="Project Detail Level 2" max_length="40" name="u_bxres_project_details_level_2" type="string"/>
+        <element label="Project Detail Level 3" max_length="40" name="u_bxres_project_details_level_3" type="string"/>
+        <element label="Project Detail Label" max_length="40" name="u_bxres_project_detail_label" type="string"/>
+        <element label="Project Detail Level 2 Label" max_length="40" name="u_bxres_project_detail_level_2_label" type="string"/>
+        <element label="Project Detail Level 3 Label" max_length="40" name="u_bxres_project_detail_level_3_label" type="string"/>
+        <element label="Type" max_length="40" name="u_bxres_type" type="string"/>
+        <index name="index">
+            <element name="number"/>
+        </index>
+    </element>
+</database>

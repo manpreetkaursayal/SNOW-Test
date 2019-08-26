@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>BXHM</sys_created_by>
+        <sys_created_on>2016-03-04 18:07:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ae0cb3c4130e16004dd35f722244b006</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_blglp_research_requests.*.x_blglp_research.user</sys_name>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_security_acl display_value="x_blglp_research_requests.*">e60cb3c4130e16004dd35f722244b006</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ae0cb3c4130e16004dd35f722244b006</sys_update_name>
+        <sys_updated_by>BXHM</sys_updated_by>
+        <sys_updated_on>2016-03-04 18:07:08</sys_updated_on>
+        <sys_user_role display_value="x_blglp_research.user" name="x_blglp_research.user">7e19b8f5610dde80fb764481e7ed37bc</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

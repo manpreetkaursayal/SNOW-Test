@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
+    <sys_filter action="INSERT_OR_UPDATE">
+        <filter table="x_blglp_research_requests">sys_id=3ef528b00f7a52004249d23be1050e3b^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="3ef528b00f7a52004249d23be1050e3b"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <group/>
+        <last_used>2016-04-12 18:31:44</last_used>
+        <mobile>true</mobile>
+        <roles/>
+        <sys_class_name>sys_filter</sys_class_name>
+        <sys_created_by>kopsachg</sys_created_by>
+        <sys_created_on>2016-04-12 18:31:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>47a7f43c0f7a52004249d23be1050ed7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mobile</sys_name>
+        <sys_package display_value="Research" source="x_blglp_research">a61934f5610dde80fb764481e7ed376d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Research">a61934f5610dde80fb764481e7ed376d</sys_scope>
+        <sys_update_name>sys_filter_47a7f43c0f7a52004249d23be1050ed7</sys_update_name>
+        <sys_updated_by>kopsachg</sys_updated_by>
+        <sys_updated_on>2016-04-12 18:31:44</sys_updated_on>
+        <table>x_blglp_research_requests</table>
+        <title>mobile</title>
+        <user display_value="George Kopsachilis">1ab2618e2b849e80dfc85b5fe8da1512</user>
+    </sys_filter>
+</record_update>
